@@ -1,0 +1,54 @@
+fileFormatVersion: 2
+guid: 582d9a1837fd88f4fb02328e66f0acfe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mage: {instanceID: 0}
+  - rb: {instanceID: 0}
+  - bc: {instanceID: 0}
+  - expObject: {instanceID: 0}
+  - itemObject: {instanceID: 0}
+  - playerLevel: {instanceID: 0}
+  - levelUI: {instanceID: 0}
+  - healthBar: {instanceID: 0}
+  - ShopKeeperCanvas: {instanceID: 0}
+  - OptionsMenuCanvas: {instanceID: 0}
+  - experienceBar: {instanceID: 0}
+  - projectile: {instanceID: 0}
+  - ultProjectile: {instanceID: 0}
+  - constantProjectile: {instanceID: 0}
+  - risingProjectile: {instanceID: 0}
+  - fallingProjectile: {instanceID: 0}
+  - imageCooldownS1: {instanceID: 0}
+  - textCooldownS1: {instanceID: 0}
+  - imageCooldownS2: {instanceID: 0}
+  - textCooldownS2: {instanceID: 0}
+  - imageCooldownS3: {instanceID: 0}
+  - textCooldownS3: {instanceID: 0}
+  - imageCooldownSM: {instanceID: 0}
+  - textCooldownSM: {instanceID: 0}
+  - imageCooldownSU: {instanceID: 0}
+  - textCooldownSU: {instanceID: 0}
+  - healthPotionText: {instanceID: 0}
+  - attackPos: {instanceID: 0}
+  - ultimatePos: {instanceID: 0}
+  - constantPos: {instanceID: 0}
+  - teleportPos: {instanceID: 0}
+  - attack2PositionA: {instanceID: 0}
+  - attack2PositionB: {instanceID: 0}
+  - attack2PositionC: {instanceID: 0}
+  - attack2PositionD: {instanceID: 0}
+  - attack2PositionE: {instanceID: 0}
+  - attack2PositionF: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - audiosource: {instanceID: 0}
+  - magicMisslesSoundEffect: {instanceID: 0}
+  - flashSoundEffect: {instanceID: 0}
+  - swordsSoundEffect: {instanceID: 0}
+  - FlashJumpSoundEffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
