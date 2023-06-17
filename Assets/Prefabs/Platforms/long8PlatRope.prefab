@@ -393,6 +393,10 @@ PrefabInstance:
       value: 0.20285702
       objectReference: {fileID: 0}
     - target: {fileID: 3232285965501994131, guid: 8d656975590006544a4b524135ebedad, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232285965501994131, guid: 8d656975590006544a4b524135ebedad, type: 3}
       propertyPath: m_EdgeRadius
       value: 0.5
       objectReference: {fileID: 0}
