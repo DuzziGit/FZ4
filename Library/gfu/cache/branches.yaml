@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2023-06-17T01:09:34.074-04:00
+  lastUpdatedAtString: 2023-06-17T18:04:51.307-04:00
   initializedAtString: 2023-06-17T01:09:32.928-04:00
   localBranches:
   - name: main
     tracking: origin/main
   remoteBranches:
+  - name: origin/Dev
+    tracking: '[None]'
   - name: origin/main
     tracking: '[None]'
   - name: origin/master
@@ -45,10 +47,16 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - Dev
       - main
       - master
     subKeyValues:
     - Values:
+      - name: Dev
+        remote:
+          name: origin
+          url: git@github.com:DuzziGit/FZ4.git
+        trackingBranch: 
       - name: main
         remote:
           name: origin
