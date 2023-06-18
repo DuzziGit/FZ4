@@ -13,57 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-18T18:29:00.422-04:00
+  lastUpdatedAtString: 2023-06-18T18:45:23.023-04:00
   initializedAtString: 2023-06-18T17:23:14.493-04:00
   entries:
-  - path: Assets\DamageNum\DNumCanvas\Canvas 1.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\Canvas 1.prefab
-    projectPath: Assets\DamageNum\DNumCanvas\Canvas 1.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\DamageNum\DNumCanvas\Canvas 1.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\Canvas 1.prefab.meta
-    projectPath: Assets\DamageNum\DNumCanvas\Canvas 1.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\DamageNum\DNumCanvas\Canvas.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\Canvas.prefab
-    projectPath: Assets\DamageNum\DNumCanvas\Canvas.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
-    projectPath: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab.meta
-    projectPath: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab
-    projectPath: Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab.meta
-    projectPath: Assets\DamageNum\DNumCanvas\Text (TMP) (2) 1.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Classes\Weapons\Rogue_WeaponThrow.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Classes\Weapons\Rogue_WeaponThrow.prefab
-    projectPath: Assets\Prefabs\Classes\Weapons\Rogue_WeaponThrow.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scenes\FirstLevelRandomGen.unity
     fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
     projectPath: Assets\Scenes\FirstLevelRandomGen.unity
@@ -76,12 +28,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Skeleton.cs
-    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
-    projectPath: Assets\Scripts\Skeleton.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
@@ -91,12 +37,6 @@ MonoBehaviour:
   - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
     fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
-    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -160,12 +100,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -175,18 +109,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -229,12 +151,6 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     fullPath: C:\Users\dante\FZ3\Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     projectPath: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\dante\FZ3\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

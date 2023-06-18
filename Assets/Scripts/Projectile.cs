@@ -56,6 +56,10 @@ public class Projectile : MonoBehaviour
 
             foreach (Collider2D collider in colliders)
             {
+                float directionToEnemy = Vector2.Dot(transform.right, (collider.transform.position - transform.position).normalized);
+                if (directionToEnemy < 0)
+                    continue;
+
                 float distance = Vector2.Distance(transform.position, collider.transform.position);
 
                 if (distance < closestDistance)
@@ -69,6 +73,10 @@ public class Projectile : MonoBehaviour
             if (closestEnemy != null)
             {
                 direction = (closestEnemy.position - transform.position).normalized;
+
+                // Rotate the projectile to face the enemy
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0, 0, angle);
             }
         }
         else
@@ -100,14 +108,14 @@ public class Projectile : MonoBehaviour
             // Handle other enemy types if needed
 
             hasDamaged = true;
+            Invoke("DestroyProjectile", 0.1f); // Delay destruction slightly after collision
+            return; // Exit the method after hitting the enemy
         }
-
-        DestroyProjectile();
     }
 
     void DestroyProjectile()
     {
-     //   Destroy(gameObject);
+        Destroy(gameObject);
         Debug.Log(skillLevel);
     }
 }
