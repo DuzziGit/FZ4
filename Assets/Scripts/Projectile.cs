@@ -6,22 +6,34 @@ public class Projectile : MonoBehaviour
 {
     public float speed;
     public float lifeTime;
-    public float distance;
-    public LayerMask whatIsSolid;
-    public int damage;
-    public bool hasDmged;
+    public float detectionRange; // Range to detect enemies
+    public float maxDistance; // Maximum distance the projectile can travel
+    public LayerMask enemyLayer;
+    public int damage; // Base damage
+    public bool hasDamaged;
     public int skillLevel;
     public float critChance; // Chance to do critical hit
     public float critMultiplier; // Critical damage multiplier
 
-    private void Start()
+    private Vector3 initialPosition;
+    private Vector3 direction;
+    private Transform closestEnemy;
+    private Rigidbody2D rb;
+
+    private void Awake()
     {
-        Invoke("DestroyProjectile", lifeTime);
-        hasDmged = false;
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
+    {
+        initialPosition = transform.position;
+        Invoke("DestroyProjectile", lifeTime);
+        hasDamaged = false;
+        direction = transform.right; // Set initial direction to right
+    }
+
+    private void Update()
     {
         skillLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().skillOneLevel;
 
@@ -33,65 +45,69 @@ public class Projectile : MonoBehaviour
         if (isCrit)
             damage = Mathf.FloorToInt(damage * critMultiplier); // If it's a critical hit, multiply the damage by critMultiplier
 
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance, whatIsSolid);
+        // Check if an enemy is within detection range
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRange, enemyLayer);
 
-        if (hitInfo.collider != null)
+        if (colliders.Length > 0)
         {
-            if (!hasDmged)
+            // Find the closest enemy
+            float closestDistance = Mathf.Infinity;
+            closestEnemy = null;
+
+            foreach (Collider2D collider in colliders)
             {
+                float distance = Vector2.Distance(transform.position, collider.transform.position);
 
-                if (hitInfo.collider.CompareTag("Seraphim"))
+                if (distance < closestDistance)
                 {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Seraphim>().TakeDamage(damage);
+                    closestDistance = distance;
+                    closestEnemy = collider.transform;
                 }
-                else
-
-                if (hitInfo.collider.CompareTag("Archangel"))
-                {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Archangel>().TakeDamage(damage);
-                }
-
-
-                else if(hitInfo.collider.CompareTag("Cherub"))
-                {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Cherub>().TakeDamage(damage);
-                }
-
-                if (hitInfo.collider.CompareTag("Bat"))
-                {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Bat>().TakeDamage(damage);
-                }
-                else if (hitInfo.collider.CompareTag("Slime"))
-                {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Slime>().TakeDamage(damage);
-
-                }
-                else if (hitInfo.collider.CompareTag("Skeleton"))
-                {
-
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                    hitInfo.collider.GetComponent<Skeleton>().TakeDamage(damage);
-                }
-                else if (hitInfo.collider.CompareTag("Enemy"))
-                {
-                    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                }
-                hasDmged = true;
             }
-            DestroyProjectile();
+
+            // Adjust the direction to the closest enemy
+            if (closestEnemy != null)
+            {
+                direction = (closestEnemy.position - transform.position).normalized;
+            }
+        }
+        else
+        {
+            direction = transform.right; // Default direction to right when no enemy is in range
         }
 
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        // Move the projectile
+        rb.velocity = direction * speed;
+
+        // Check if the projectile has exceeded its maximum range
+        float distanceTraveled = Vector3.Distance(transform.position, initialPosition);
+        if (distanceTraveled >= maxDistance)
+        {
+            DestroyProjectile();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Projectile collided with: " + collision.gameObject.name);
+        if (!hasDamaged && collision.transform == closestEnemy)
+        {
+            if (collision.CompareTag("Skeleton"))
+            {
+                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+                collision.GetComponent<Skeleton>().TakeDamage(damage);
+            }
+            // Handle other enemy types if needed
+
+            hasDamaged = true;
+        }
+
+        DestroyProjectile();
     }
 
     void DestroyProjectile()
     {
-        Destroy(gameObject);
+     //   Destroy(gameObject);
         Debug.Log(skillLevel);
     }
 }

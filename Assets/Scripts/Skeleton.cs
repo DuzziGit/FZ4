@@ -35,8 +35,8 @@ public class Skeleton : Enemy
     }
     IEnumerator DamageDisplay(int damage)
     {
-        float xOffset = 12f; 
-        float yOffset = 3f; 
+        float xOffset = 5f; 
+        float yOffset = 2f; 
         Vector3 positionOffset = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset + Random.Range(1.0f, 3.0f), transform.position.z);
         GameObject text = Instantiate(CanvasDamageNum, positionOffset, Quaternion.identity);
 
