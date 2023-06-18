@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Skeleton : Enemy
 {
     public AudioSource audioSource;
     public AudioClip skeletonHitSound;
     public int enemyDamage;
-    public TextMesh damageDisplay;
+    public TextMeshPro damageDisplay;
     public TextMesh enemyLevel;
 
     public bool isTouchingPlayer = false;

@@ -13,1090 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-17T18:46:22.227-04:00
+  lastUpdatedAtString: 2023-06-17T19:36:07.974-04:00
   initializedAtString: 2023-06-17T01:09:32.941-04:00
   entries:
-  - path: 2023-06-17 GAMEDEVJOURNAL.txt
-    fullPath: C:\Users\dante\FZ3\2023-06-17 GAMEDEVJOURNAL.txt
-    projectPath: 2023-06-17 GAMEDEVJOURNAL.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      10 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      2 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      3 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      4 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      6 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      8 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      5 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      7 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      9 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG10 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG7 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum.meta
-    projectPath: Assets\DamageNum.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme.meta
-    projectPath: Assets\DamageNum\ColorTheme.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\ORANGEWHITE.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\ORANGEWHITE.mat
-    projectPath: Assets\DamageNum\ColorTheme\ORANGEWHITE.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\ORANGEWHITE.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\ORANGEWHITE.mat.meta
-    projectPath: Assets\DamageNum\ColorTheme\ORANGEWHITE.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\Purple theme 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\Purple theme 1.mat
-    projectPath: Assets\DamageNum\ColorTheme\Purple theme 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\Purple theme 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\Purple theme 1.mat.meta
-    projectPath: Assets\DamageNum\ColorTheme\Purple theme 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\Purple theme.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\Purple theme.mat
-    projectPath: Assets\DamageNum\ColorTheme\Purple theme.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\Purple theme.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\Purple theme.mat.meta
-    projectPath: Assets\DamageNum\ColorTheme\Purple theme.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete.meta
-    projectPath: Assets\DamageNum\DamageNumComplete.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (1).prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (1).prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (1).prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (1).prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (1).prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (1).prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (2).prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (2).prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (2).prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (2).prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (2).prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (2).prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (3).prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (3).prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (3).prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (3).prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (3).prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (3).prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (4).prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (4).prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (4).prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (4).prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (4).prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (4).prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (5).prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (5).prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (5).prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas (5).prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas (5).prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas (5).prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas.prefab
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumComplete\Canvas.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumComplete\Canvas.prefab.meta
-    projectPath: Assets\DamageNum\DamageNumComplete\Canvas.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont.meta
-    projectPath: Assets\DamageNum\DamageNumFont.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Bangers SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Bangers SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\Bangers SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Bangers SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Bangers SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Bangers SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 1.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 1.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 2.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 2.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 3.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 3.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 3.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 3.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF 3.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF 3.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular
-      SDF.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular SDF.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Comforter-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Monofett-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Monofett-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\Monofett-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Monofett-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Monofett-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Monofett-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Monofett-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 1.mat
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 1.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 2.mat
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 2.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 3.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 3.mat
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 3.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 3.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF 3.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF 3.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF.mat
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular
-      SDF.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular SDF.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\PermanentMarker-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RammettoOne-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RammettoOne-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\RammettoOne-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RammettoOne-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RammettoOne-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RammettoOne-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RammettoOne-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 1.mat
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 1.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 2.mat
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 2.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 3.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 3.mat
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 3.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 3.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF 3.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF 3.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF.mat
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular
-      SDF.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular SDF.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\RampartOne-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular SDF.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Rye-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Rye-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Rye-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Sigmar-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\Sigmar-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 1.mat
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 1.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 2.mat
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 2.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 3.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 3.mat
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 3.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 3.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF 3.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF 3.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF.asset
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF.asset.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.mat
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF.mat
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular
-      SDF.mat.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular SDF.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf.meta
-    projectPath: Assets\DamageNum\DamageNumFont\SpicyRice-Regular.ttf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients.meta
-    projectPath: Assets\DamageNum\DamageNumGradients.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\1.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\1.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\1.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\1.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\1.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\1.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\12.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\12.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\12.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\12.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\12.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\12.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\121.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\121.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\121.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\121.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\121.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\121.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\123.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\123.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\123.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\123.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\123.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\123.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\1231.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\1231.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\1231.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\1231.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\1231.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\1231.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\bluepink.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\bluepink.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\bluepink.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\bluepink.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\bluepink.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\bluepink.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Crit.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Crit.png
-    projectPath: Assets\DamageNum\DamageNumGradients\Crit.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Crit.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Crit.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\Crit.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\OrangeYellow.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\OrangeYellow.png
-    projectPath: Assets\DamageNum\DamageNumGradients\OrangeYellow.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\OrangeYellow.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\OrangeYellow.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\OrangeYellow.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\peachPink.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\peachPink.png
-    projectPath: Assets\DamageNum\DamageNumGradients\peachPink.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\peachPink.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\peachPink.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\peachPink.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG
-    projectPath: Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\pinkorangelong.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Pinkpeach.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Pinkpeach.png
-    projectPath: Assets\DamageNum\DamageNumGradients\Pinkpeach.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Pinkpeach.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Pinkpeach.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\Pinkpeach.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\theme.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\theme.png
-    projectPath: Assets\DamageNum\DamageNumGradients\theme.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\theme.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\theme.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\theme.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\themereversed.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\themereversed.png
-    projectPath: Assets\DamageNum\DamageNumGradients\themereversed.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\themereversed.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\themereversed.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\themereversed.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Untitled.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Untitled.png
-    projectPath: Assets\DamageNum\DamageNumGradients\Untitled.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Untitled.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Untitled.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\Untitled.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Yellowpurple.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Yellowpurple.png
-    projectPath: Assets\DamageNum\DamageNumGradients\Yellowpurple.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\DamageNumGradients\Yellowpurple.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DamageNumGradients\Yellowpurple.png.meta
-    projectPath: Assets\DamageNum\DamageNumGradients\Yellowpurple.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Canvas\Canvas.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Canvas\Canvas.prefab
-    projectPath: Assets\Prefabs\Canvas\Canvas.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Prefabs\Canvas\Canvas.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Canvas\Canvas.prefab.meta
-    projectPath: Assets\Prefabs\Canvas\Canvas.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab
-    projectPath: Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab.meta
-    projectPath: Assets\Prefabs\Canvas\RandBackgroundCanvas.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Platforms\long8PlatRope.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Platforms\long8PlatRope.prefab
-    projectPath: Assets\Prefabs\Platforms\long8PlatRope.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
-      SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Anton SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF - Outline.mat
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF - Outline.mat
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF - Outline.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 1.mat
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF Glow 1.mat
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 1.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF Glow 1.mat.meta
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 2.mat
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF Glow 2.mat
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 2.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 2.mat.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF Glow 2.mat.meta
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow 2.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow.mat
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF Glow.mat
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF Glow.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF.asset.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Bangers SDF.asset.meta
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Bangers
-      SDF.asset.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
-      Highway Sign SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Electronic Highway Sign SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
-      Highway Sign SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
-      Bold SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Oswald Bold SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
-      Bold SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Roboto-Bold SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
-      - Fallback.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset
-    projectPath: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Rogue_idle.anim
     fullPath: C:\Users\dante\FZ3\Assets\Rogue_idle.anim
     projectPath: Assets\Rogue_idle.anim
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Rogue_idle.anim.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Rogue_idle.anim.meta
-    projectPath: Assets\Rogue_idle.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scenes\FirstLevelRandomGen.unity
     fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
     projectPath: Assets\Scenes\FirstLevelRandomGen.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Skeleton.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
+    projectPath: Assets\Scripts\Skeleton.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1106,21 +40,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Characters\rogue\Animation\Rogue_idle.anim
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\Animation\Rogue_idle.anim
-    projectPath: Assets\Sprites\Characters\rogue\Animation\Rogue_idle.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Sprites\Characters\rogue\rogueIdle.png
     fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle.png
     projectPath: Assets\Sprites\Characters\rogue\rogueIdle.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Sprites\Characters\rogue\rogueIdle.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle.png.meta
-    projectPath: Assets\Sprites\Characters\rogue\rogueIdle.png.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1128,143 +50,89 @@ MonoBehaviour:
     fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle1.png
     projectPath: Assets\Sprites\Characters\rogue\rogueIdle1.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Characters\rogue\rogueIdle1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle1.png.meta
-    projectPath: Assets\Sprites\Characters\rogue\rogueIdle1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Sprites\Characters\rogue\rogueIdle2.png
     fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle2.png
     projectPath: Assets\Sprites\Characters\rogue\rogueIdle2.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Characters\rogue\rogueIdle2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle2.png.meta
-    projectPath: Assets\Sprites\Characters\rogue\rogueIdle2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Sprites\Characters\rogue\rogueIdle3.png
     fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle3.png
     projectPath: Assets\Sprites\Characters\rogue\rogueIdle3.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Characters\rogue\rogueIdle3.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle3.png.meta
-    projectPath: Assets\Sprites\Characters\rogue\rogueIdle3.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Sprites\Characters\rogue\rogueIdle4.png
     fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle4.png
     projectPath: Assets\Sprites\Characters\rogue\rogueIdle4.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Characters\rogue\rogueIdle4.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Characters\rogue\rogueIdle4.png.meta
-    projectPath: Assets\Sprites\Characters\rogue\rogueIdle4.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Enemy\slime\Idle.anim
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\Idle.anim
-    projectPath: Assets\Sprites\Enemy\slime\Idle.anim
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\Jump.anim
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\Jump.anim
-    projectPath: Assets\Sprites\Enemy\slime\Jump.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Enemy\slime\Jump.anim.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\Jump.anim.meta
-    projectPath: Assets\Sprites\Enemy\slime\Jump.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Sprites\Enemy\slime\Move.anim
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\Move.anim
-    projectPath: Assets\Sprites\Enemy\slime\Move.anim
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\Slime.controller
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\Slime.controller
-    projectPath: Assets\Sprites\Enemy\slime\Slime.controller
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slime.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slime.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slime.png.meta
+  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump1.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump1.png.meta
+  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump2.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump2.png.meta
+  - path: Library\Bee\backend_profiler0.traceevents
+    fullPath: C:\Users\dante\FZ3\Library\Bee\backend_profiler0.traceevents
+    projectPath: Library\Bee\backend_profiler0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump3.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump3.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump3.png.meta
+  - path: Library\Bee\fullprofile.json
+    fullPath: C:\Users\dante\FZ3\Library\Bee\fullprofile.json
+    projectPath: Library\Bee\fullprofile.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump4.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump4.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump4.png.meta
+  - path: Library\Bee\tundra.digestcache
+    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.digestcache
+    projectPath: Library\Bee\tundra.digestcache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump5.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump5.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump5.png.meta
+  - path: Library\Bee\tundra.log.json
+    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.log.json
+    projectPath: Library\Bee\tundra.log.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump6.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump6.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump6.png.meta
+  - path: Library\Bee\TundraBuildState.state
+    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state
+    projectPath: Library\Bee\TundraBuildState.state
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump7.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump7.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump7.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump8.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump8.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump8.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Sprites\Enemy\slime\slimeJump9.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\slime\slimeJump9.png.meta
-    projectPath: Assets\Sprites\Enemy\slime\slimeJump9.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\dante\FZ3\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
+  - path: Library\Bee\TundraBuildState.state.map
+    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state.map
+    projectPath: Library\Bee\TundraBuildState.state.map
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1304,27 +172,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\dante\FZ3\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Search\transactions.db
-    fullPath: C:\Users\dante\FZ3\Library\Search\transactions.db
-    projectPath: Library\Search\transactions.db
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\dante\FZ3\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Search\transactions.db
+    fullPath: C:\Users\dante\FZ3\Library\Search\transactions.db
+    projectPath: Library\Search\transactions.db
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1346,9 +214,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\dante\FZ3\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\dante\FZ3\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
