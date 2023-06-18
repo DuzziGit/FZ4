@@ -16,6 +16,10 @@ TagManager:
   - Rope
   - Slime
   - Bat
+  - Archangel
+  - Seraphim
+  - HubWorldReturn
+  - Cherub
   layers:
   - Default
   - TransparentFX

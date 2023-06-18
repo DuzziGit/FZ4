@@ -8,9 +8,9 @@ public class Skeleton : Enemy
     public AudioSource audioSource;
     public AudioClip skeletonHitSound;
     public int enemyDamage;
-    public TextMeshPro damageDisplay;
+    public TMP_Text damageDisplay; // Change the type to TMP_Text
     public TextMesh enemyLevel;
-
+    public GameObject CanvasDamageNum;
     public bool isTouchingPlayer = false;
 
     void Start()
@@ -31,13 +31,22 @@ public class Skeleton : Enemy
         Debug.Log("Damage Taken: " + damage);
         StartCoroutine(DamageDisplay(damage));
         Debug.Log("Current Health: " + health);
-        audioSource.PlayOneShot(skeletonHitSound, 0.7f);
+        // audioSource.PlayOneShot(skeletonHitSound, 0.7f);
     }
-
     IEnumerator DamageDisplay(int damage)
     {
-        damageDisplay.text = "" + damage;
-        yield return new WaitForSeconds(0.5f);
-        damageDisplay.text = "";
+        float xOffset = 12f; 
+        float yOffset = 3f; 
+        Vector3 positionOffset = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset + Random.Range(1.0f, 3.0f), transform.position.z);
+        GameObject text = Instantiate(CanvasDamageNum, positionOffset, Quaternion.identity);
+
+
+        DamageNumController controller = text.GetComponent<DamageNumController>();
+        if (controller != null)
+        {
+            controller.SetDamageNum(damage);
+        }
+        // Wait a short time before instantiating the next damage number to make them stack
+        yield return new WaitForSeconds(0.1f);
     }
 }

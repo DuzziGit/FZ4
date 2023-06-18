@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class Slime : Enemy
 {
           public AudioSource audiosource;
@@ -10,7 +10,8 @@ public class Slime : Enemy
     public int EnemyDamage;
 
 
-    public TextMesh damageDisplay;
+    public TextMeshPro damageDisplay;
+
 
     public TextMesh enemyLevel;
 

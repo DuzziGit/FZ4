@@ -48,7 +48,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1228530587
 Transform:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ Transform:
   m_GameObject: {fileID: 5249384055196290721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 25, y: 25, z: 1}
+  m_LocalScale: {x: 30, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 911691705}
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5249384055196290721}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
@@ -423,9 +423,9 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
   enemyDamage: 0
-  damageDisplay: {fileID: 6291945004483220024}
+  canvasPrefab: {fileID: 0}
+  damageNumberPrefab: {fileID: 0}
   enemyLevel: {fileID: 1228530588}
-  isTouchingPlayer: 0
 --- !u!50 &15266169
 Rigidbody2D:
   serializedVersion: 4
@@ -526,7 +526,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  - {fileID: 2100000, guid: 85cd6e35fd8eb5041a28f1a006032a20, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -568,10 +568,10 @@ TextMesh:
   m_FontSize: 20
   m_FontStyle: 1
   m_RichText: 0
-  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  m_Font: {fileID: 12800000, guid: 85cd6e35fd8eb5041a28f1a006032a20, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4278211004
+    rgba: 4278255362
 --- !u!1 &7840172068769174179
 GameObject:
   m_ObjectHideFlags: 0
