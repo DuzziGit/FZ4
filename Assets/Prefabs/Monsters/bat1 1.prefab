@@ -206,10 +206,10 @@ GameObject:
   - component: {fileID: 3267367058556816031}
   - component: {fileID: 7718911885572065984}
   - component: {fileID: 102408571}
-  - component: {fileID: -6911930920788050184}
-  m_Layer: 11
+  - component: {fileID: 1995679183}
+  m_Layer: 6
   m_Name: bat1 1
-  m_TagString: Bat
+  m_TagString: Skeleton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -222,7 +222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6392495728788100712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.92, z: 0}
   m_LocalScale: {x: 30, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -317,7 +317,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0026263595, y: 0.021419406}
@@ -476,7 +476,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40713096, y: 0.7740903}
   m_EdgeRadius: 0
---- !u!114 &-6911930920788050184
+--- !u!114 &1995679183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -485,15 +485,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 6392495728788100712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e056fce57145a4e4894f6db0cacd20dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  health: 100
-  groundCheck: {fileID: 25913745}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
+  health: 450
+  damage: 20
+  level: 3
+  speed: 15
+  distance: 0.6
+  groundDetection: {fileID: 25913745}
+  wallDetection: {fileID: 4181335816790591474}
+  expValue: 6
+  expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
+  coinValue: 60
+  coinObject: {fileID: 6633020460328080890, guid: 1e01b85bb06a21e49862f76b44e7f284, type: 3}
+  agroRange: 0.3
+  startTimeBetweenDmg: 2
+  enemySprite: {fileID: 6392495728788100714}
+  bc: {fileID: 5076481161391799136}
+  rb: {fileID: 7718911885572065984}
+  bigEnemy: {r: 1, g: 0, b: 0, a: 1}
+  medEnemy: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  smallEnemy: {r: 0, g: 1, b: 0, a: 1}
+  tutEnemy: {r: 0, g: 1, b: 1, a: 1}
+  animator: {fileID: 6392495728788100713}
+  audioSource: {fileID: 0}
+  skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  enemyDamage: 0
+  damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
+  enemyLevel: {fileID: 1266203474}
+  CanvasDamageNum: {fileID: 6962523565112630718, guid: b2afdfba80b192f4ca0280bb2237ae21, type: 3}
+  isTouchingPlayer: 0
 --- !u!1 &7039804153228895607
 GameObject:
   m_ObjectHideFlags: 0

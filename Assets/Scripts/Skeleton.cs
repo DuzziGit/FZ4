@@ -9,7 +9,7 @@ public class Skeleton : Enemy
     public AudioClip skeletonHitSound;
     public int enemyDamage;
     public TMP_Text damageDisplay; // Change the type to TMP_Text
-    public TextMesh enemyLevel;
+    public TextMesh enemyLevel ;
     public GameObject CanvasDamageNum;
     public bool isTouchingPlayer = false;
 
