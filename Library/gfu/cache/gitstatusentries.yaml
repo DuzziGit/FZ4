@@ -13,24 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-19T13:59:17.282-04:00
+  lastUpdatedAtString: 2023-06-19T14:02:35.905-04:00
   initializedAtString: 2023-06-19T13:20:24.689-04:00
   entries:
-  - path: Assets\DamageNum\DNumFont\Bangers SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Bangers SDF.asset
-    projectPath: Assets\DamageNum\DNumFont\Bangers SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Prefabs\Monsters\bat1 1.prefab
     fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Monsters\bat1 1.prefab
     projectPath: Assets\Prefabs\Monsters\bat1 1.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Platforms\long4PlatRope.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Platforms\long4PlatRope.prefab
-    projectPath: Assets\Prefabs\Platforms\long4PlatRope.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -40,210 +28,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
-      SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Anton SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
-      Highway Sign SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Electronic Highway Sign SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
-      Highway Sign SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
-      Bold SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Oswald Bold SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
-      Bold SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
-      & Materials\Roboto-Bold SDF.asset
-    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
-      - Fallback.asset
-    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset
-    projectPath: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
-      SDF - Fallback.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\FirstLevelRandomGen.unity
-    fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
-    projectPath: Assets\Scenes\FirstLevelRandomGen.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Skeleton.cs
-    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
-    projectPath: Assets\Scripts\Skeleton.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Artifacts\02\0274386873a7b1328be2b3028cda247f
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\02\0274386873a7b1328be2b3028cda247f
-    projectPath: Library\Artifacts\02\0274386873a7b1328be2b3028cda247f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\18\183721b14a17c60b5aed03184fa1e4db
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\18\183721b14a17c60b5aed03184fa1e4db
-    projectPath: Library\Artifacts\18\183721b14a17c60b5aed03184fa1e4db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\23\236edc41db8a6dedc0f492a3c19edad9
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\23\236edc41db8a6dedc0f492a3c19edad9
-    projectPath: Library\Artifacts\23\236edc41db8a6dedc0f492a3c19edad9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\40\40a0b1b51bebfa0c96ec3ac9a2af9a9c
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\40\40a0b1b51bebfa0c96ec3ac9a2af9a9c
-    projectPath: Library\Artifacts\40\40a0b1b51bebfa0c96ec3ac9a2af9a9c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\55\55ac1d2eb30f14924c984640f1bad855
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\55\55ac1d2eb30f14924c984640f1bad855
-    projectPath: Library\Artifacts\55\55ac1d2eb30f14924c984640f1bad855
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\98\985832dc9e308920d5fa618314ca1e3e
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\98\985832dc9e308920d5fa618314ca1e3e
-    projectPath: Library\Artifacts\98\985832dc9e308920d5fa618314ca1e3e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c4\c434bac1ff5aceb56e8ba1da305f6b62
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c4\c434bac1ff5aceb56e8ba1da305f6b62
-    projectPath: Library\Artifacts\c4\c434bac1ff5aceb56e8ba1da305f6b62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e0\e03016782520562c24caefabd57bc444
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e0\e03016782520562c24caefabd57bc444
-    projectPath: Library\Artifacts\e0\e03016782520562c24caefabd57bc444
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f3\f35e453922bbada59d0915ae1a5cc495
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f3\f35e453922bbada59d0915ae1a5cc495
-    projectPath: Library\Artifacts\f3\f35e453922bbada59d0915ae1a5cc495
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
-    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
-    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
-    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
-    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\backend_profiler0.traceevents
-    fullPath: C:\Users\dante\FZ3\Library\Bee\backend_profiler0.traceevents
-    projectPath: Library\Bee\backend_profiler0.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\backend_profiler1.traceevents
-    fullPath: C:\Users\dante\FZ3\Library\Bee\backend_profiler1.traceevents
-    projectPath: Library\Bee\backend_profiler1.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\buildprogram0.traceevents
-    fullPath: C:\Users\dante\FZ3\Library\Bee\buildprogram0.traceevents
-    projectPath: Library\Bee\buildprogram0.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\fullprofile.json
-    fullPath: C:\Users\dante\FZ3\Library\Bee\fullprofile.json
-    projectPath: Library\Bee\fullprofile.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\tundra.digestcache
-    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.digestcache
-    projectPath: Library\Bee\tundra.digestcache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\tundra.log.json
-    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.log.json
-    projectPath: Library\Bee\tundra.log.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\TundraBuildState.state
-    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state
-    projectPath: Library\Bee\TundraBuildState.state
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\TundraBuildState.state.map
-    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state.map
-    projectPath: Library\Bee\TundraBuildState.state.map
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\dante\FZ3\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -259,33 +46,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\dante\FZ3\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -301,27 +64,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
-    fullPath: C:\Users\dante\FZ3\Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
-    projectPath: Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     fullPath: C:\Users\dante\FZ3\Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     projectPath: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-    fullPath: C:\Users\dante\FZ3\ProjectSettings\BurstAotSettings_StandaloneWindows.json
-    projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectSettings\CommonBurstAotSettings.json
-    fullPath: C:\Users\dante\FZ3\ProjectSettings\CommonBurstAotSettings.json
-    projectPath: ProjectSettings\CommonBurstAotSettings.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
