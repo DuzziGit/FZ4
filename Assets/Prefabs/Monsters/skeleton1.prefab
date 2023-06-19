@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 1601004351}
   - component: {fileID: 15266169}
   - component: {fileID: 15266168}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: skeleton1
   m_TagString: Skeleton
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.282
+  m_Volume: 0.057
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5249384055196290721}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
@@ -419,13 +419,14 @@ MonoBehaviour:
   medEnemy: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   smallEnemy: {r: 0, g: 1, b: 0, a: 1}
   tutEnemy: {r: 0, g: 1, b: 1, a: 1}
-  animator: {fileID: 0}
+  animator: {fileID: 5678631290212653583}
   audioSource: {fileID: 0}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
   enemyDamage: 0
-  canvasPrefab: {fileID: 0}
-  damageNumberPrefab: {fileID: 0}
+  damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
   enemyLevel: {fileID: 1228530588}
+  CanvasDamageNum: {fileID: 6962523565112630718, guid: b2afdfba80b192f4ca0280bb2237ae21, type: 3}
+  isTouchingPlayer: 0
 --- !u!50 &15266169
 Rigidbody2D:
   serializedVersion: 4
@@ -434,7 +435,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5249384055196290721}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

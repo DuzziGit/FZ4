@@ -48,7 +48,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1312325442
 Transform:
   m_ObjectHideFlags: 0
@@ -224,11 +224,11 @@ GameObject:
   - component: {fileID: 4597381505260269734}
   - component: {fileID: 4597381505260269735}
   - component: {fileID: 4597381505260269730}
-  - component: {fileID: 4597381505260269737}
   - component: {fileID: 1942610098}
   - component: {fileID: 2007566158}
   - component: {fileID: -424270421703396957}
-  m_Layer: 11
+  - component: {fileID: 440425466}
+  m_Layer: 6
   m_Name: slime
   m_TagString: Slime
   m_Icon: {fileID: 0}
@@ -326,45 +326,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4597381505260269737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4597381505260269731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 331726f96dbbf064d82d7fe80374baa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 600
-  damage: 10
-  level: 4
-  speed: 30
-  distance: 2.82
-  groundDetection: {fileID: 830513544}
-  wallDetection: {fileID: 6614486318673616303}
-  expValue: 8
-  expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
-  coinValue: 80
-  coinObject: {fileID: 6633020460328080890, guid: 1e01b85bb06a21e49862f76b44e7f284, type: 3}
-  agroRange: 0.8
-  startTimeBetweenDmg: 2
-  enemySprite: {fileID: 4597381505260269735}
-  bc: {fileID: -424270421703396957}
-  rb: {fileID: 2007566158}
-  bigEnemy: {r: 1, g: 0, b: 0, a: 1}
-  medEnemy: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  smallEnemy: {r: 0, g: 1, b: 0, a: 1}
-  tutEnemy: {r: 0, g: 1, b: 1, a: 1}
-  animator: {fileID: 4597381505260269730}
-  audiosource: {fileID: 1942610098}
-  slimeHitSound: {fileID: 8300000, guid: 6d2e0a6d4cf570a46a57f1c82d381c36, type: 3}
-  EnemyDamage: 0
-  damageDisplay: {fileID: 0}
-  enemyLevel: {fileID: 1312325443}
-  isTouchingPlayer: 0
 --- !u!82 &1942610098
 AudioSource:
   m_ObjectHideFlags: 0
@@ -508,6 +469,46 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19612563, y: 0.21960868}
   m_EdgeRadius: 0
+--- !u!114 &440425466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597381505260269731}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 450
+  damage: 20
+  level: 3
+  speed: 15
+  distance: 0.6
+  groundDetection: {fileID: 830513544}
+  wallDetection: {fileID: 6614486318673616303}
+  expValue: 6
+  expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
+  coinValue: 60
+  coinObject: {fileID: 6633020460328080890, guid: 1e01b85bb06a21e49862f76b44e7f284, type: 3}
+  agroRange: 0.3
+  startTimeBetweenDmg: 2
+  enemySprite: {fileID: 4597381505260269735}
+  bc: {fileID: -424270421703396957}
+  rb: {fileID: 2007566158}
+  bigEnemy: {r: 1, g: 0, b: 0, a: 1}
+  medEnemy: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  smallEnemy: {r: 0, g: 1, b: 0, a: 1}
+  tutEnemy: {r: 0, g: 1, b: 1, a: 1}
+  animator: {fileID: 4597381505260269730}
+  audioSource: {fileID: 0}
+  skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  enemyDamage: 0
+  damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
+  enemyLevel: {fileID: 0}
+  CanvasDamageNum: {fileID: 6962523565112630718, guid: b2afdfba80b192f4ca0280bb2237ae21, type: 3}
+  isTouchingPlayer: 0
 --- !u!1 &5510990405137156906
 GameObject:
   m_ObjectHideFlags: 0

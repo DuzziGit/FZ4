@@ -13,9 +13,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-18T18:45:23.023-04:00
+  lastUpdatedAtString: 2023-06-18T21:43:36.500-04:00
   initializedAtString: 2023-06-18T17:23:14.493-04:00
   entries:
+  - path: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
+    projectPath: Assets\DamageNum\DNumCanvas\OfficialDamNumCan.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageText.cs
+    fullPath: C:\Users\dante\FZ3\Assets\DamageText.cs
+    projectPath: Assets\DamageText.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Monsters\skeleton1.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Monsters\skeleton1.prefab
+    projectPath: Assets\Prefabs\Monsters\skeleton1.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Monsters\slime.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Monsters\slime.prefab
+    projectPath: Assets\Prefabs\Monsters\slime.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scenes\FirstLevelRandomGen.unity
     fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
     projectPath: Assets\Scenes\FirstLevelRandomGen.unity
@@ -28,6 +52,126 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\Skeleton.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
+    projectPath: Assets\Scripts\Skeleton.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sprites\Enemy\skeleton\skeleHit.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHit.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHit.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHit.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHit.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHit.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHit2.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHit2.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHit2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHit2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHit2.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHit2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitBR.pdn.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitBR.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitBR.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitBR.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitBR.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitBR.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitBR.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim
+    projectPath: Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\SkeleHitFlash.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitWhite.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitWhite.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitWhite.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleHitWhite.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleHitWhite.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleHitWhite.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeleton1.controller
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeleton1.controller
+    projectPath: Assets\Sprites\Enemy\skeleton\skeleton1.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonGreen.pdn.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeletonGreen.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonGreen.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonGreen.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeletonGreen.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonGreen.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonGreen.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png.meta
+    projectPath: Assets\Sprites\Enemy\skeleton\skeletonWhiteNoBlur.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
@@ -37,6 +181,12 @@ MonoBehaviour:
   - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
     fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -100,6 +250,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -109,6 +265,18 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -151,6 +319,12 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     fullPath: C:\Users\dante\FZ3\Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     projectPath: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\dante\FZ3\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

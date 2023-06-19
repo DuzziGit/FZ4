@@ -6,11 +6,11 @@ public class DamageText : MonoBehaviour
 {
     public float displayTime = 1.5f;
 
-    private TextMeshPro textComponent;
+    private TMP_Text textComponent;
 
     private void Awake()
     {
-        textComponent = GetComponent<TextMeshPro>();
+        textComponent = GetComponent<TMP_Text>();
         Debug.Log("Text Component: " + textComponent);
     }
 
@@ -23,5 +23,14 @@ public class DamageText : MonoBehaviour
     {
         yield return new WaitForSeconds(displayTime);
         Destroy(gameObject);
+    }
+
+    // Set the damage number on the TMP_Text component
+    public void SetDamageNumber(int damage)
+    {
+        if (textComponent != null)
+        {
+            textComponent.text = damage.ToString();
+        }
     }
 }

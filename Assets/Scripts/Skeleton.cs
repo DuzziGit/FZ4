@@ -23,6 +23,9 @@ public class Skeleton : Enemy
         else if (level > 10 && level < 20) enemyLevel.color = smallEnemy;
         else if (level > 20 && level < 30) enemyLevel.color = medEnemy;
         else if (level > 30 && level < 40) enemyLevel.color = bigEnemy;
+
+        animator = GetComponent<Animator>();
+
     }
 
     public void TakeDamage(int damage)
@@ -31,6 +34,15 @@ public class Skeleton : Enemy
         Debug.Log("Damage Taken: " + damage);
         StartCoroutine(DamageDisplay(damage));
         Debug.Log("Current Health: " + health);
+        // Damage calculation and other logic
+
+
+        // Trigger the flashing animation
+        animator.SetBool("takingDamage", true);
+        Debug.Log("taken damage ");
+
+        // Delay the reset of the trigger parameter
+        StartCoroutine(ResetTakeDamageTrigger());
         // audioSource.PlayOneShot(skeletonHitSound, 0.7f);
     }
     IEnumerator DamageDisplay(int damage)
@@ -48,5 +60,13 @@ public class Skeleton : Enemy
         }
         // Wait a short time before instantiating the next damage number to make them stack
         yield return new WaitForSeconds(0.1f);
+    }
+    private IEnumerator ResetTakeDamageTrigger()
+    {
+        // Wait for the flashing animation to complete
+        yield return new WaitForSeconds(0.2f);
+
+        // Reset the trigger parameter
+        animator.SetBool("takingDamage", false);
     }
 }
