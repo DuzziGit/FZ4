@@ -14,6 +14,7 @@ public class Projectile : MonoBehaviour
     public int skillLevel;
     public float critChance; // Chance to do critical hit
     public float critMultiplier; // Critical damage multiplier
+    public float targetingToleranceAngle = 30f; // Adjust this value to change the tolerance angle
 
     private Vector3 initialPosition;
     private Vector3 direction;
@@ -50,7 +51,7 @@ public class Projectile : MonoBehaviour
 
         if (colliders.Length > 0)
         {
-            // Find the closest enemy
+            // Find the closest enemy within range and tolerance angle
             float closestDistance = Mathf.Infinity;
             closestEnemy = null;
 
@@ -60,16 +61,18 @@ public class Projectile : MonoBehaviour
                 if (directionToEnemy < 0)
                     continue;
 
+                // Check if the enemy is within range and tolerance angle
                 float distance = Vector2.Distance(transform.position, collider.transform.position);
+                float angleToEnemy = Vector2.Angle(transform.right, collider.transform.position - transform.position);
 
-                if (distance < closestDistance)
+                if (distance < closestDistance && angleToEnemy <= targetingToleranceAngle)
                 {
                     closestDistance = distance;
                     closestEnemy = collider.transform;
                 }
             }
 
-            // Adjust the direction to the closest enemy
+            // Adjust the direction to the closest enemy within range and tolerance angle
             if (closestEnemy != null)
             {
                 direction = (closestEnemy.position - transform.position).normalized;
@@ -105,7 +108,7 @@ public class Projectile : MonoBehaviour
                 Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
-               else if (collision.CompareTag("Seraphim"))
+            else if (collision.CompareTag("Seraphim"))
             {
                 Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Seraphim>().TakeDamage(damage);
@@ -130,7 +133,7 @@ public class Projectile : MonoBehaviour
                 Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
-         
+
             else if (collision.CompareTag("Enemy"))
             {
                 Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
