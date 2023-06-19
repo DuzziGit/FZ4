@@ -48,11 +48,9 @@ public class DamageNumController : MonoBehaviour
     public void SetDamageNum(int damage)
     {
         tmpComponent = GetComponent<TMP_Text>();
-        if (tmpComponent != null)
-        {
-            originalColor = tmpComponent.color;
+      
             tmpComponent.text = damage.ToString();
-            tmpComponent.color = originalColor;
-        }
+            Debug.Log("The damage should be displayed as " + damage);
+        
     }
 }

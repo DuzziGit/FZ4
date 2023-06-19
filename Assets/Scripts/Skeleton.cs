@@ -32,7 +32,7 @@ public class Skeleton : Enemy
     {
         health -= damage;
         Debug.Log("Damage Taken: " + damage);
-        StartCoroutine(DamageDisplay(damage));
+        StartCoroutine(DamageDisplay(damage));  
         Debug.Log("Current Health: " + health);
         // Damage calculation and other logic
 
@@ -53,11 +53,10 @@ public class Skeleton : Enemy
         GameObject text = Instantiate(CanvasDamageNum, positionOffset, Quaternion.identity);
 
 
-        DamageNumController controller = text.GetComponent<DamageNumController>();
-        if (controller != null)
-        {
+        DamageNumController controller = text.GetComponentInChildren<DamageNumController>();
+        
             controller.SetDamageNum(damage);
-        }
+        
         // Wait a short time before instantiating the next damage number to make them stack
         yield return new WaitForSeconds(0.1f);
     }
