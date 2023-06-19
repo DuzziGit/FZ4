@@ -311,14 +311,14 @@ public void MovementSkill() {
 
     // create 3 prefabs and release them on a timer so they all "throw" seperatly 
     yield
-    return new WaitForSeconds(0.15F);
+    return new WaitForSeconds(0.08F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
-       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.7f);
+       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.5f);
 
     yield
-    return new WaitForSeconds(0.15F);
+    return new WaitForSeconds(0.08F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
-       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.7f);
+       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.5f);
 
 
 

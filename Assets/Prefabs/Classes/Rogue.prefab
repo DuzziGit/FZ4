@@ -1886,6 +1886,7 @@ GameObject:
   - component: {fileID: 9011964926031391151}
   - component: {fileID: 9011964926031391143}
   - component: {fileID: 9011964926031391141}
+  - component: {fileID: 1399559154}
   m_Layer: 7
   m_Name: Rogue
   m_TagString: Player
@@ -2020,11 +2021,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 18
   m_Material: {fileID: 6200000, guid: 5bb17b82384d5b442b9aba0f8deaffb6, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &9011964926031391140
 MonoBehaviour:
@@ -2083,7 +2084,7 @@ MonoBehaviour:
   coinCount: {fileID: 1934078840196713191}
   MovementSkillForce: 0.8
   MovementSkillForceLeft: -0.8
-  projectile: {fileID: 2005920788829241865, guid: e40c5d2815c19e342be0800b1de81392, type: 3}
+  projectile: {fileID: 2122635036824758511, guid: e7259c155907ef349b2792b420563bc6, type: 3}
   projectile2: {fileID: 1998731461782448251, guid: 0d7c8834847d9ed40acf452a16bfbfcf, type: 3}
   ProjectileUltimate: {fileID: 6638761271213070857, guid: df6803cdadbff91408b308986a5eab4e, type: 3}
   attackPos: {fileID: 9011964925702152520}
@@ -2205,7 +2206,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.233
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2289,6 +2290,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1399559154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9011964926031391150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd2cd967f6db8845ac01ae52ab58796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  climbSpeed: 60
+  exitBoostForce: 15
 --- !u!1 &9011964926059059321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,6 +2715,10 @@ PrefabInstance:
     - target: {fileID: 1809771725328233593, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_Name
       value: CanvasRogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809771725328233593, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1809771725377865490, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3143,11 +3162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4863987902148495150, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4863987902148495150, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5598613184570319535, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3187,11 +3206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7864534441160506251, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7864534441160506251, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7888565064102567115, guid: ab38034658d8c7c4194b32a3d21b76df, type: 3}
       propertyPath: m_Value
@@ -3903,6 +3922,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2951351790826563509, guid: ec7a53836d5b4f041a4c29791d433888, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951351790826563511, guid: ec7a53836d5b4f041a4c29791d433888, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2951351790914259901, guid: ec7a53836d5b4f041a4c29791d433888, type: 3}

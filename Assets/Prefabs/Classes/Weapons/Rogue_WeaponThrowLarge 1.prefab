@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5090360310216604998}
   - component: {fileID: 659876059606584297}
   - component: {fileID: 5933997225940751113}
-  - component: {fileID: 144760965415867996}
   - component: {fileID: 3513933241247362504}
+  - component: {fileID: 3976683703009316908}
+  - component: {fileID: 8881666218281256747}
   m_Layer: 13
   m_Name: Rogue_WeaponThrowLarge 1
   m_TagString: Untagged
@@ -108,28 +109,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &144760965415867996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998731461782448251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f9910d9ad515b41aea03a1d249fac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 90
-  lifeTime: 1.2
-  distance: 2
-  whatIsSolid:
-    serializedVersion: 2
-    m_Bits: 2112
-  damage: 10
-  skillLevel: 0
-  hasDmged: 0
-  bc: {fileID: 0}
 --- !u!61 &3513933241247362504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -156,3 +135,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &3976683703009316908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998731461782448251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58f7cc5070674c48839506f7e72d037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 80
+  lifeTime: 1.5
+  detectionRange: 30
+  maxDistance: 3000
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  damage: 10
+  maxTargets: 5
+  currentTargets: 0
+  skillLevel: 0
+  critChance: 0
+  critMultiplier: 0
+  targetingToleranceAngle: 1
+  passThroughEnemies: 0
+--- !u!50 &8881666218281256747
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998731461782448251}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
