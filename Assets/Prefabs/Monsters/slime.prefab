@@ -489,6 +489,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5484640901153305522, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
+      propertyPath: healthBarCanvas
+      value: 
+      objectReference: {fileID: 1997474523849870434}
     - target: {fileID: 8816358765713895281, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -510,6 +514,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!223 &1997474523849870434 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1997474524716373983, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
+  m_PrefabInstance: {fileID: 1416256445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1997474523849870447 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1997474524716373970, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}

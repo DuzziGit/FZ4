@@ -581,11 +581,20 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5484640901153305522, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
+      propertyPath: healthBarCanvas
+      value: 
+      objectReference: {fileID: 63006632}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
 --- !u!224 &63006629 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1997474524716373970, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
+  m_PrefabInstance: {fileID: 1997474524729045111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &63006632 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1997474524716373983, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
   m_PrefabInstance: {fileID: 1997474524729045111}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2277362914970969833 stripped
