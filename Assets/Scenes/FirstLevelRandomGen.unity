@@ -2281,6 +2281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1863163548, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
+      propertyPath: smoothing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1158781939804607502, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2307,7 +2311,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6124632621668060047, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_text
-      value: Level up
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 6124632621668060047, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_sharedMaterial

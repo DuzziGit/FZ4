@@ -6,20 +6,22 @@ public class Projectile : MonoBehaviour
 {
     public float speed;
     public float lifeTime;
-    public float detectionRange; // Range to detect enemies
-    public float maxDistance; // Maximum distance the projectile can travel
+    public float detectionRange;
+    public float maxDistance;
     public LayerMask enemyLayer;
-    public int damage; // Base damage
+    public int minDamage; // Minimum damage
+    public int maxDamage; // Maximum damage
     public bool hasDamaged;
     public int skillLevel;
-    public float critChance; // Chance to do critical hit
-    public float critMultiplier; // Critical damage multiplier
-    public float targetingToleranceAngle = 30f; // Adjust this value to change the tolerance angle
+    public float critChance;
+    public float critMultiplier;
+    public float targetingToleranceAngle = 30f;
 
     private Vector3 initialPosition;
     private Vector3 direction;
     private Transform closestEnemy;
     private Rigidbody2D rb;
+    private int damage; // Actual damage inflicted
 
     private void Awake()
     {
@@ -31,7 +33,7 @@ public class Projectile : MonoBehaviour
         initialPosition = transform.position;
         Invoke("DestroyProjectile", lifeTime);
         hasDamaged = false;
-        direction = transform.right; // Set initial direction to right
+        direction = transform.right;
     }
 
     private void Update()
@@ -39,19 +41,20 @@ public class Projectile : MonoBehaviour
         skillLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().skillOneLevel;
 
         // Scaling damage with skill level
-        damage = Mathf.FloorToInt(100 * Mathf.Pow(2, (skillLevel - 1) / 4)); // Base damage is 100 at skill level 1, around 1000 at skill level 5, and increases exponentially
+        minDamage = Mathf.FloorToInt(100 * Mathf.Pow(2, (skillLevel - 1) / 4));
+        maxDamage = Mathf.FloorToInt(125 * Mathf.Pow(2, (skillLevel - 1) / 4));
 
         // Implementing critical hits
-        bool isCrit = Random.value < critChance; // Randomly determine if it's a critical hit based on critChance
+        bool isCrit = Random.value < critChance;
+        damage = Random.Range(minDamage, maxDamage + 1);
         if (isCrit)
-            damage = Mathf.FloorToInt(damage * critMultiplier); // If it's a critical hit, multiply the damage by critMultiplier
+            damage = Mathf.FloorToInt(damage * critMultiplier);
 
         // Check if an enemy is within detection range
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRange, enemyLayer);
 
         if (colliders.Length > 0)
         {
-            // Find the closest enemy within range and tolerance angle
             float closestDistance = Mathf.Infinity;
             closestEnemy = null;
 
@@ -61,7 +64,6 @@ public class Projectile : MonoBehaviour
                 if (directionToEnemy < 0)
                     continue;
 
-                // Check if the enemy is within range and tolerance angle
                 float distance = Vector2.Distance(transform.position, collider.transform.position);
                 float angleToEnemy = Vector2.Angle(transform.right, collider.transform.position - transform.position);
 
@@ -72,31 +74,28 @@ public class Projectile : MonoBehaviour
                 }
             }
 
-            // Adjust the direction to the closest enemy within range and tolerance angle
             if (closestEnemy != null)
             {
                 direction = (closestEnemy.position - transform.position).normalized;
 
-                // Rotate the projectile to face the enemy
                 float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
                 transform.rotation = Quaternion.Euler(0, 0, angle);
             }
         }
         else
         {
-            direction = transform.right; // Default direction to right when no enemy is in range
+            direction = transform.right;
         }
 
-        // Move the projectile
         rb.velocity = direction * speed;
 
-        // Check if the projectile has exceeded its maximum range
         float distanceTraveled = Vector3.Distance(transform.position, initialPosition);
         if (distanceTraveled >= maxDistance)
         {
             DestroyProjectile();
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
