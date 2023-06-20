@@ -711,17 +711,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &656830219 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6124632621668060047, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-  m_PrefabInstance: {fileID: 1987092897}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863163545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &669702783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7656534869762810796, guid: f7e91b2919e1cb34596524feb5575508, type: 3}
@@ -2285,25 +2274,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7950f156f90deb498552d0dea36a553, type: 3}
---- !u!1 &1863163545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4518410676541672349, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-  m_PrefabInstance: {fileID: 1987092897}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1863163548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863163545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e744cdb84d07a344c9a39385cf63996e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1399559145}
-  yOffset: 4
 --- !u!1001 &1987092897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2318,10 +2288,6 @@ PrefabInstance:
     - target: {fileID: 1158781939804607502, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1740458251354818646, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: m_Name
-      value: LvlCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 2231619720320911898, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2341,30 +2307,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6124632621668060047, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_text
-      value: '
-
-'
+      value: Level up
       objectReference: {fileID: 0}
     - target: {fileID: 6124632621668060047, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8184990128285881256, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8184990128285881256, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9011964926031391140, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: LeveledUp
+      propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2043109374}
-    - target: {fileID: 9011964926031391140, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 656830219}
+      objectReference: {fileID: 2100000, guid: 967b184e7fac1e0429b6d17c417dd4bc, type: 2}
     - target: {fileID: 9011964926031391142, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2536,11 +2484,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7e91b2919e1cb34596524feb5575508, type: 3}
---- !u!95 &2043109374 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5236749615006874936, guid: 44a75046a7c498f4b9161dadd940e89f, type: 3}
-  m_PrefabInstance: {fileID: 1987092897}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2098661805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7656534869762810797, guid: f7e91b2919e1cb34596524feb5575508, type: 3}
