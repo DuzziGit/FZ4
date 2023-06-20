@@ -91,8 +91,8 @@ public class RogueSkillController: PlayerMovement  {
 
    public float cooldownTimeSkillUlt = 2;
    private float nextFireTimeSkillUlt = 0;
-
-  public Animator animator;
+    public Animator ThreeStars;
+    public Animator animator;
   Renderer rend;
   Color c;
 
@@ -296,28 +296,29 @@ public void MovementSkill() {
                 nextFireTimeSkill1 = Time.time + cooldownTimeSkill1;
        textCooldownS1.gameObject.SetActive(true);
       cooldownTimerS1 = cooldownTimeSkill1;
+                ThreeStars.SetBool("3Stars", true);
 
 
-    }
+            }
 
-    }
+        }
   }
 
   IEnumerator firstSkill() {
     Instantiate(projectile, attackPos.position, attackPos.rotation);
      audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.4f);
-
-    // create 3 prefabs and release them on a timer so they all "throw" seperatly 
-    yield
+        // create 3 prefabs and release them on a timer so they all "throw" seperatly 
+        yield
     return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
        audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.05f);
+        ThreeStars.SetBool("3Stars", false);
 
-    yield
-    return new WaitForSeconds(0.05F);
+        yield
+        return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
        audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.05f);
- 
+
     }
 
     // Second Skill
