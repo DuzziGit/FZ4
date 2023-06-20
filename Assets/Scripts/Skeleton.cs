@@ -13,7 +13,8 @@ public class Skeleton : Enemy
     public GameObject CanvasDamageNum;
     public bool isTouchingPlayer = false;
     private HealthBar healthBar; // Reference to the HealthBar script
-
+    public Animator animFeedback;   // Declare animFeedback as an Animator
+    public Animator animFeedback2;
     private int maxHealth; // Define the maxHealth variable
 
     void Start()
@@ -28,6 +29,7 @@ public class Skeleton : Enemy
         else if (level > 30 && level < 40) TMP_Text.color = bigEnemy;
 */
         animator = GetComponent<Animator>();
+
         healthBar = GetComponentInChildren<HealthBar>();
 
         maxHealth = health; // Set the maxHealth variable to the initial health value
@@ -57,7 +59,10 @@ public class Skeleton : Enemy
 
         // Trigger the flashing animation
         animator.SetBool("takingDamage", true);
-      //  Debug.Log("taken damage ");
+        animFeedback.SetBool("takingDamage", true);
+        animFeedback2.SetBool("takingDamage", true);
+
+        //  Debug.Log("taken damage ");
 
         // Delay the reset of the trigger parameter
         StartCoroutine(ResetTakeDamageTrigger());
@@ -85,5 +90,8 @@ public class Skeleton : Enemy
 
         // Reset the trigger parameter
         animator.SetBool("takingDamage", false);
+        animFeedback.SetBool("takingDamage", false);
+        animFeedback2.SetBool("takingDamage", false); 
+
     }
 }
