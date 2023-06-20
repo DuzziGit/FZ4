@@ -100,43 +100,43 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Projectile collided with: " + collision.gameObject.name);
+       // Debug.Log("Projectile collided with: " + collision.gameObject.name);
         if (!hasDamaged && collision.transform == closestEnemy)
         {
             if (collision.CompareTag("Skeleton"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+             //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
             else if (collision.CompareTag("Seraphim"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+            //    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Seraphim>().TakeDamage(damage);
             }
             else if (collision.CompareTag("Archangel"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+             //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Archangel>().TakeDamage(damage);
             }
             else if (collision.CompareTag("Cherub"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+              //  Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Cherub>().TakeDamage(damage);
             }
             else if (collision.CompareTag("Bat"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+             //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Bat>().TakeDamage(damage);
             }
             else if (collision.CompareTag("Slime"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+            //    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
 
             else if (collision.CompareTag("Enemy"))
             {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+              //  Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
             }
             // Handle other enemy types if needed
 

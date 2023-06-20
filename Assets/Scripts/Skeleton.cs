@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class Skeleton : Enemy
@@ -8,38 +8,56 @@ public class Skeleton : Enemy
     public AudioSource audioSource;
     public AudioClip skeletonHitSound;
     public int enemyDamage;
-    public TMP_Text damageDisplay; // Change the type to TMP_Text
-    public TextMesh enemyLevel ;
+    public TMP_Text damageDisplay;
+    public TMP_Text enemyLevel;
     public GameObject CanvasDamageNum;
     public bool isTouchingPlayer = false;
+    private HealthBar healthBar; // Reference to the HealthBar script
+
+    private int maxHealth; // Define the maxHealth variable
 
     void Start()
     {
         rb.velocity = new Vector3(speed, 0, 0);
-        enemyLevel.text = "lvl. " + level;
+        enemyLevel.text = level.ToString();
         enemyDamage = level * 5;
 
-        if (level > 0 && level < 10) enemyLevel.color = tutEnemy;
-        else if (level > 10 && level < 20) enemyLevel.color = smallEnemy;
-        else if (level > 20 && level < 30) enemyLevel.color = medEnemy;
-        else if (level > 30 && level < 40) enemyLevel.color = bigEnemy;
-
+      /*  if (level > 0 && level < 10) TMP_Text.color = tutEnemy;
+        else if (level > 10 && level < 20) TMP_Text.color = smallEnemy;
+        else if (level > 20 && level < 30) TMP_Text.color = medEnemy;
+        else if (level > 30 && level < 40) TMP_Text.color = bigEnemy;
+*/
         animator = GetComponent<Animator>();
+        healthBar = GetComponentInChildren<HealthBar>();
 
+        maxHealth = health; // Set the maxHealth variable to the initial health value
+
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
     }
-
+    void Update()
+    {
+        Debug.Log("max health" + maxHealth);
+        Debug.Log("Current Health: " + health);
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
-        Debug.Log("Damage Taken: " + damage);
-        StartCoroutine(DamageDisplay(damage));  
-        Debug.Log("Current Health: " + health);
+       Debug.Log("Damage Taken: " + damage);
+        StartCoroutine(DamageDisplay(damage));
         // Damage calculation and other logic
-
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(health);
+            Debug.Log("max health" + maxHealth);
+            Debug.Log("Current Health: " + health);
+        }
 
         // Trigger the flashing animation
         animator.SetBool("takingDamage", true);
-        Debug.Log("taken damage ");
+      //  Debug.Log("taken damage ");
 
         // Delay the reset of the trigger parameter
         StartCoroutine(ResetTakeDamageTrigger());

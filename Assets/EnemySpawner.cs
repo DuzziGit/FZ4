@@ -21,7 +21,7 @@ currentEnemies = 0;
             int randSpawnPoint = Random.Range(0, spawnPoints.Length);
             Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSpawnPoint].position, transform.rotation);
             currentEnemies++;
-             Debug.Log("Current Enemies updated" + currentEnemies);
+            // Debug.Log("Current Enemies updated" + currentEnemies);
         }
     }
 }

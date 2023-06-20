@@ -11,7 +11,7 @@ public class DamageText : MonoBehaviour
     private void Awake()
     {
         textComponent = GetComponent<TMP_Text>();
-        Debug.Log("Text Component: " + textComponent);
+      //  Debug.Log("Text Component: " + textComponent);
     }
 
     private void Start()

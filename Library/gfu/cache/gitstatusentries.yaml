@@ -13,24 +13,3441 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-19T14:02:35.905-04:00
-  initializedAtString: 2023-06-19T13:20:24.689-04:00
+  lastUpdatedAtString: 2023-06-20T00:26:51.645-04:00
+  initializedAtString: 2023-06-20T00:07:12.661-04:00
   entries:
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 2 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
+      2 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 2 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 4 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
+      4 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 4 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 6 layer 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
+      6 layer 3.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 6 layer
+      3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 8 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
+      8 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 8 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12 layer2.png
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12
+      layer2.png
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12 layer2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG12 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3
+      layer5.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4 layer7.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4
+      layer7.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4 layer7.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 10 layer 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
+      10 layer 3.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 10 layer
+      3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 5 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
+      5 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 5 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 6 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
+      6 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 6 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 7 layer 4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
+      7 layer 4.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 7 layer
+      4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer7.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10
+      layer7.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer7.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11 layer7.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11
+      layer7.png.meta
+    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11 layer7.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\Background 10 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\Background
+      10 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\Background 10 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      3 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      5 layer 3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer
+      3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      7 layer 2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
+      2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      7 layer 3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
+      3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      9 layer 3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer
+      3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer 4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
+      9 layer 4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer
+      4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
+      layer5.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2
+      layer5.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9
+      layer5.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
+      layer3.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
+      layer5.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer7.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
+      layer7.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer7.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer8.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11
+      layer8.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer8.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer7.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
+      layer7.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer7.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer8.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
+      layer8.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer8.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4 layer6.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4
+      layer6.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4 layer6.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6
+      layer2.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7
+      layer4.png.meta
+    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG1 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG1 layer2.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG1 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG11 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG11 layer4.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG11 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG2 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG2 layer4.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG2 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG3 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG3 layer3.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG3 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG4 layer5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG4 layer5.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG4 layer5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG7 layer3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG7 layer3.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG7 layer3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG8 layer2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG8 layer2.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG8 layer2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\BackgroundLayers\Backgroundlayer6\MBG9 layer4.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\Backgroundlayer6\MBG9 layer4.png.meta
+    projectPath: Assets\BackgroundLayers\Backgroundlayer6\MBG9 layer4.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\Bangers SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Bangers SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\Bangers SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\Comforter-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Comforter-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\Comforter-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\Monofett-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Monofett-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\Monofett-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\PermanentMarker-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\PermanentMarker-Regular
+      SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\PermanentMarker-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf
+    projectPath: Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf.meta
+    projectPath: Assets\DamageNum\DNumFont\PressStart2P-Regular.ttf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\RammettoOne-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\RammettoOne-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\RammettoOne-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\RampartOne-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\RampartOne-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\RampartOne-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\Rye-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Rye-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\Rye-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\Sigmar-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\Sigmar-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\Sigmar-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF 1.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\SpicyRice-Regular SDF
+      1.asset
+    projectPath: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF 1.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF 1.asset.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\SpicyRice-Regular SDF
+      1.asset.meta
+    projectPath: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF 1.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\SpicyRice-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\SpicyRice-Regular SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumFont\VT323-Regular SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\VT323-Regular SDF.asset
+    projectPath: Assets\DamageNum\DNumFont\VT323-Regular SDF.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\VT323-Regular SDF.asset.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\VT323-Regular SDF.asset.meta
+    projectPath: Assets\DamageNum\DNumFont\VT323-Regular SDF.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\VT323-Regular.ttf
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\VT323-Regular.ttf
+    projectPath: Assets\DamageNum\DNumFont\VT323-Regular.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumFont\VT323-Regular.ttf.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumFont\VT323-Regular.ttf.meta
+    projectPath: Assets\DamageNum\DNumFont\VT323-Regular.ttf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DamageNum\DNumGrad\Crit.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumGrad\Crit.png.meta
+    projectPath: Assets\DamageNum\DNumGrad\Crit.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNum\DNumGrad\OrangeYellow.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\DNumGrad\OrangeYellow.png.meta
+    projectPath: Assets\DamageNum\DNumGrad\OrangeYellow.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageNumController.cs
+    fullPath: C:\Users\dante\FZ3\Assets\DamageNumController.cs
+    projectPath: Assets\DamageNumController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\DamageText.cs
+    fullPath: C:\Users\dante\FZ3\Assets\DamageText.cs
+    projectPath: Assets\DamageText.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\EnemySpawner.cs
+    fullPath: C:\Users\dante\FZ3\Assets\EnemySpawner.cs
+    projectPath: Assets\EnemySpawner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Canvas\HealthBar 1.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Canvas\HealthBar 1.prefab
+    projectPath: Assets\Prefabs\Canvas\HealthBar 1.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Prefabs\Monsters\bat1 1.prefab
     fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Monsters\bat1 1.prefab
     projectPath: Assets\Prefabs\Monsters\bat1 1.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Prefabs\Platforms\long8PlatRope.prefab
-    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Platforms\long8PlatRope.prefab
-    projectPath: Assets\Prefabs\Platforms\long8PlatRope.prefab
+  - path: Assets\Prefabs\Monsters\skeleton1.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Monsters\skeleton1.prefab
+    projectPath: Assets\Prefabs\Monsters\skeleton1.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
+      & Materials\Anton SDF.asset
+    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Anton
+      SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
+      & Materials\Electronic Highway Sign SDF.asset
+    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Electronic
+      Highway Sign SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts
+      & Materials\Oswald Bold SDF.asset
+    projectPath: Assets\Random\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Oswald
+      Bold SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    fullPath: C:\Users\dante\FZ3\Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+      SDF - Fallback.asset
+    projectPath: Assets\Random\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+      SDF - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\FirstLevelRandomGen.unity
+    fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
+    projectPath: Assets\Scenes\FirstLevelRandomGen.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Archangel.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Archangel.cs
+    projectPath: Assets\Scripts\Archangel.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Cherub.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Cherub.cs
+    projectPath: Assets\Scripts\Cherub.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Enemy.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Enemy.cs
+    projectPath: Assets\Scripts\Enemy.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\HealthBar.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\HealthBar.cs
+    projectPath: Assets\Scripts\HealthBar.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\MageSkillController.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\MageSkillController.cs
+    projectPath: Assets\Scripts\MageSkillController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\PlayerMovement.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\PlayerMovement.cs
+    projectPath: Assets\Scripts\PlayerMovement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Projectile.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Projectile.cs
+    projectPath: Assets\Scripts\Projectile.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\RogueSkillController.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\RogueSkillController.cs
+    projectPath: Assets\Scripts\RogueSkillController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Seraphim.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Seraphim.cs
+    projectPath: Assets\Scripts\Seraphim.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Skeleton.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
+    projectPath: Assets\Scripts\Skeleton.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\WarriorSkillController.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\WarriorSkillController.cs
+    projectPath: Assets\Scripts\WarriorSkillController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\UI\14.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\14.png
+    projectPath: Assets\UI\14.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\14.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\14.png.meta
+    projectPath: Assets\UI\14.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_01_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_01_01.png
+    projectPath: Assets\UI\banner_01_01.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_01_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_01_01.png.meta
+    projectPath: Assets\UI\banner_01_01.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_02_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_02_01.png
+    projectPath: Assets\UI\banner_02_01.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_02_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_02_01.png.meta
+    projectPath: Assets\UI\banner_02_01.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_-1.png
+    projectPath: Assets\UI\banner_-1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_-1.png.meta
+    projectPath: Assets\UI\banner_-1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_-2.png
+    projectPath: Assets\UI\banner_-2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\banner_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\banner_-2.png.meta
+    projectPath: Assets\UI\banner_-2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\blue_17.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\blue_17.png
+    projectPath: Assets\UI\blue_17.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\blue_17.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\blue_17.png.meta
+    projectPath: Assets\UI\blue_17.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\BorderHealth 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\BorderHealth 1.png
+    projectPath: Assets\UI\BorderHealth 1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\BorderHealth 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\BorderHealth 1.png.meta
+    projectPath: Assets\UI\BorderHealth 1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\BorderHealth.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\BorderHealth.png
+    projectPath: Assets\UI\BorderHealth.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\BorderHealth.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\BorderHealth.png.meta
+    projectPath: Assets\UI\BorderHealth.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_04_bg.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_04_bg.png
+    projectPath: Assets\UI\button_04_bg.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_04_bg.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_04_bg.png.meta
+    projectPath: Assets\UI\button_04_bg.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-1.png
+    projectPath: Assets\UI\button_-1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-1.png.meta
+    projectPath: Assets\UI\button_-1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-2.png
+    projectPath: Assets\UI\button_-2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-2.png.meta
+    projectPath: Assets\UI\button_-2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-3.png
+    projectPath: Assets\UI\button_-3.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\button_-3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\button_-3.png.meta
+    projectPath: Assets\UI\button_-3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Character SelectEmpty.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Character SelectEmpty.png
+    projectPath: Assets\UI\Character SelectEmpty.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Character SelectEmpty.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Character SelectEmpty.png.meta
+    projectPath: Assets\UI\Character SelectEmpty.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Character.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Character.png
+    projectPath: Assets\UI\Character.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Character.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Character.png.meta
+    projectPath: Assets\UI\Character.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Choose Your Class.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Choose Your Class.png
+    projectPath: Assets\UI\Choose Your Class.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Choose Your Class.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Choose Your Class.png.meta
+    projectPath: Assets\UI\Choose Your Class.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\EMPTYPOTION.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\EMPTYPOTION.png
+    projectPath: Assets\UI\EMPTYPOTION.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\EMPTYPOTION.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\EMPTYPOTION.png.meta
+    projectPath: Assets\UI\EMPTYPOTION.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\knight.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\knight.png
+    projectPath: Assets\UI\knight.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\knight.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\knight.png.meta
+    projectPath: Assets\UI\knight.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Level.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Level.png
+    projectPath: Assets\UI\Level.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Level.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Level.png.meta
+    projectPath: Assets\UI\Level.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Mage.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Mage.png
+    projectPath: Assets\UI\Mage.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Mage.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Mage.png.meta
+    projectPath: Assets\UI\Mage.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\MainMenuWithButtons.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\MainMenuWithButtons.png
+    projectPath: Assets\UI\MainMenuWithButtons.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\MainMenuWithButtons.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\MainMenuWithButtons.png.meta
+    projectPath: Assets\UI\MainMenuWithButtons.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Menu.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Menu.png
+    projectPath: Assets\UI\Menu.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Menu.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Menu.png.meta
+    projectPath: Assets\UI\Menu.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Misc.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc.meta
+    projectPath: Assets\UI\Misc.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\14.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\14.png
+    projectPath: Assets\UI\Misc\14.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\14.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\14.png.meta
+    projectPath: Assets\UI\Misc\14.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_01_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_01_01.png
+    projectPath: Assets\UI\Misc\banner_01_01.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_01_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_01_01.png.meta
+    projectPath: Assets\UI\Misc\banner_01_01.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_02_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_02_01.png
+    projectPath: Assets\UI\Misc\banner_02_01.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_02_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_02_01.png.meta
+    projectPath: Assets\UI\Misc\banner_02_01.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_-1.png
+    projectPath: Assets\UI\Misc\banner_-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_-1.png.meta
+    projectPath: Assets\UI\Misc\banner_-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_-2.png
+    projectPath: Assets\UI\Misc\banner_-2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\banner_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\banner_-2.png.meta
+    projectPath: Assets\UI\Misc\banner_-2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\blue_17.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\blue_17.png
+    projectPath: Assets\UI\Misc\blue_17.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\blue_17.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\blue_17.png.meta
+    projectPath: Assets\UI\Misc\blue_17.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\BorderHealth 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\BorderHealth 1.png
+    projectPath: Assets\UI\Misc\BorderHealth 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\BorderHealth 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\BorderHealth 1.png.meta
+    projectPath: Assets\UI\Misc\BorderHealth 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\BorderHealth.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\BorderHealth.png
+    projectPath: Assets\UI\Misc\BorderHealth.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\BorderHealth.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\BorderHealth.png.meta
+    projectPath: Assets\UI\Misc\BorderHealth.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_04_bg.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_04_bg.png
+    projectPath: Assets\UI\Misc\button_04_bg.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_04_bg.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_04_bg.png.meta
+    projectPath: Assets\UI\Misc\button_04_bg.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-1.png
+    projectPath: Assets\UI\Misc\button_-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-1.png.meta
+    projectPath: Assets\UI\Misc\button_-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-2.png
+    projectPath: Assets\UI\Misc\button_-2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-2.png.meta
+    projectPath: Assets\UI\Misc\button_-2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-3.png
+    projectPath: Assets\UI\Misc\button_-3.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\button_-3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\button_-3.png.meta
+    projectPath: Assets\UI\Misc\button_-3.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Character SelectEmpty.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Character SelectEmpty.png
+    projectPath: Assets\UI\Misc\Character SelectEmpty.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Character SelectEmpty.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Character SelectEmpty.png.meta
+    projectPath: Assets\UI\Misc\Character SelectEmpty.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Character.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Character.png
+    projectPath: Assets\UI\Misc\Character.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Character.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Character.png.meta
+    projectPath: Assets\UI\Misc\Character.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Choose Your Class.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Choose Your Class.png
+    projectPath: Assets\UI\Misc\Choose Your Class.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Choose Your Class.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Choose Your Class.png.meta
+    projectPath: Assets\UI\Misc\Choose Your Class.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\EMPTYPOTION.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\EMPTYPOTION.png
+    projectPath: Assets\UI\Misc\EMPTYPOTION.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\EMPTYPOTION.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\EMPTYPOTION.png.meta
+    projectPath: Assets\UI\Misc\EMPTYPOTION.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\knight.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\knight.png
+    projectPath: Assets\UI\Misc\knight.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\knight.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\knight.png.meta
+    projectPath: Assets\UI\Misc\knight.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Level.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Level.png
+    projectPath: Assets\UI\Misc\Level.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Level.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Level.png.meta
+    projectPath: Assets\UI\Misc\Level.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Mage.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Mage.png
+    projectPath: Assets\UI\Misc\Mage.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Mage.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Mage.png.meta
+    projectPath: Assets\UI\Misc\Mage.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\MainMenuWithButtons.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\MainMenuWithButtons.png
+    projectPath: Assets\UI\Misc\MainMenuWithButtons.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\MainMenuWithButtons.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\MainMenuWithButtons.png.meta
+    projectPath: Assets\UI\Misc\MainMenuWithButtons.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Menu.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Menu.png
+    projectPath: Assets\UI\Misc\Menu.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Menu.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Menu.png.meta
+    projectPath: Assets\UI\Misc\Menu.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\p_11.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\p_11.png
+    projectPath: Assets\UI\Misc\p_11.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\p_11.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\p_11.png.meta
+    projectPath: Assets\UI\Misc\p_11.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\p_15.PNG
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\p_15.PNG
+    projectPath: Assets\UI\Misc\p_15.PNG
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\p_15.PNG.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\p_15.PNG.meta
+    projectPath: Assets\UI\Misc\p_15.PNG.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Polygon 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Polygon 1.png
+    projectPath: Assets\UI\Misc\Polygon 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Polygon 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Polygon 1.png.meta
+    projectPath: Assets\UI\Misc\Polygon 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_book.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_book.png
+    projectPath: Assets\UI\Misc\r_book.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_book.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_book.png.meta
+    projectPath: Assets\UI\Misc\r_book.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_potion.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_potion.png
+    projectPath: Assets\UI\Misc\r_potion.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_potion.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_potion.png.meta
+    projectPath: Assets\UI\Misc\r_potion.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_potion-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_potion-1.png
+    projectPath: Assets\UI\Misc\r_potion-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_potion-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_potion-1.png.meta
+    projectPath: Assets\UI\Misc\r_potion-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_scroll.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_scroll.png
+    projectPath: Assets\UI\Misc\r_scroll.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\r_scroll.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\r_scroll.png.meta
+    projectPath: Assets\UI\Misc\r_scroll.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 1.png
+    projectPath: Assets\UI\Misc\Rectangle 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 1.png.meta
+    projectPath: Assets\UI\Misc\Rectangle 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle -1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle -1.png
+    projectPath: Assets\UI\Misc\Rectangle -1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle -1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle -1.png.meta
+    projectPath: Assets\UI\Misc\Rectangle -1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 2.png
+    projectPath: Assets\UI\Misc\Rectangle 2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 2.png.meta
+    projectPath: Assets\UI\Misc\Rectangle 2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 3.png
+    projectPath: Assets\UI\Misc\Rectangle 3.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 3.png.meta
+    projectPath: Assets\UI\Misc\Rectangle 3.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 5.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 5.png
+    projectPath: Assets\UI\Misc\Rectangle 5.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Rectangle 5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Rectangle 5.png.meta
+    projectPath: Assets\UI\Misc\Rectangle 5.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\red_05.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\red_05.png
+    projectPath: Assets\UI\Misc\red_05.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\red_05.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\red_05.png.meta
+    projectPath: Assets\UI\Misc\red_05.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\rogueIdle.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\rogueIdle.png
+    projectPath: Assets\UI\Misc\rogueIdle.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\rogueIdle.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\rogueIdle.png.meta
+    projectPath: Assets\UI\Misc\rogueIdle.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\scale_01_07.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\scale_01_07.png
+    projectPath: Assets\UI\Misc\scale_01_07.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\scale_01_07.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\scale_01_07.png.meta
+    projectPath: Assets\UI\Misc\scale_01_07.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\scale_02_06.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\scale_02_06.png
+    projectPath: Assets\UI\Misc\scale_02_06.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\scale_02_06.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\scale_02_06.png.meta
+    projectPath: Assets\UI\Misc\scale_02_06.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Scroll Group 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Scroll Group 1.png
+    projectPath: Assets\UI\Misc\Scroll Group 1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\Scroll Group 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\Scroll Group 1.png.meta
+    projectPath: Assets\UI\Misc\Scroll Group 1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_02_03.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_02_03.png
+    projectPath: Assets\UI\Misc\slider_02_03.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_02_03.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_02_03.png.meta
+    projectPath: Assets\UI\Misc\slider_02_03.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-1.png
+    projectPath: Assets\UI\Misc\slider_-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-1.png.meta
+    projectPath: Assets\UI\Misc\slider_-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-2.png
+    projectPath: Assets\UI\Misc\slider_-2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-2.png.meta
+    projectPath: Assets\UI\Misc\slider_-2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-3.png
+    projectPath: Assets\UI\Misc\slider_-3.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slider_-3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slider_-3.png.meta
+    projectPath: Assets\UI\Misc\slider_-3.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_01 - Copy.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_01 - Copy.png
+    projectPath: Assets\UI\Misc\slot_01 - Copy.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_01 - Copy.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_01 - Copy.png.meta
+    projectPath: Assets\UI\Misc\slot_01 - Copy.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_01.png
+    projectPath: Assets\UI\Misc\slot_01.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_01.png.meta
+    projectPath: Assets\UI\Misc\slot_01.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_02.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_02.png
+    projectPath: Assets\UI\Misc\slot_02.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_02.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_02.png.meta
+    projectPath: Assets\UI\Misc\slot_02.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_05.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_05.png
+    projectPath: Assets\UI\Misc\slot_05.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_05.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_05.png.meta
+    projectPath: Assets\UI\Misc\slot_05.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_-1.png
+    projectPath: Assets\UI\Misc\slot_-1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_-1.png.meta
+    projectPath: Assets\UI\Misc\slot_-1.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_-2.png
+    projectPath: Assets\UI\Misc\slot_-2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\slot_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\slot_-2.png.meta
+    projectPath: Assets\UI\Misc\slot_-2.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook01_06.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook01_06.png
+    projectPath: Assets\UI\Misc\SpellBook01_06.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook01_06.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook01_06.png.meta
+    projectPath: Assets\UI\Misc\SpellBook01_06.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook01_91.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook01_91.png
+    projectPath: Assets\UI\Misc\SpellBook01_91.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook01_91.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook01_91.png.meta
+    projectPath: Assets\UI\Misc\SpellBook01_91.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook03_14.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook03_14.png
+    projectPath: Assets\UI\Misc\SpellBook03_14.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook03_14.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook03_14.png.meta
+    projectPath: Assets\UI\Misc\SpellBook03_14.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook03_63.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook03_63.png
+    projectPath: Assets\UI\Misc\SpellBook03_63.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook03_63.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook03_63.png.meta
+    projectPath: Assets\UI\Misc\SpellBook03_63.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_11.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_11.png
+    projectPath: Assets\UI\Misc\SpellBook06_11.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_11.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_11.png.meta
+    projectPath: Assets\UI\Misc\SpellBook06_11.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_116.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_116.png
+    projectPath: Assets\UI\Misc\SpellBook06_116.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_116.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_116.png.meta
+    projectPath: Assets\UI\Misc\SpellBook06_116.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_25.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_25.png
+    projectPath: Assets\UI\Misc\SpellBook06_25.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_25.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_25.png.meta
+    projectPath: Assets\UI\Misc\SpellBook06_25.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_26.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_26.png
+    projectPath: Assets\UI\Misc\SpellBook06_26.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\SpellBook06_26.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\SpellBook06_26.png.meta
+    projectPath: Assets\UI\Misc\SpellBook06_26.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\strip_red.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\strip_red.png
+    projectPath: Assets\UI\Misc\strip_red.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\strip_red.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\strip_red.png.meta
+    projectPath: Assets\UI\Misc\strip_red.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\viewpointPNGNEW.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\viewpointPNGNEW.png
+    projectPath: Assets\UI\Misc\viewpointPNGNEW.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\viewpointPNGNEW.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\viewpointPNGNEW.png.meta
+    projectPath: Assets\UI\Misc\viewpointPNGNEW.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\w_bag.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\w_bag.png
+    projectPath: Assets\UI\Misc\w_bag.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\w_bag.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\w_bag.png.meta
+    projectPath: Assets\UI\Misc\w_bag.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_18.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_18.png
+    projectPath: Assets\UI\Misc\yellow_18.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_18.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_18.png.meta
+    projectPath: Assets\UI\Misc\yellow_18.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_19.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_19.png
+    projectPath: Assets\UI\Misc\yellow_19.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_19.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_19.png.meta
+    projectPath: Assets\UI\Misc\yellow_19.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_41.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_41.png
+    projectPath: Assets\UI\Misc\yellow_41.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Misc\yellow_41.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Misc\yellow_41.png.meta
+    projectPath: Assets\UI\Misc\yellow_41.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\p_11.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\p_11.png
+    projectPath: Assets\UI\p_11.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\p_11.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\p_11.png.meta
+    projectPath: Assets\UI\p_11.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\p_15.PNG
+    fullPath: C:\Users\dante\FZ3\Assets\UI\p_15.PNG
+    projectPath: Assets\UI\p_15.PNG
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\p_15.PNG.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\p_15.PNG.meta
+    projectPath: Assets\UI\p_15.PNG.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Polygon 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Polygon 1.png
+    projectPath: Assets\UI\Polygon 1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Polygon 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Polygon 1.png.meta
+    projectPath: Assets\UI\Polygon 1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Prefabs.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Prefabs.meta
+    projectPath: Assets\UI\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\r_book.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_book.png
+    projectPath: Assets\UI\r_book.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_book.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_book.png.meta
+    projectPath: Assets\UI\r_book.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_potion.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_potion.png
+    projectPath: Assets\UI\r_potion.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_potion.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_potion.png.meta
+    projectPath: Assets\UI\r_potion.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_potion-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_potion-1.png
+    projectPath: Assets\UI\r_potion-1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_potion-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_potion-1.png.meta
+    projectPath: Assets\UI\r_potion-1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_scroll.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_scroll.png
+    projectPath: Assets\UI\r_scroll.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\r_scroll.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\r_scroll.png.meta
+    projectPath: Assets\UI\r_scroll.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 1.png
+    projectPath: Assets\UI\Rectangle 1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 1.png.meta
+    projectPath: Assets\UI\Rectangle 1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle -1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle -1.png
+    projectPath: Assets\UI\Rectangle -1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle -1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle -1.png.meta
+    projectPath: Assets\UI\Rectangle -1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 2.png
+    projectPath: Assets\UI\Rectangle 2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 2.png.meta
+    projectPath: Assets\UI\Rectangle 2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 3.png
+    projectPath: Assets\UI\Rectangle 3.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 3.png.meta
+    projectPath: Assets\UI\Rectangle 3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 5.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 5.png
+    projectPath: Assets\UI\Rectangle 5.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Rectangle 5.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Rectangle 5.png.meta
+    projectPath: Assets\UI\Rectangle 5.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\red_05.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\red_05.png
+    projectPath: Assets\UI\red_05.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\red_05.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\red_05.png.meta
+    projectPath: Assets\UI\red_05.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\rogueIdle.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\rogueIdle.png
+    projectPath: Assets\UI\rogueIdle.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\rogueIdle.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\rogueIdle.png.meta
+    projectPath: Assets\UI\rogueIdle.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\scale_01_07.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\scale_01_07.png
+    projectPath: Assets\UI\scale_01_07.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\scale_01_07.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\scale_01_07.png.meta
+    projectPath: Assets\UI\scale_01_07.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\scale_02_06.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\scale_02_06.png
+    projectPath: Assets\UI\scale_02_06.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\scale_02_06.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\scale_02_06.png.meta
+    projectPath: Assets\UI\scale_02_06.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Scroll Group 1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Scroll Group 1.png
+    projectPath: Assets\UI\Scroll Group 1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Scroll Group 1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\Scroll Group 1.png.meta
+    projectPath: Assets\UI\Scroll Group 1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_02_03.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_02_03.png
+    projectPath: Assets\UI\slider_02_03.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_02_03.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_02_03.png.meta
+    projectPath: Assets\UI\slider_02_03.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-1.png
+    projectPath: Assets\UI\slider_-1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-1.png.meta
+    projectPath: Assets\UI\slider_-1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-2.png
+    projectPath: Assets\UI\slider_-2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-2.png.meta
+    projectPath: Assets\UI\slider_-2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-3.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-3.png
+    projectPath: Assets\UI\slider_-3.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slider_-3.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slider_-3.png.meta
+    projectPath: Assets\UI\slider_-3.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_01 - Copy.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_01 - Copy.png
+    projectPath: Assets\UI\slot_01 - Copy.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_01 - Copy.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_01 - Copy.png.meta
+    projectPath: Assets\UI\slot_01 - Copy.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_01.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_01.png
+    projectPath: Assets\UI\slot_01.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_01.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_01.png.meta
+    projectPath: Assets\UI\slot_01.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_02.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_02.png
+    projectPath: Assets\UI\slot_02.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_02.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_02.png.meta
+    projectPath: Assets\UI\slot_02.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_05.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_05.png
+    projectPath: Assets\UI\slot_05.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_05.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_05.png.meta
+    projectPath: Assets\UI\slot_05.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_-1.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_-1.png
+    projectPath: Assets\UI\slot_-1.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_-1.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_-1.png.meta
+    projectPath: Assets\UI\slot_-1.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_-2.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_-2.png
+    projectPath: Assets\UI\slot_-2.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\slot_-2.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\slot_-2.png.meta
+    projectPath: Assets\UI\slot_-2.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook01_06.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook01_06.png
+    projectPath: Assets\UI\SpellBook01_06.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook01_06.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook01_06.png.meta
+    projectPath: Assets\UI\SpellBook01_06.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook01_91.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook01_91.png
+    projectPath: Assets\UI\SpellBook01_91.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook01_91.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook01_91.png.meta
+    projectPath: Assets\UI\SpellBook01_91.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook03_14.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook03_14.png
+    projectPath: Assets\UI\SpellBook03_14.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook03_14.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook03_14.png.meta
+    projectPath: Assets\UI\SpellBook03_14.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook03_63.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook03_63.png
+    projectPath: Assets\UI\SpellBook03_63.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook03_63.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook03_63.png.meta
+    projectPath: Assets\UI\SpellBook03_63.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_11.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_11.png
+    projectPath: Assets\UI\SpellBook06_11.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_11.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_11.png.meta
+    projectPath: Assets\UI\SpellBook06_11.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_116.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_116.png
+    projectPath: Assets\UI\SpellBook06_116.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_116.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_116.png.meta
+    projectPath: Assets\UI\SpellBook06_116.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_25.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_25.png
+    projectPath: Assets\UI\SpellBook06_25.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_25.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_25.png.meta
+    projectPath: Assets\UI\SpellBook06_25.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_26.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_26.png
+    projectPath: Assets\UI\SpellBook06_26.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\SpellBook06_26.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\SpellBook06_26.png.meta
+    projectPath: Assets\UI\SpellBook06_26.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\strip_red.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\strip_red.png
+    projectPath: Assets\UI\strip_red.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\strip_red.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\strip_red.png.meta
+    projectPath: Assets\UI\strip_red.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\viewpointPNGNEW.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\viewpointPNGNEW.png
+    projectPath: Assets\UI\viewpointPNGNEW.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\viewpointPNGNEW.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\viewpointPNGNEW.png.meta
+    projectPath: Assets\UI\viewpointPNGNEW.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\w_bag.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\w_bag.png
+    projectPath: Assets\UI\w_bag.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\w_bag.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\w_bag.png.meta
+    projectPath: Assets\UI\w_bag.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_18.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_18.png
+    projectPath: Assets\UI\yellow_18.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_18.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_18.png.meta
+    projectPath: Assets\UI\yellow_18.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_19.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_19.png
+    projectPath: Assets\UI\yellow_19.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_19.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_19.png.meta
+    projectPath: Assets\UI\yellow_19.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_41.png
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_41.png
+    projectPath: Assets\UI\yellow_41.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\yellow_41.png.meta
+    fullPath: C:\Users\dante\FZ3\Assets\UI\yellow_41.png.meta
+    projectPath: Assets\UI\yellow_41.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\00\002506ab993c2e4ade36ce701dcb3c06
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\00\002506ab993c2e4ade36ce701dcb3c06
+    projectPath: Library\Artifacts\00\002506ab993c2e4ade36ce701dcb3c06
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\00\002be70727a953796b56b9852126f5bc
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\00\002be70727a953796b56b9852126f5bc
+    projectPath: Library\Artifacts\00\002be70727a953796b56b9852126f5bc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\00\004e4d8850f553946bab5fb3231869d0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\00\004e4d8850f553946bab5fb3231869d0
+    projectPath: Library\Artifacts\00\004e4d8850f553946bab5fb3231869d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\03\03d81a84331b42ca14fcaea7fe101940
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\03\03d81a84331b42ca14fcaea7fe101940
+    projectPath: Library\Artifacts\03\03d81a84331b42ca14fcaea7fe101940
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\04\04991bf1a4fd11a3d04c68ebb87c7528
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\04\04991bf1a4fd11a3d04c68ebb87c7528
+    projectPath: Library\Artifacts\04\04991bf1a4fd11a3d04c68ebb87c7528
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\04\04d57d5bc848c03b9792ac823b6ffadd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\04\04d57d5bc848c03b9792ac823b6ffadd
+    projectPath: Library\Artifacts\04\04d57d5bc848c03b9792ac823b6ffadd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\05\0574b8e8c786bd3650092799ac3312d2
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\05\0574b8e8c786bd3650092799ac3312d2
+    projectPath: Library\Artifacts\05\0574b8e8c786bd3650092799ac3312d2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\06\0630da683ae9efe1986f38345b04a282
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\06\0630da683ae9efe1986f38345b04a282
+    projectPath: Library\Artifacts\06\0630da683ae9efe1986f38345b04a282
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\09\09ad29027f8d69176ed75d4278cb465e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\09\09ad29027f8d69176ed75d4278cb465e
+    projectPath: Library\Artifacts\09\09ad29027f8d69176ed75d4278cb465e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0b\0bf2d40a9eb7807e8906133b9b92ea9c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\0b\0bf2d40a9eb7807e8906133b9b92ea9c
+    projectPath: Library\Artifacts\0b\0bf2d40a9eb7807e8906133b9b92ea9c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0f\0f72c2bbc1502893405d7650237788e8
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\0f\0f72c2bbc1502893405d7650237788e8
+    projectPath: Library\Artifacts\0f\0f72c2bbc1502893405d7650237788e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\10\1085f231ef2838473e754f6460b700ab
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\10\1085f231ef2838473e754f6460b700ab
+    projectPath: Library\Artifacts\10\1085f231ef2838473e754f6460b700ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\13\1301ec082e7ff2720502b1c389735247
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\13\1301ec082e7ff2720502b1c389735247
+    projectPath: Library\Artifacts\13\1301ec082e7ff2720502b1c389735247
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\18\18b94ac4d9085fc762738d2f10d12fdc
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\18\18b94ac4d9085fc762738d2f10d12fdc
+    projectPath: Library\Artifacts\18\18b94ac4d9085fc762738d2f10d12fdc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\19\19718a35da05b79a2dd23d8714f07b76
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\19\19718a35da05b79a2dd23d8714f07b76
+    projectPath: Library\Artifacts\19\19718a35da05b79a2dd23d8714f07b76
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1c\1ca52dbb3c9a58e5c9cfdedf88671002
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\1c\1ca52dbb3c9a58e5c9cfdedf88671002
+    projectPath: Library\Artifacts\1c\1ca52dbb3c9a58e5c9cfdedf88671002
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1c\1ca74dc122008698771659e147578240
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\1c\1ca74dc122008698771659e147578240
+    projectPath: Library\Artifacts\1c\1ca74dc122008698771659e147578240
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1d\1dc246fea3999c371f35bb6cca32c779
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\1d\1dc246fea3999c371f35bb6cca32c779
+    projectPath: Library\Artifacts\1d\1dc246fea3999c371f35bb6cca32c779
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1f\1f883cdc6df1dd9a74e10db64b26ccbe
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\1f\1f883cdc6df1dd9a74e10db64b26ccbe
+    projectPath: Library\Artifacts\1f\1f883cdc6df1dd9a74e10db64b26ccbe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1f\1fc50cb905e407531be0c52c969f1939
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\1f\1fc50cb905e407531be0c52c969f1939
+    projectPath: Library\Artifacts\1f\1fc50cb905e407531be0c52c969f1939
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\23\2304c65543abc9d0da1c013a0d7b6bce
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\23\2304c65543abc9d0da1c013a0d7b6bce
+    projectPath: Library\Artifacts\23\2304c65543abc9d0da1c013a0d7b6bce
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\26\26edec82638602a0cf117238899068f7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\26\26edec82638602a0cf117238899068f7
+    projectPath: Library\Artifacts\26\26edec82638602a0cf117238899068f7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\29\299b20ea8be5f5a21c7c7199e4a9e4aa
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\29\299b20ea8be5f5a21c7c7199e4a9e4aa
+    projectPath: Library\Artifacts\29\299b20ea8be5f5a21c7c7199e4a9e4aa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2a\2a4a3a3a4e8496ba63f80a6cb2733a1b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2a\2a4a3a3a4e8496ba63f80a6cb2733a1b
+    projectPath: Library\Artifacts\2a\2a4a3a3a4e8496ba63f80a6cb2733a1b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2b\2b19efe7d2a5d3408ed8a22456342da4
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2b\2b19efe7d2a5d3408ed8a22456342da4
+    projectPath: Library\Artifacts\2b\2b19efe7d2a5d3408ed8a22456342da4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2b\2b1b9b9f6c4aa9969ace9a766ecf911a
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2b\2b1b9b9f6c4aa9969ace9a766ecf911a
+    projectPath: Library\Artifacts\2b\2b1b9b9f6c4aa9969ace9a766ecf911a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2b\2b1ebc9b2273c98a4f2e7b4bb2cf8cc1
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2b\2b1ebc9b2273c98a4f2e7b4bb2cf8cc1
+    projectPath: Library\Artifacts\2b\2b1ebc9b2273c98a4f2e7b4bb2cf8cc1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2f\2f58737d208a69eba6581cafb1a41bf5
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2f\2f58737d208a69eba6581cafb1a41bf5
+    projectPath: Library\Artifacts\2f\2f58737d208a69eba6581cafb1a41bf5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2f\2f9cd59af8b447403db1a1828d8b0f22
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2f\2f9cd59af8b447403db1a1828d8b0f22
+    projectPath: Library\Artifacts\2f\2f9cd59af8b447403db1a1828d8b0f22
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2f\2fa81936d0fb798b4f198ad6bdf22477
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2f\2fa81936d0fb798b4f198ad6bdf22477
+    projectPath: Library\Artifacts\2f\2fa81936d0fb798b4f198ad6bdf22477
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2f\2fcc18737f4e1b75051757624d8d4ac9
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\2f\2fcc18737f4e1b75051757624d8d4ac9
+    projectPath: Library\Artifacts\2f\2fcc18737f4e1b75051757624d8d4ac9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\33\33ac76a74093e5571c275b41de0d7c0f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\33\33ac76a74093e5571c275b41de0d7c0f
+    projectPath: Library\Artifacts\33\33ac76a74093e5571c275b41de0d7c0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\33\33fc16e8eb6aacd00fd5eda9a58049fb
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\33\33fc16e8eb6aacd00fd5eda9a58049fb
+    projectPath: Library\Artifacts\33\33fc16e8eb6aacd00fd5eda9a58049fb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\36\363b63c022e42d9ff9b13d133787a037
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\36\363b63c022e42d9ff9b13d133787a037
+    projectPath: Library\Artifacts\36\363b63c022e42d9ff9b13d133787a037
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\38\38c5afd7d8ce768dc2ea6eb4d11008b8
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\38\38c5afd7d8ce768dc2ea6eb4d11008b8
+    projectPath: Library\Artifacts\38\38c5afd7d8ce768dc2ea6eb4d11008b8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\38\38d4cab72c378837b317f44381effdfd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\38\38d4cab72c378837b317f44381effdfd
+    projectPath: Library\Artifacts\38\38d4cab72c378837b317f44381effdfd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\39a776c4c1694cef347facf19972ca44
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\39\39a776c4c1694cef347facf19972ca44
+    projectPath: Library\Artifacts\39\39a776c4c1694cef347facf19972ca44
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\39\39f136b4fb9b98ee227d89ea59df09d4
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\39\39f136b4fb9b98ee227d89ea59df09d4
+    projectPath: Library\Artifacts\39\39f136b4fb9b98ee227d89ea59df09d4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3b\3b61f927429c5a9bda5a846fb0e48736
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\3b\3b61f927429c5a9bda5a846fb0e48736
+    projectPath: Library\Artifacts\3b\3b61f927429c5a9bda5a846fb0e48736
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3c\3c598052d4b9328f26228451d07a4ff9
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\3c\3c598052d4b9328f26228451d07a4ff9
+    projectPath: Library\Artifacts\3c\3c598052d4b9328f26228451d07a4ff9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3c\3c9a21bb0b26cde1e3daef4cffa01160
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\3c\3c9a21bb0b26cde1e3daef4cffa01160
+    projectPath: Library\Artifacts\3c\3c9a21bb0b26cde1e3daef4cffa01160
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3c\3cc6046c28c9d281bdb13aab68b7671a
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\3c\3cc6046c28c9d281bdb13aab68b7671a
+    projectPath: Library\Artifacts\3c\3cc6046c28c9d281bdb13aab68b7671a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3d\3d9a43cdab7e18bb4b58f0675290145d
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\3d\3d9a43cdab7e18bb4b58f0675290145d
+    projectPath: Library\Artifacts\3d\3d9a43cdab7e18bb4b58f0675290145d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\41\41ec87b856459d66caf1cb6c1b238613
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\41\41ec87b856459d66caf1cb6c1b238613
+    projectPath: Library\Artifacts\41\41ec87b856459d66caf1cb6c1b238613
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\43\4324cf8267cda1793b89ff5e82cf58b6
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\43\4324cf8267cda1793b89ff5e82cf58b6
+    projectPath: Library\Artifacts\43\4324cf8267cda1793b89ff5e82cf58b6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\44\44cdc74bdbfd4c1b0d2cd708fb6e7e1c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\44\44cdc74bdbfd4c1b0d2cd708fb6e7e1c
+    projectPath: Library\Artifacts\44\44cdc74bdbfd4c1b0d2cd708fb6e7e1c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\45\45ad5b23fb8662ac05a6b812d51f58cd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\45\45ad5b23fb8662ac05a6b812d51f58cd
+    projectPath: Library\Artifacts\45\45ad5b23fb8662ac05a6b812d51f58cd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\46\461cfbb899d035ba48a473c86d0b1f03
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\46\461cfbb899d035ba48a473c86d0b1f03
+    projectPath: Library\Artifacts\46\461cfbb899d035ba48a473c86d0b1f03
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\47\47bca250fd229e0be75a6e7fd80a1555
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\47\47bca250fd229e0be75a6e7fd80a1555
+    projectPath: Library\Artifacts\47\47bca250fd229e0be75a6e7fd80a1555
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4a\4ad896db9ee41cf41a504c39b2030cf0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4a\4ad896db9ee41cf41a504c39b2030cf0
+    projectPath: Library\Artifacts\4a\4ad896db9ee41cf41a504c39b2030cf0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4c\4c919e078ea8f71a10e33edd6c1ce7a5
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4c\4c919e078ea8f71a10e33edd6c1ce7a5
+    projectPath: Library\Artifacts\4c\4c919e078ea8f71a10e33edd6c1ce7a5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4e\4e0e9f946e3e71b25af19e8e1a745d68
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4e\4e0e9f946e3e71b25af19e8e1a745d68
+    projectPath: Library\Artifacts\4e\4e0e9f946e3e71b25af19e8e1a745d68
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4e\4eb626902ffbec707993173f66a0bf6e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4e\4eb626902ffbec707993173f66a0bf6e
+    projectPath: Library\Artifacts\4e\4eb626902ffbec707993173f66a0bf6e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\50\5071ef5f290f8a9c59b5f8654f925080
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\50\5071ef5f290f8a9c59b5f8654f925080
+    projectPath: Library\Artifacts\50\5071ef5f290f8a9c59b5f8654f925080
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\51\51cb6f30055962de3e2af0803b77f5e0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\51\51cb6f30055962de3e2af0803b77f5e0
+    projectPath: Library\Artifacts\51\51cb6f30055962de3e2af0803b77f5e0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\52\520e354acb4a602ea3384625e4dd00fa
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\52\520e354acb4a602ea3384625e4dd00fa
+    projectPath: Library\Artifacts\52\520e354acb4a602ea3384625e4dd00fa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\52\52917c3bd6f84947be9c7f6e2e54f0d0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\52\52917c3bd6f84947be9c7f6e2e54f0d0
+    projectPath: Library\Artifacts\52\52917c3bd6f84947be9c7f6e2e54f0d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\56\560937523591f5c44919a5f3311cd11c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\56\560937523591f5c44919a5f3311cd11c
+    projectPath: Library\Artifacts\56\560937523591f5c44919a5f3311cd11c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\56\56292b344f7d6066dd1dc5dcc9ef1b53
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\56\56292b344f7d6066dd1dc5dcc9ef1b53
+    projectPath: Library\Artifacts\56\56292b344f7d6066dd1dc5dcc9ef1b53
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\57\5701125094ac09c8875efd9d99506f21
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\57\5701125094ac09c8875efd9d99506f21
+    projectPath: Library\Artifacts\57\5701125094ac09c8875efd9d99506f21
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\57\576f43e4847ee72e4a78e608e10a7340
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\57\576f43e4847ee72e4a78e608e10a7340
+    projectPath: Library\Artifacts\57\576f43e4847ee72e4a78e608e10a7340
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
+    projectPath: Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\58\58613b02c04a90e6b5319b88b9cc77c9
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\58\58613b02c04a90e6b5319b88b9cc77c9
+    projectPath: Library\Artifacts\58\58613b02c04a90e6b5319b88b9cc77c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5c\5cdb4530abb054929ae45fa15d62bd61
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\5c\5cdb4530abb054929ae45fa15d62bd61
+    projectPath: Library\Artifacts\5c\5cdb4530abb054929ae45fa15d62bd61
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5d\5d17c06f1220003684069a388f93e07e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\5d\5d17c06f1220003684069a388f93e07e
+    projectPath: Library\Artifacts\5d\5d17c06f1220003684069a388f93e07e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5e\5e2245456fb45b890ec1f6f5fae34bd0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\5e\5e2245456fb45b890ec1f6f5fae34bd0
+    projectPath: Library\Artifacts\5e\5e2245456fb45b890ec1f6f5fae34bd0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5f\5fc229d325e72557245eee40d7279298
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\5f\5fc229d325e72557245eee40d7279298
+    projectPath: Library\Artifacts\5f\5fc229d325e72557245eee40d7279298
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\6074e0a04c22de50431b36dd658924dc
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\60\6074e0a04c22de50431b36dd658924dc
+    projectPath: Library\Artifacts\60\6074e0a04c22de50431b36dd658924dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\61\611604a36c8c14873d3463bea73e1a3b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\61\611604a36c8c14873d3463bea73e1a3b
+    projectPath: Library\Artifacts\61\611604a36c8c14873d3463bea73e1a3b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\62\62f0428c1847d3b4a6d8172bb676625c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\62\62f0428c1847d3b4a6d8172bb676625c
+    projectPath: Library\Artifacts\62\62f0428c1847d3b4a6d8172bb676625c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\64\649bb571471222bb230b03f4d033d8e5
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\64\649bb571471222bb230b03f4d033d8e5
+    projectPath: Library\Artifacts\64\649bb571471222bb230b03f4d033d8e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\66\666fadb0e98ff2dec6e881ac425e1dde
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\66\666fadb0e98ff2dec6e881ac425e1dde
+    projectPath: Library\Artifacts\66\666fadb0e98ff2dec6e881ac425e1dde
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\67\675e22ca44ad231bb1b66f4dfca47924
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\67\675e22ca44ad231bb1b66f4dfca47924
+    projectPath: Library\Artifacts\67\675e22ca44ad231bb1b66f4dfca47924
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6f\6f0c52dd638405cab96e539ad380617b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\6f\6f0c52dd638405cab96e539ad380617b
+    projectPath: Library\Artifacts\6f\6f0c52dd638405cab96e539ad380617b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6f\6fa7f1b3eed4424f9a10538dd3f936a0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\6f\6fa7f1b3eed4424f9a10538dd3f936a0
+    projectPath: Library\Artifacts\6f\6fa7f1b3eed4424f9a10538dd3f936a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\73\738e3c4d4d09a0b31e2760071085a353
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\73\738e3c4d4d09a0b31e2760071085a353
+    projectPath: Library\Artifacts\73\738e3c4d4d09a0b31e2760071085a353
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\74\74d589dffd2e60846e09dbc3ce894e11
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\74\74d589dffd2e60846e09dbc3ce894e11
+    projectPath: Library\Artifacts\74\74d589dffd2e60846e09dbc3ce894e11
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\75e8839f2338cf7a2bb81977792f87cc
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\75\75e8839f2338cf7a2bb81977792f87cc
+    projectPath: Library\Artifacts\75\75e8839f2338cf7a2bb81977792f87cc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\77\7742821bebdb984ac24e6b535216cc09
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\77\7742821bebdb984ac24e6b535216cc09
+    projectPath: Library\Artifacts\77\7742821bebdb984ac24e6b535216cc09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\79\79779a426514f467df69c68d5286f233
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\79\79779a426514f467df69c68d5286f233
+    projectPath: Library\Artifacts\79\79779a426514f467df69c68d5286f233
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7a\7a3fde4b9e22978b85de7f7f900ddd45
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\7a\7a3fde4b9e22978b85de7f7f900ddd45
+    projectPath: Library\Artifacts\7a\7a3fde4b9e22978b85de7f7f900ddd45
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7b\7bdd80efa32b8e5a3563f2014dee4d33
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\7b\7bdd80efa32b8e5a3563f2014dee4d33
+    projectPath: Library\Artifacts\7b\7bdd80efa32b8e5a3563f2014dee4d33
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7b\7bf0557c7c0ac4484afe2c526d90f5ec
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\7b\7bf0557c7c0ac4484afe2c526d90f5ec
+    projectPath: Library\Artifacts\7b\7bf0557c7c0ac4484afe2c526d90f5ec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7d\7d814e1c55434efb5a905ae88b21ba27
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\7d\7d814e1c55434efb5a905ae88b21ba27
+    projectPath: Library\Artifacts\7d\7d814e1c55434efb5a905ae88b21ba27
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7f\7f7287f2bc3070e457d08a8d4105ce1e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\7f\7f7287f2bc3070e457d08a8d4105ce1e
+    projectPath: Library\Artifacts\7f\7f7287f2bc3070e457d08a8d4105ce1e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\83\831030c3630d3fec9a4df617f4568cdd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\83\831030c3630d3fec9a4df617f4568cdd
+    projectPath: Library\Artifacts\83\831030c3630d3fec9a4df617f4568cdd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\84\849dc1e044226e27bde6c9fb66365f07
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\84\849dc1e044226e27bde6c9fb66365f07
+    projectPath: Library\Artifacts\84\849dc1e044226e27bde6c9fb66365f07
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\85\857c864d2db336c171f43f310824f588
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\85\857c864d2db336c171f43f310824f588
+    projectPath: Library\Artifacts\85\857c864d2db336c171f43f310824f588
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\87\8762e670ce8619ce7140ac722fca6a5e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\87\8762e670ce8619ce7140ac722fca6a5e
+    projectPath: Library\Artifacts\87\8762e670ce8619ce7140ac722fca6a5e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\88\88206f72e7d07832341a98c1ccaef98c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\88\88206f72e7d07832341a98c1ccaef98c
+    projectPath: Library\Artifacts\88\88206f72e7d07832341a98c1ccaef98c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\89\89966ef7b2edc1b2359eea2e554b933b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\89\89966ef7b2edc1b2359eea2e554b933b
+    projectPath: Library\Artifacts\89\89966ef7b2edc1b2359eea2e554b933b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8b\8b8ff4ecd5692b7ed75e0273e53d2394
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\8b\8b8ff4ecd5692b7ed75e0273e53d2394
+    projectPath: Library\Artifacts\8b\8b8ff4ecd5692b7ed75e0273e53d2394
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8c1ccfa03b286fcd32cb67210ad21245
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\8c\8c1ccfa03b286fcd32cb67210ad21245
+    projectPath: Library\Artifacts\8c\8c1ccfa03b286fcd32cb67210ad21245
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8c359def0d7ba35149b7a57cdbdcb3cb
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\8c\8c359def0d7ba35149b7a57cdbdcb3cb
+    projectPath: Library\Artifacts\8c\8c359def0d7ba35149b7a57cdbdcb3cb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8cc38a4a1a12bdd212559db7b1232ec7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\8c\8cc38a4a1a12bdd212559db7b1232ec7
+    projectPath: Library\Artifacts\8c\8cc38a4a1a12bdd212559db7b1232ec7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\90\90ce8bf37c84f944f8a6d96d6e1d3e7f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\90\90ce8bf37c84f944f8a6d96d6e1d3e7f
+    projectPath: Library\Artifacts\90\90ce8bf37c84f944f8a6d96d6e1d3e7f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\91\91a519995a49f30b1ed2ba2a0716276d
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\91\91a519995a49f30b1ed2ba2a0716276d
+    projectPath: Library\Artifacts\91\91a519995a49f30b1ed2ba2a0716276d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\93\93a447ad6dbd94dab29b8d980c184a94
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\93\93a447ad6dbd94dab29b8d980c184a94
+    projectPath: Library\Artifacts\93\93a447ad6dbd94dab29b8d980c184a94
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\94\940d292c157447711ee23169de65f040
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\94\940d292c157447711ee23169de65f040
+    projectPath: Library\Artifacts\94\940d292c157447711ee23169de65f040
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\94\94d70bd68aa255124b4094945156dbdd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\94\94d70bd68aa255124b4094945156dbdd
+    projectPath: Library\Artifacts\94\94d70bd68aa255124b4094945156dbdd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\96\967674d1cac7f37aa8f8fab468aa012e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\96\967674d1cac7f37aa8f8fab468aa012e
+    projectPath: Library\Artifacts\96\967674d1cac7f37aa8f8fab468aa012e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\97\97180b3d49a8b29fa217e4f5dd73b552
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\97\97180b3d49a8b29fa217e4f5dd73b552
+    projectPath: Library\Artifacts\97\97180b3d49a8b29fa217e4f5dd73b552
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\99\991e21400c1259910abb439cbccc2832
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\99\991e21400c1259910abb439cbccc2832
+    projectPath: Library\Artifacts\99\991e21400c1259910abb439cbccc2832
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9b\9b0132380f2f5298f32105a2315de1df
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9b\9b0132380f2f5298f32105a2315de1df
+    projectPath: Library\Artifacts\9b\9b0132380f2f5298f32105a2315de1df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9b\9b079dd27d3eb3b5ec4eb861f65d7841
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9b\9b079dd27d3eb3b5ec4eb861f65d7841
+    projectPath: Library\Artifacts\9b\9b079dd27d3eb3b5ec4eb861f65d7841
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9b\9bd8963c85e1f979a5b1745caf560258
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9b\9bd8963c85e1f979a5b1745caf560258
+    projectPath: Library\Artifacts\9b\9bd8963c85e1f979a5b1745caf560258
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9c\9cae1e6b2a0642355621750631f37fbe
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9c\9cae1e6b2a0642355621750631f37fbe
+    projectPath: Library\Artifacts\9c\9cae1e6b2a0642355621750631f37fbe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9e\9e05b94e59d549aaf96c8515b8328cf7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9e\9e05b94e59d549aaf96c8515b8328cf7
+    projectPath: Library\Artifacts\9e\9e05b94e59d549aaf96c8515b8328cf7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9f\9fbf37ebcab48dfa3a1abe1c5ecbcaa4
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9f\9fbf37ebcab48dfa3a1abe1c5ecbcaa4
+    projectPath: Library\Artifacts\9f\9fbf37ebcab48dfa3a1abe1c5ecbcaa4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a0\a08cbc76886c6b25e8cb975d6da089ed
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a0\a08cbc76886c6b25e8cb975d6da089ed
+    projectPath: Library\Artifacts\a0\a08cbc76886c6b25e8cb975d6da089ed
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a1\a192a378795ad2ac9bfa52c9e7a64272
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a1\a192a378795ad2ac9bfa52c9e7a64272
+    projectPath: Library\Artifacts\a1\a192a378795ad2ac9bfa52c9e7a64272
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a2\a27c7ef5594b219f590c60f806235cae
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a2\a27c7ef5594b219f590c60f806235cae
+    projectPath: Library\Artifacts\a2\a27c7ef5594b219f590c60f806235cae
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a3\a3cf2b041a6915c79dc4f4d43d8dd2ba
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a3\a3cf2b041a6915c79dc4f4d43d8dd2ba
+    projectPath: Library\Artifacts\a3\a3cf2b041a6915c79dc4f4d43d8dd2ba
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a5\a52e043760dc54f7250ad6145c65eb82
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a5\a52e043760dc54f7250ad6145c65eb82
+    projectPath: Library\Artifacts\a5\a52e043760dc54f7250ad6145c65eb82
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a6\a64bdb2084ea53e0434380b023ff4f64
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a6\a64bdb2084ea53e0434380b023ff4f64
+    projectPath: Library\Artifacts\a6\a64bdb2084ea53e0434380b023ff4f64
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a6\a6ccb3c66b3c203f98928e1b5ba19f6b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a6\a6ccb3c66b3c203f98928e1b5ba19f6b
+    projectPath: Library\Artifacts\a6\a6ccb3c66b3c203f98928e1b5ba19f6b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a7\a7a1f584019ccd7e24e02a6a9edfc758
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a7\a7a1f584019ccd7e24e02a6a9edfc758
+    projectPath: Library\Artifacts\a7\a7a1f584019ccd7e24e02a6a9edfc758
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a8\a8e2c3a5c1a94b10d77192798b0028a0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a8\a8e2c3a5c1a94b10d77192798b0028a0
+    projectPath: Library\Artifacts\a8\a8e2c3a5c1a94b10d77192798b0028a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a9\a92d921f53ee49af72035338488748ba
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a9\a92d921f53ee49af72035338488748ba
+    projectPath: Library\Artifacts\a9\a92d921f53ee49af72035338488748ba
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a9\a981241568f0b0f7237681dd83a7da56
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a9\a981241568f0b0f7237681dd83a7da56
+    projectPath: Library\Artifacts\a9\a981241568f0b0f7237681dd83a7da56
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ab\abeb7996e652473e723b16ab8c0aed6f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ab\abeb7996e652473e723b16ab8c0aed6f
+    projectPath: Library\Artifacts\ab\abeb7996e652473e723b16ab8c0aed6f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ac\ac5617b2efe5c8bb4825e3f1faa313c7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ac\ac5617b2efe5c8bb4825e3f1faa313c7
+    projectPath: Library\Artifacts\ac\ac5617b2efe5c8bb4825e3f1faa313c7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ac\ac8762ea484db032aef31259f815a364
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ac\ac8762ea484db032aef31259f815a364
+    projectPath: Library\Artifacts\ac\ac8762ea484db032aef31259f815a364
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ac\acb78c40e6e5bc3c0fb6f23b8e3c1406
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ac\acb78c40e6e5bc3c0fb6f23b8e3c1406
+    projectPath: Library\Artifacts\ac\acb78c40e6e5bc3c0fb6f23b8e3c1406
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ae\ae821efb46756dd5ba46d96a0d004817
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ae\ae821efb46756dd5ba46d96a0d004817
+    projectPath: Library\Artifacts\ae\ae821efb46756dd5ba46d96a0d004817
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\af\af8106140dc27edea07b8d10dfdd06b7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\af\af8106140dc27edea07b8d10dfdd06b7
+    projectPath: Library\Artifacts\af\af8106140dc27edea07b8d10dfdd06b7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b3\b334608ed198fc3a7a8cbc0911e4d62f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b3\b334608ed198fc3a7a8cbc0911e4d62f
+    projectPath: Library\Artifacts\b3\b334608ed198fc3a7a8cbc0911e4d62f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b4\b491e055168c3dbccb6840cd24fb087a
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b4\b491e055168c3dbccb6840cd24fb087a
+    projectPath: Library\Artifacts\b4\b491e055168c3dbccb6840cd24fb087a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b6\b699aea72f81d8d51ebe6ecaab77b400
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b6\b699aea72f81d8d51ebe6ecaab77b400
+    projectPath: Library\Artifacts\b6\b699aea72f81d8d51ebe6ecaab77b400
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b8\b8544c3debe7c4a893e3e5a2b2eb0d18
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b8\b8544c3debe7c4a893e3e5a2b2eb0d18
+    projectPath: Library\Artifacts\b8\b8544c3debe7c4a893e3e5a2b2eb0d18
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b8\b8c044922e1cc95838e6c55242c5e50e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b8\b8c044922e1cc95838e6c55242c5e50e
+    projectPath: Library\Artifacts\b8\b8c044922e1cc95838e6c55242c5e50e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b9\b985182f3961a4a0f4c2952042bffc87
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b9\b985182f3961a4a0f4c2952042bffc87
+    projectPath: Library\Artifacts\b9\b985182f3961a4a0f4c2952042bffc87
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b9\b991dad32090716c557b321b28937995
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\b9\b991dad32090716c557b321b28937995
+    projectPath: Library\Artifacts\b9\b991dad32090716c557b321b28937995
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ba\ba652208ad830feff829d2896bc4124c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ba\ba652208ad830feff829d2896bc4124c
+    projectPath: Library\Artifacts\ba\ba652208ad830feff829d2896bc4124c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bb\bb160059880448385270108d522e5994
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bb\bb160059880448385270108d522e5994
+    projectPath: Library\Artifacts\bb\bb160059880448385270108d522e5994
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bb\bbad629a557bbd916765f1edfb943e23
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bb\bbad629a557bbd916765f1edfb943e23
+    projectPath: Library\Artifacts\bb\bbad629a557bbd916765f1edfb943e23
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bb\bbf63f2e5c276354321d0532ba60468b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bb\bbf63f2e5c276354321d0532ba60468b
+    projectPath: Library\Artifacts\bb\bbf63f2e5c276354321d0532ba60468b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bc\bce0d1a0e44fe9fc0bfd2d114fabf92f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bc\bce0d1a0e44fe9fc0bfd2d114fabf92f
+    projectPath: Library\Artifacts\bc\bce0d1a0e44fe9fc0bfd2d114fabf92f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bd\bd48c94835bef253186b56000b606950
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bd\bd48c94835bef253186b56000b606950
+    projectPath: Library\Artifacts\bd\bd48c94835bef253186b56000b606950
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\be\be0f01f24d4ed6966ed5490e016a84fd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\be\be0f01f24d4ed6966ed5490e016a84fd
+    projectPath: Library\Artifacts\be\be0f01f24d4ed6966ed5490e016a84fd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bf\bf1601f1e7d28c5a9771db0bf16de676
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bf\bf1601f1e7d28c5a9771db0bf16de676
+    projectPath: Library\Artifacts\bf\bf1601f1e7d28c5a9771db0bf16de676
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c0\c032c78759362cd435fc5a6b736278ef
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c0\c032c78759362cd435fc5a6b736278ef
+    projectPath: Library\Artifacts\c0\c032c78759362cd435fc5a6b736278ef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c2\c22384b65907481f9fd8128c1eddf3d7
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c2\c22384b65907481f9fd8128c1eddf3d7
+    projectPath: Library\Artifacts\c2\c22384b65907481f9fd8128c1eddf3d7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c7\c73e871becf14d9073a6fb3db5ce5a42
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c7\c73e871becf14d9073a6fb3db5ce5a42
+    projectPath: Library\Artifacts\c7\c73e871becf14d9073a6fb3db5ce5a42
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c7\c776f97b7cc0ea948f96659640bd71aa
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c7\c776f97b7cc0ea948f96659640bd71aa
+    projectPath: Library\Artifacts\c7\c776f97b7cc0ea948f96659640bd71aa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c8\c8648a0b5bd17136b579d7ccf3b73871
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c8\c8648a0b5bd17136b579d7ccf3b73871
+    projectPath: Library\Artifacts\c8\c8648a0b5bd17136b579d7ccf3b73871
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c8\c88760fa6f3fde066a8b749fc4609361
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c8\c88760fa6f3fde066a8b749fc4609361
+    projectPath: Library\Artifacts\c8\c88760fa6f3fde066a8b749fc4609361
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c9\c91c4d1fa3512866dcc7ef3b57c6c3ad
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c9\c91c4d1fa3512866dcc7ef3b57c6c3ad
+    projectPath: Library\Artifacts\c9\c91c4d1fa3512866dcc7ef3b57c6c3ad
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c9\c9796b11ae0a7f505a8ed29ce73cf98d
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\c9\c9796b11ae0a7f505a8ed29ce73cf98d
+    projectPath: Library\Artifacts\c9\c9796b11ae0a7f505a8ed29ce73cf98d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cb\cbe55094395fb73d34c911c04f75348d
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\cb\cbe55094395fb73d34c911c04f75348d
+    projectPath: Library\Artifacts\cb\cbe55094395fb73d34c911c04f75348d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cc\cc3a7068b74a8d780660bd4210c988ce
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\cc\cc3a7068b74a8d780660bd4210c988ce
+    projectPath: Library\Artifacts\cc\cc3a7068b74a8d780660bd4210c988ce
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cd\cd9e3d108642080b73bcfe44ae4f05d5
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\cd\cd9e3d108642080b73bcfe44ae4f05d5
+    projectPath: Library\Artifacts\cd\cd9e3d108642080b73bcfe44ae4f05d5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d1\d16246c4eb4790952e89a55a8bac0c83
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d1\d16246c4eb4790952e89a55a8bac0c83
+    projectPath: Library\Artifacts\d1\d16246c4eb4790952e89a55a8bac0c83
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d2\d289e9988c048c1907312b0d2a58fe3e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d2\d289e9988c048c1907312b0d2a58fe3e
+    projectPath: Library\Artifacts\d2\d289e9988c048c1907312b0d2a58fe3e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d4\d4cd9e9d751a451126da7742e8351b67
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d4\d4cd9e9d751a451126da7742e8351b67
+    projectPath: Library\Artifacts\d4\d4cd9e9d751a451126da7742e8351b67
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d5\d5c01f45d3368345ab666cb16afb9d24
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d5\d5c01f45d3368345ab666cb16afb9d24
+    projectPath: Library\Artifacts\d5\d5c01f45d3368345ab666cb16afb9d24
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d6\d622b6357c547f36e7886cf99a72d2b8
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d6\d622b6357c547f36e7886cf99a72d2b8
+    projectPath: Library\Artifacts\d6\d622b6357c547f36e7886cf99a72d2b8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d7\d77ecd108646e5faa199983bb4b83ebf
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d7\d77ecd108646e5faa199983bb4b83ebf
+    projectPath: Library\Artifacts\d7\d77ecd108646e5faa199983bb4b83ebf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d9\d904ca5c50f4e462f4cb4a88c9fc9f64
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d9\d904ca5c50f4e462f4cb4a88c9fc9f64
+    projectPath: Library\Artifacts\d9\d904ca5c50f4e462f4cb4a88c9fc9f64
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d9\d9536230fed6ec2f254fea86015afb08
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\d9\d9536230fed6ec2f254fea86015afb08
+    projectPath: Library\Artifacts\d9\d9536230fed6ec2f254fea86015afb08
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\de\de5a4cf468a5d880f4dc5b88cc513947
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\de\de5a4cf468a5d880f4dc5b88cc513947
+    projectPath: Library\Artifacts\de\de5a4cf468a5d880f4dc5b88cc513947
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\df3048b4f376306599fd26fc4bdcb3ef
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\df\df3048b4f376306599fd26fc4bdcb3ef
+    projectPath: Library\Artifacts\df\df3048b4f376306599fd26fc4bdcb3ef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\df\df8ad676ef027e9d8fbcd8ff52ec621b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\df\df8ad676ef027e9d8fbcd8ff52ec621b
+    projectPath: Library\Artifacts\df\df8ad676ef027e9d8fbcd8ff52ec621b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e0\e0599344f2fa647a2e8ec2e538eb7a8b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e0\e0599344f2fa647a2e8ec2e538eb7a8b
+    projectPath: Library\Artifacts\e0\e0599344f2fa647a2e8ec2e538eb7a8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e1\e154e9f912eacacfd3de938f1e8db659
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e1\e154e9f912eacacfd3de938f1e8db659
+    projectPath: Library\Artifacts\e1\e154e9f912eacacfd3de938f1e8db659
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e1\e184901708a26a1c9f57a4c811faf21f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e1\e184901708a26a1c9f57a4c811faf21f
+    projectPath: Library\Artifacts\e1\e184901708a26a1c9f57a4c811faf21f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e1\e18ffc5254ea58d8f3dbbaed3cf784df
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e1\e18ffc5254ea58d8f3dbbaed3cf784df
+    projectPath: Library\Artifacts\e1\e18ffc5254ea58d8f3dbbaed3cf784df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e2\e2c07b49348d167b759e556f3d1f00ea
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e2\e2c07b49348d167b759e556f3d1f00ea
+    projectPath: Library\Artifacts\e2\e2c07b49348d167b759e556f3d1f00ea
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e49cc5d2a557509acb9fded8fba889b1
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e4\e49cc5d2a557509acb9fded8fba889b1
+    projectPath: Library\Artifacts\e4\e49cc5d2a557509acb9fded8fba889b1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e4b83302f88385498e1dd1a0cced4cdd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e4\e4b83302f88385498e1dd1a0cced4cdd
+    projectPath: Library\Artifacts\e4\e4b83302f88385498e1dd1a0cced4cdd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e565a5b52a3d4f9e5f8f7f51c3d2e7ee
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e5\e565a5b52a3d4f9e5f8f7f51c3d2e7ee
+    projectPath: Library\Artifacts\e5\e565a5b52a3d4f9e5f8f7f51c3d2e7ee
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e57f31884c8579d957449ab5603098dd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e5\e57f31884c8579d957449ab5603098dd
+    projectPath: Library\Artifacts\e5\e57f31884c8579d957449ab5603098dd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e58635dcea93ea4dd724a019d05b8f91
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e5\e58635dcea93ea4dd724a019d05b8f91
+    projectPath: Library\Artifacts\e5\e58635dcea93ea4dd724a019d05b8f91
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e7\e7a013396aa74059541c80f82658c373
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e7\e7a013396aa74059541c80f82658c373
+    projectPath: Library\Artifacts\e7\e7a013396aa74059541c80f82658c373
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e7\e7b43838f3874e59bbadb2759d571d54
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\e7\e7b43838f3874e59bbadb2759d571d54
+    projectPath: Library\Artifacts\e7\e7b43838f3874e59bbadb2759d571d54
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\eb\eb2dafa738794ea926f371d4a58ddcca
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\eb\eb2dafa738794ea926f371d4a58ddcca
+    projectPath: Library\Artifacts\eb\eb2dafa738794ea926f371d4a58ddcca
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ec\ec475fb1ddcb9b9d362c3d4529c0e84e
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ec\ec475fb1ddcb9b9d362c3d4529c0e84e
+    projectPath: Library\Artifacts\ec\ec475fb1ddcb9b9d362c3d4529c0e84e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ed\edacd56ced91f1ef3723ac57133fc6bd
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ed\edacd56ced91f1ef3723ac57133fc6bd
+    projectPath: Library\Artifacts\ed\edacd56ced91f1ef3723ac57133fc6bd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ee\eeae11653de15f736a288f7840b6b2dc
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\ee\eeae11653de15f736a288f7840b6b2dc
+    projectPath: Library\Artifacts\ee\eeae11653de15f736a288f7840b6b2dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f1\f138aa2ef58c2fa2ed73ab12e83ea25f
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f1\f138aa2ef58c2fa2ed73ab12e83ea25f
+    projectPath: Library\Artifacts\f1\f138aa2ef58c2fa2ed73ab12e83ea25f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f8\f858bad7d5c60403704ba95aa6c23711
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f8\f858bad7d5c60403704ba95aa6c23711
+    projectPath: Library\Artifacts\f8\f858bad7d5c60403704ba95aa6c23711
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f9\f98fd917352f9b732edf672fd31cacb3
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f9\f98fd917352f9b732edf672fd31cacb3
+    projectPath: Library\Artifacts\f9\f98fd917352f9b732edf672fd31cacb3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fa\fa4fb8a3a6f61529ecc363bff9c0a18d
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\fa\fa4fb8a3a6f61529ecc363bff9c0a18d
+    projectPath: Library\Artifacts\fa\fa4fb8a3a6f61529ecc363bff9c0a18d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fb\fb85de708c051d8be3efc4f1ad6097ec
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\fb\fb85de708c051d8be3efc4f1ad6097ec
+    projectPath: Library\Artifacts\fb\fb85de708c051d8be3efc4f1ad6097ec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fc\fc1e4e5fccc98583236bf94588e477ff
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\fc\fc1e4e5fccc98583236bf94588e477ff
+    projectPath: Library\Artifacts\fc\fc1e4e5fccc98583236bf94588e477ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fd\fd3f276b29cc5cac59f3df42cf927442
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\fd\fd3f276b29cc5cac59f3df42cf927442
+    projectPath: Library\Artifacts\fd\fd3f276b29cc5cac59f3df42cf927442
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\post-processed\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\backend_profiler0.traceevents
+    fullPath: C:\Users\dante\FZ3\Library\Bee\backend_profiler0.traceevents
+    projectPath: Library\Bee\backend_profiler0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\fullprofile.json
+    fullPath: C:\Users\dante\FZ3\Library\Bee\fullprofile.json
+    projectPath: Library\Bee\fullprofile.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\tundra.digestcache
+    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.digestcache
+    projectPath: Library\Bee\tundra.digestcache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\tundra.log.json
+    fullPath: C:\Users\dante\FZ3\Library\Bee\tundra.log.json
+    projectPath: Library\Bee\tundra.log.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\TundraBuildState.state
+    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state
+    projectPath: Library\Bee\TundraBuildState.state
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\TundraBuildState.state.map
+    fullPath: C:\Users\dante\FZ3\Library\Bee\TundraBuildState.state.map
+    projectPath: Library\Bee\TundraBuildState.state.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\BurstCache\JIT\CacheManifest.json
+    fullPath: C:\Users\dante\FZ3\Library\BurstCache\JIT\CacheManifest.json
+    projectPath: Library\BurstCache\JIT\CacheManifest.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\expandedItems
+    fullPath: C:\Users\dante\FZ3\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,9 +3463,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\dante\FZ3\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\dante\FZ3\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\dante\FZ3\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,15 +3499,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\dante\FZ3\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: C:\Users\dante\FZ3\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
+    fullPath: C:\Users\dante\FZ3\Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
+    projectPath: Library\StateCache\MainStageHierarchy\f8\f83e92af91ad8f96cd226475f52c1938.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     fullPath: C:\Users\dante\FZ3\Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
     projectPath: Library\StateCache\SceneView\f7\f74f630ca9eee5c2891480d22051d0f6.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\dante\FZ3\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UserSettings\Layouts\default-2021.dwlt
+    fullPath: C:\Users\dante\FZ3\UserSettings\Layouts\default-2021.dwlt
+    projectPath: UserSettings\Layouts\default-2021.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

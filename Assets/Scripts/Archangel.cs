@@ -61,9 +61,12 @@ public class Archangel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = 60000;
-        health = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
+        HealthBar healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
+
 
         bossSprite = GetComponent<SpriteRenderer>();
         //rb = GetComponent<Rigidbody2D>();

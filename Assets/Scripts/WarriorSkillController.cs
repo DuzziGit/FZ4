@@ -107,7 +107,7 @@ public class WarriorSkillController : PlayerMovement
   maxHealth = level * 150;
         healthPotionValue = level * 10;
         currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
+      //  healthBar.setMaxHealth(maxHealth);
               
        textCooldownS1.gameObject.SetActive(false);
       imageCooldownS1.fillAmount = 0.0f;
@@ -164,8 +164,8 @@ public class WarriorSkillController : PlayerMovement
 
        HealthDisplayText.text = "" + currentHealth.ToString() + " / " + maxHealth.ToString();
         maxExp = level * 23;
-        healthBar.setMaxHealth(maxHealth);
-        healthBar.SetHealth(currentHealth);
+     //   healthBar.setMaxHealth(maxHealth);
+    //    healthBar.SetHealth(currentHealth);
 
         experienceBar.SetExperience(currentExp);
 
@@ -363,14 +363,14 @@ public class WarriorSkillController : PlayerMovement
                
 
                    currentHealth += level * 10;
-                     healthBar.setMaxHealth(maxHealth);
-                     healthBar.SetHealth(currentHealth);
+                //     healthBar.setMaxHealth(maxHealth);
+                //     healthBar.SetHealth(currentHealth);
                        yield return new WaitForSeconds(4.5F);
 
 
                     currentHealth = maxHealth;
-                       healthBar.setMaxHealth(maxHealth);
-                     healthBar.SetHealth(currentHealth);
+                 //      healthBar.setMaxHealth(maxHealth);
+                //     healthBar.SetHealth(currentHealth);
                     yield return null;
 
                 }

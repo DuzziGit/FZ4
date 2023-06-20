@@ -62,10 +62,12 @@ public class Cherub : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = 24000;
-        health = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
-        bossSprite = GetComponent<SpriteRenderer>();
+        HealthBar healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
+
 
         rb.velocity = new Vector3(-speed, 1, 0);
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;

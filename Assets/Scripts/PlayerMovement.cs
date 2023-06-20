@@ -110,9 +110,14 @@ public class PlayerMovement : MonoBehaviour
         if (currentHealth > maxHealth)
 		{
         currentHealth = maxHealth;
-        healthBar.SetHealth(currentHealth);
+            HealthBar healthBar = FindObjectOfType<HealthBar>();
+            if (healthBar != null)
+            {
+                healthBar.SetMaxHealth(maxHealth);
+            }
 
-		} else if (currentHealth <= 0)
+        }
+        else if (currentHealth <= 0)
 		{
             playerHasDied = true;
             playerDeath();
@@ -155,7 +160,8 @@ public class PlayerMovement : MonoBehaviour
     private void playerDeath()
     {
 
-        Debug.Log("Player Died");
+       //
+       //Debug.Log("Player Died");
      //   scenemanager.loadscene("hub world");
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().gravityScale = 0.85f;
         GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector3(-2, -1, 0);
@@ -261,8 +267,8 @@ public class PlayerMovement : MonoBehaviour
              experienceBar.SetExperience(currentExp);
              Debug.Log("Current EXP " + currentExp);
             currentHealth = maxHealth + 100;
-            healthBar.setMaxHealth(maxHealth);
-            healthBar.SetHealth(currentHealth);
+        //    healthBar.setMaxHealth(maxHealth);
+      //      healthBar.SetHealth(currentHealth);
             upgradeButtons.SetActive(true);
 
         }
@@ -344,7 +350,12 @@ public class PlayerMovement : MonoBehaviour
         {
             PositionPlayer("HW-B");
             currentHealth = maxHealth / 4;
-            healthBar.SetHealth(currentHealth);
+            HealthBar healthBar = FindObjectOfType<HealthBar>();
+            if (healthBar != null)
+            {
+                healthBar.SetMaxHealth(maxHealth);
+            }
+
             playerHasDied = false;
         }
         else

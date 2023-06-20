@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Enemy Touching Player");
+           // Debug.Log("Enemy Touching Player");
             isTouchingPlayer = true;
         }
     }
@@ -68,7 +68,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Enemy Not Touching Player");
+          //  Debug.Log("Enemy Not Touching Player");
             isTouchingPlayer = false;
         }
     }
@@ -104,7 +104,7 @@ public class Enemy : MonoBehaviour
         if (transform.position.x - GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x < 0.2f)
 		{
             rb.velocity = new Vector3(0, 0, 0);
-            Debug.Log("on top");
+         //   Debug.Log("on top");
         } else
         /*
         if (isAggroed && enemyWall.collider == true)
@@ -120,8 +120,8 @@ public class Enemy : MonoBehaviour
 
                 //Move Left
                 // rb.velocity = new Vector2(-moveSpeed, 0);
-                //   rb.velocity = new Vector3(-moveSpeed, rb.velocity.y);
-                Debug.Log("going left");
+               //   rb.velocity = new Vector3(-moveSpeed, rb.velocity.y);
+               // Debug.Log("going left");
                 rb.velocity = new Vector3(-speed, rb.velocity.y, 0);
                 enemySprite.flipX = true;
                 movingRight = false;
@@ -135,7 +135,7 @@ public class Enemy : MonoBehaviour
             //Move Right
             //rb.velocity = new Vector2(moveSpeed, 0);
             // rb.velocity = new Vector3(moveSpeed, rb.velocity.y);
-            Debug.Log("going right");
+        //    Debug.Log("going right");
                 rb.velocity = new Vector3(speed, rb.velocity.y, 0);
                 enemySprite.flipX = false;
                 movingRight = true;
@@ -151,7 +151,7 @@ public class Enemy : MonoBehaviour
         if (health <= 0) {
 
                   EnemySpawner.currentEnemies -= 1;
-                  Debug.Log("Current Enemies" + EnemySpawner.currentEnemies);
+                 // Debug.Log("Current Enemies" + EnemySpawner.currentEnemies);
             ExperienceController exp = Instantiate(expObject, transform.position, transform.rotation);
             ExperienceController.experience = expValue;
             coinController coin = Instantiate(coinObject, new Vector3(transform.position.x + 0.3f, transform.position.y, transform.position.z) , transform.rotation);
@@ -224,13 +224,6 @@ public class Enemy : MonoBehaviour
 	}
 
 
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        Debug.Log("Damage Taken" + damage); 
-        Debug.Log("Current Health" + health);
-
-    }
 
 
 

@@ -105,12 +105,13 @@ public class RogueSkillController: PlayerMovement  {
 
     // Start is called before the first frame update
     void Start() {
-       maxHealth = level * 100;
-        healthPotionValue = level * 10;
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
-      
-       textCooldownS1.gameObject.SetActive(false);
+        HealthBar healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
+
+        textCooldownS1.gameObject.SetActive(false);
       imageCooldownS1.fillAmount = 0.0f;
        textCooldownS2.gameObject.SetActive(false);
       imageCooldownS2.fillAmount = 0.0f;
@@ -142,10 +143,7 @@ public class RogueSkillController: PlayerMovement  {
         maxExp = level * 60;
 
 
-        //set the health bar to the current health of the player
-        healthBar.setMaxHealth(maxHealth);
-        healthBar.SetHealth(currentHealth);
-      
+
 
         experienceBar.SetExperience(currentExp);
         cooldownTimeSkill3Upgraded = cooldownTimeSkill3 - this.GetComponent<PlayerMovement>().skillThreeLevel;
@@ -292,10 +290,11 @@ public void MovementSkill() {
      if (Time.time > nextFireTimeSkill1) {
 
     if (Input.GetKeyDown(KeyCode.A)) {
-      Debug.Log("The first skill has been used");
-      // start the timer and release the skill 
-      StartCoroutine(firstSkill());
-                    nextFireTimeSkill1 = Time.time + cooldownTimeSkill1;
+                // Debug.Log("The first skill has been used");
+                // start the timer and release the skill 
+                //  StartCoroutine(firstSkill());
+                Instantiate(projectile, attackPos.position, attackPos.rotation);
+                nextFireTimeSkill1 = Time.time + cooldownTimeSkill1;
        textCooldownS1.gameObject.SetActive(true);
       cooldownTimerS1 = cooldownTimeSkill1;
 

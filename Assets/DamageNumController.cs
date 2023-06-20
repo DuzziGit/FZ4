@@ -50,7 +50,7 @@ public class DamageNumController : MonoBehaviour
         tmpComponent = GetComponent<TMP_Text>();
       
             tmpComponent.text = damage.ToString();
-            Debug.Log("The damage should be displayed as " + damage);
+         //   Debug.Log("The damage should be displayed as " + damage);
         
     }
 }

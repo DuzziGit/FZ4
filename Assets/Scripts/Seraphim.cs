@@ -77,10 +77,11 @@ public class Seraphim : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = 60000;
-        health = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
-        Debug.Log("Seraphim Spawned");
+        HealthBar healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
 
         rb.velocity = new Vector3(0, -ySpeed, 0);
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;

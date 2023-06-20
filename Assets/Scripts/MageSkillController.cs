@@ -94,11 +94,11 @@ public class MageSkillController : PlayerMovement
     public bool cooldown;
 
         void Start() {
-        
-        maxHealth = level * 100;
-        healthPotionValue = level * 10;
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
+        HealthBar healthBar = FindObjectOfType<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
 
         textCooldownS1.gameObject.SetActive(false);
       imageCooldownS1.fillAmount = 0.0f;
@@ -128,8 +128,8 @@ public class MageSkillController : PlayerMovement
 
 
         //set the health bar to the current health of the player
-           healthBar.setMaxHealth(maxHealth);
-        healthBar.SetHealth(currentHealth);
+
+
         experienceBar.SetExperience(currentExp);
 
 
