@@ -26,49 +26,76 @@ public class RogueSkillController: PlayerMovement  {
 
 
 
+    [HideInInspector]
 
-  public Transform RogueUltPos;
-  public Transform RogueUltPos1;
-  public Transform RogueUltPos2;
-  public Transform RogueUltPos3;
-  public Transform RogueUltPos4;
-  public Transform RogueUltPos5;
-  public Transform RogueUltPos6;
-  public Transform RogueUltPos7;
-  public Transform RogueUltPos8;
-  public Transform RogueUltPos9;
-  public Transform RogueUltPos10;
-  public Transform RogueUltPos11;
-  public Transform RogueUltPos12;
-  public Transform RogueUltPos13;
-  public Transform RogueUltPos14;
+    public Transform RogueUltPos;
+    [HideInInspector]
+    public Transform RogueUltPos1;
+    [HideInInspector]
+    public Transform RogueUltPos2;
+    [HideInInspector]
+    public Transform RogueUltPos3;
+    [HideInInspector]
+    public Transform RogueUltPos4;
+    [HideInInspector]
+    public Transform RogueUltPos5;
+    [HideInInspector]
+    public Transform RogueUltPos6;
+    [HideInInspector]
+    public Transform RogueUltPos7;
+    [HideInInspector]
+    public Transform RogueUltPos8;
+    [HideInInspector]
+    public Transform RogueUltPos9;
+    [HideInInspector]
+    public Transform RogueUltPos10;
+    [HideInInspector]
+    public Transform RogueUltPos11;
+    [HideInInspector]
+    public Transform RogueUltPos12;
+    [HideInInspector]
+    public Transform RogueUltPos13;
+    [HideInInspector]
+    public Transform RogueUltPos14;
 
     public float horizontalMove = 0f;
     public float runSpeed = 40f;
 
-      
+
+    [HideInInspector]
 
     [SerializeField]
     private Image imageCooldownS1;
+
+    [HideInInspector]
     [SerializeField]
     private TMP_Text textCooldownS1;
-     [SerializeField]
+    [HideInInspector]
+    [SerializeField]
     private Image imageCooldownS2;
+    [HideInInspector]
     [SerializeField]
     private TMP_Text textCooldownS2;
+    [HideInInspector]
     [SerializeField]
     private Image imageCooldownS3;
+    [HideInInspector]
     [SerializeField]
     private TMP_Text textCooldownS3;
     [SerializeField]
+    [HideInInspector]
     private Image imageCooldownSM;
     [SerializeField]
+    [HideInInspector]
     private TMP_Text textCooldownSM;
     [SerializeField]
+    [HideInInspector]
     private Image imageCooldownSU;
     [SerializeField]
+    [HideInInspector]
     private TMP_Text textCooldownSU;
     [SerializeField]
+    [HideInInspector]
     private TMP_Text healthPotionText;
 
 
@@ -91,7 +118,9 @@ public class RogueSkillController: PlayerMovement  {
 
    public float cooldownTimeSkillUlt = 2;
    private float nextFireTimeSkillUlt = 0;
-    public Animator ThreeStars;
+    public Animator SwipeOne;
+    public Animator SwipeTwo;
+
     public Animator animator;
   Renderer rend;
   Color c;
@@ -296,7 +325,8 @@ public void MovementSkill() {
                 nextFireTimeSkill1 = Time.time + cooldownTimeSkill1;
        textCooldownS1.gameObject.SetActive(true);
       cooldownTimerS1 = cooldownTimeSkill1;
-                ThreeStars.SetBool("3Stars", true);
+                SwipeOne.SetBool("SwipeOne", true);
+                SwipeTwo.SetBool("SwipeTwo", true);
 
 
             }
@@ -312,8 +342,8 @@ public void MovementSkill() {
     return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
        audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.05f);
-        ThreeStars.SetBool("3Stars", false);
-
+        SwipeOne.SetBool("SwipeOne", false);
+        SwipeTwo.SetBool("SwipeTwo", false);
         yield
         return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);

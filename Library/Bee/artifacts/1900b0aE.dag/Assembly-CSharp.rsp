@@ -380,6 +380,7 @@
 "Assets/enemySpawnGen.cs"
 "Assets/fireballProjectile.cs"
 "Assets/GameController.cs"
+"Assets/HoverCharText.cs"
 "Assets/MoveUpAndDestroy.cs"
 "Assets/musicClass.cs"
 "Assets/PhealthBar.cs"

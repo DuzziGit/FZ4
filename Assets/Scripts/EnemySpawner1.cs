@@ -27,7 +27,7 @@ currentEnemies = 0;
             enemyPrefabs[randEnemy].GetComponent<Enemy>().level = randomLevel;
             enemyPrefabs[randEnemy].GetComponent<Enemy>().health = randomLevel * 150;
             enemyPrefabs[randEnemy].GetComponent<Enemy>().expValue = randomLevel * 2;
-            enemyPrefabs[randEnemy].GetComponent<Enemy>().coinValue = randomLevel * 20;
+           // enemyPrefabs[randEnemy].GetComponent<Enemy>().coinValue = randomLevel * 20;
            // enemyPrefabs[randEnemy].GetComponent<Enemy>().damage = randomLevel * 20;
             currentEnemies++;
              Debug.Log("Current Enemies updated" + currentEnemies);

@@ -41,20 +41,20 @@ public class Skeleton : Enemy
     }
     void Update()
     {
-        Debug.Log("max health" + maxHealth);
-        Debug.Log("Current Health: " + health);
+      //  Debug.Log("max health" + maxHealth);
+     //   Debug.Log("Current Health: " + health);
     }
     public void TakeDamage(int damage)
     {
         health -= damage;
-       Debug.Log("Damage Taken: " + damage);
+      // Debug.Log("Damage Taken: " + damage);
         StartCoroutine(DamageDisplay(damage));
         // Damage calculation and other logic
         if (healthBar != null)
         {
             healthBar.SetHealth(health);
-            Debug.Log("max health" + maxHealth);
-            Debug.Log("Current Health: " + health);
+       //     Debug.Log("max health" + maxHealth);
+   //         Debug.Log("Current Health: " + health);
         }
 
         // Trigger the flashing animation

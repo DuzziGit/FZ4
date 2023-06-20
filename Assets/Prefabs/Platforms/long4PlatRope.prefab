@@ -258,18 +258,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: smallPlat
       objectReference: {fileID: 0}
-    - target: {fileID: 1666018121723319685, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1666018121723319685, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
-      propertyPath: m_UseOneWayGrouping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
 --- !u!4 &4107429349642836513 stripped
@@ -331,6 +319,10 @@ PrefabInstance:
     - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Name
       value: smallPlat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319685, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled
@@ -405,6 +397,10 @@ PrefabInstance:
     - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Name
       value: smallPlat (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319685, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled
@@ -653,6 +649,10 @@ PrefabInstance:
     - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Name
       value: smallPlat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666018121723319681, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319685, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled

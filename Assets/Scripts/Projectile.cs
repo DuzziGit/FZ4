@@ -149,6 +149,6 @@ public class Projectile : MonoBehaviour
     void DestroyProjectile()
     {
         Destroy(gameObject);
-        Debug.Log(skillLevel);
+     //   Debug.Log(skillLevel);
     }
 }
