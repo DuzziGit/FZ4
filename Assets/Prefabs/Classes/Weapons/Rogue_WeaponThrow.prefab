@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58f7cc5070674c48839506f7e72d037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 80
+  speed: 120
   lifeTime: 1.5
   detectionRange: 30
   maxDistance: 3000
@@ -111,6 +111,7 @@ MonoBehaviour:
   skillLevel: 0
   critChance: 0
   critMultiplier: 0
+  targetingToleranceAngle: 30
 --- !u!61 &-6372197727346592635
 BoxCollider2D:
   m_ObjectHideFlags: 0

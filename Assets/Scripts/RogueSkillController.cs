@@ -292,8 +292,7 @@ public void MovementSkill() {
     if (Input.GetKeyDown(KeyCode.A)) {
                 // Debug.Log("The first skill has been used");
                 // start the timer and release the skill 
-                //  StartCoroutine(firstSkill());
-                Instantiate(projectile, attackPos.position, attackPos.rotation);
+                  StartCoroutine(firstSkill());
                 nextFireTimeSkill1 = Time.time + cooldownTimeSkill1;
        textCooldownS1.gameObject.SetActive(true);
       cooldownTimerS1 = cooldownTimeSkill1;
@@ -306,26 +305,24 @@ public void MovementSkill() {
 
   IEnumerator firstSkill() {
     Instantiate(projectile, attackPos.position, attackPos.rotation);
-     audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.7f);
+     audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.4f);
 
     // create 3 prefabs and release them on a timer so they all "throw" seperatly 
     yield
-    return new WaitForSeconds(0.08F);
+    return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
-       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.5f);
+       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.05f);
 
     yield
-    return new WaitForSeconds(0.08F);
+    return new WaitForSeconds(0.05F);
     Instantiate(projectile, attackPos.position, attackPos.rotation);
-       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.5f);
+       audiosource.PlayOneShot(ThrowingStarSoundEffect, 0.05f);
+ 
+    }
 
+    // Second Skill
 
-
-  }
-
-  // Second Skill
-
-  public void GetSecondSkillInput() {
+    public void GetSecondSkillInput() {
      if (Time.time > nextFireTimeSkill2) {
 
     if (Input.GetKeyDown(KeyCode.S)) {

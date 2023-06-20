@@ -146,19 +146,25 @@ public class Enemy : MonoBehaviour
 
 
 
-    private void FixedUpdate() { 
+    private void FixedUpdate() {
+        if (health <= 0)
+        {
 
-        if (health <= 0) {
+            EnemySpawner.currentEnemies -= 1;
 
-                  EnemySpawner.currentEnemies -= 1;
-                 // Debug.Log("Current Enemies" + EnemySpawner.currentEnemies);
-            ExperienceController exp = Instantiate(expObject, transform.position, transform.rotation);
-            ExperienceController.experience = expValue;
-            coinController coin = Instantiate(coinObject, new Vector3(transform.position.x + 0.3f, transform.position.y, transform.position.z) , transform.rotation);
-            coinController.coin = coinValue;
+            GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+            foreach (GameObject player in players)
+            {
+                PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+                if (playerMovement != null)
+                {
+                    playerMovement.GainExperience(expValue);
+                }
+            }
 
             Destroy(gameObject);
-            }
+        }
+
 
         float distanceToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position);
 

@@ -86,8 +86,9 @@ public class PlayerMovement : MonoBehaviour
     public int coins;
     public TMP_Text coinCount;
 
+    public int gainedExp;
 
-    
+
 
     private void Awake()
     {
@@ -99,7 +100,21 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerLevel = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<TextMesh>();
+        experienceBar.setMaxExp(maxExp);
+        GainExperience(0);  // Use GainExperience method here instead of directly accessing gainedExp variable
 
+    }
+    public void GainExperience(int gainedExp)
+    {
+        currentExp += gainedExp;
+
+        if (currentExp >= maxExp)
+        {
+            LevelUp();
+            currentExp -= maxExp;
+        }
+
+        experienceBar.SetExperience(currentExp);
     }
 
     public void UpdateHealth(int mod)
@@ -254,25 +269,19 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    public void LevelUp()
-	{
-
-        if(currentExp > maxExp && level < 60)
-		{
+  public void LevelUp()
+    {
+        if (level < 60)
+        {
             level++;
             StartCoroutine(LevelUpDelay());
             Debug.Log("Level Up! Player Level is now: " + level);
             maxExp = level * 23;
-           currentExp = 0;
-             experienceBar.SetExperience(currentExp);
-             Debug.Log("Current EXP " + currentExp);
             currentHealth = maxHealth + 100;
-        //    healthBar.setMaxHealth(maxHealth);
-      //      healthBar.SetHealth(currentHealth);
             upgradeButtons.SetActive(true);
-
         }
-	}
+    }
+	
 
     IEnumerator LevelUpDelay()
     {

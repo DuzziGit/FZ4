@@ -382,6 +382,7 @@
 "Assets/GameController.cs"
 "Assets/MoveUpAndDestroy.cs"
 "Assets/musicClass.cs"
+"Assets/PhealthBar.cs"
 "Assets/Random/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/Random/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/Random/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
