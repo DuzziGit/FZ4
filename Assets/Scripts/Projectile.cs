@@ -144,7 +144,7 @@ public class Projectile : MonoBehaviour
             // Handle other enemy types if needed
 
             hasDamaged = true;
-            Invoke("DestroyProjectile", 1f); // Delay destruction slightly after collision
+            Invoke("DestroyProjectile", 0.1f); // Delay destruction slightly after collision
             return; // Exit the method after hitting the enemy
         }
     }

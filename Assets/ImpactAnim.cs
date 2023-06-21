@@ -6,7 +6,7 @@ public class ImpactAnim : MonoBehaviour
     public GameObject hitEffect2; // Reference to the second hit effect prefab
     public Animator animation1;
     public Animator animation2;
-    public float destroyDelay = 0.1f; // Delay before destroying the projectile
+    private float destroyDelay = 0.5f; // Delay before destroying the projectile
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,8 +16,13 @@ public class ImpactAnim : MonoBehaviour
 
             // Instantiate the hit effects at the impact point
             Vector2 collisionPoint = collision.transform.position;
-            Instantiate(hitEffect, collisionPoint, Quaternion.identity);
-            Instantiate(hitEffect2, collisionPoint, Quaternion.identity);
+
+            // Get the enemy's rotation
+            Quaternion enemyRotation = collision.transform.rotation;
+
+            // Instantiate the hit effects with the enemy's position and the original scale
+            GameObject effect1 = Instantiate(hitEffect, collisionPoint, enemyRotation, this.transform);
+            GameObject effect2 = Instantiate(hitEffect2, collisionPoint, enemyRotation, this.transform);
 
             // Play the animations for the hit effects
             if (animation1 != null)
@@ -31,8 +36,11 @@ public class ImpactAnim : MonoBehaviour
                 Debug.Log("Animation 2 Played");
             }
 
-            // Destroy the projectile after a delay
-            Destroy(collision.gameObject, destroyDelay);
+            Destroy(effect1, destroyDelay); // Destroy the first hit effect after the delay
+            Destroy(effect2, destroyDelay); // Destroy the second hit effect after the delay
+
+            Destroy(collision.gameObject); // Destroy the projectile
+
         }
     }
 }
