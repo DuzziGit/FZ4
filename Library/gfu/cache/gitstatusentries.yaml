@@ -13,543 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2023-06-21T13:52:10.411-04:00
-  initializedAtString: 2023-06-21T13:06:35.575-04:00
+  lastUpdatedAtString: 2023-06-21T14:35:08.895-04:00
+  initializedAtString: 2023-06-21T14:25:58.059-04:00
   entries:
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 1 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      1 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 1 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 1 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      1 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 1 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      10 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      10 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 10 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      2 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      2 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 2 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      3 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      3 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 3 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      4 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      4 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 4 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      6 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      6 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 6 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      8 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\Background
-      8 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\Background 8 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG3 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG4 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\DAY\MBG8 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      5 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      5 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 5 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      7 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      7 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 7 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      9 layer 1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\Background
-      9 layer 1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\Background 9 layer 1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG1 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG1
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG1 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG1 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG1
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG1 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG10 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG10
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG10 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG10 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG10
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG10 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG11 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG11
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG11 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG11 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG11
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG11 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG12 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG12
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG12 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG12 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG12
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG12 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG2 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG2
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG2 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG2 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG2
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG2 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG5 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG5
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG5 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG5 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG5
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG5 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG6 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG6
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG6 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG6 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG6
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG6 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG9 layer1.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG9
-      layer1.png
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG9 layer1.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundL1\night\MBG9 layer1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundL1\night\MBG9
-      layer1.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundL1\night\MBG9 layer1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 2 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
-      2 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 2 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 4 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
-      4 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 4 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 6 layer 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
-      6 layer 3.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 6 layer
-      3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 8 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\Background
-      8 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\Background 8 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2
-      layer3.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2
-      layer3.png.meta
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG2 layer3.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3 layer5.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3
-      layer5.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG3 layer5.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4 layer7.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4
-      layer7.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG4 layer7.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG6 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Day\MBG9 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 10 layer 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
-      10 layer 3.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 10 layer
-      3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 5 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
-      5 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 5 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 6 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
-      6 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 6 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 7 layer 4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\Background
-      7 layer 4.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\Background 7 layer
-      4.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer4.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer7.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10
-      layer7.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG10 layer7.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11 layer7.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11
-      layer7.png
-    projectPath: Assets\BackgroundLayers\BackGroundLayer2\Night\MBG11 layer7.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\Background 10 layer 2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\Background
-      10 layer 2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\Background 10 layer
-      2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG2 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG4 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Day\MBG9 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      3 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer 2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      3 layer 2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 3 layer
-      2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      5 layer 3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer
-      3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer 3.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      5 layer 3.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 5 layer
-      3.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      7 layer 2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
-      2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      7 layer 2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
-      2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      7 layer 3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
-      3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer 3.png.meta
     fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
       7 layer 3.png.meta
     projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 7 layer
       3.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      9 layer 3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer
-      3.png
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -561,68 +32,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer 4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      9 layer 4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer
-      4.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer 4.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\Background
-      9 layer 4.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\Background 9 layer
-      4.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
     fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
       layer2.png.meta
     projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
-      layer5.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10
-      layer5.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG10 layer5.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11
-      layer2.png.meta
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11
-      layer3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG11 layer3.png
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -633,24 +46,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png.meta
     fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5
       layer2.png.meta
     projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG5 layer2.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer3\Night\MBG7 layer2.png
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -661,271 +60,135 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG12 layer4.png
+  - path: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1.controller
+    fullPath: C:\Users\dante\FZ3\Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1.controller
+    projectPath: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2 layer5.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2
-      layer5.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG2 layer5.png
+  - path: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1_skill.anim
+    fullPath: C:\Users\dante\FZ3\Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1_skill.anim
+    projectPath: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color1_skill.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer2.png
+  - path: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2.controller
+    fullPath: C:\Users\dante\FZ3\Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2.controller
+    projectPath: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG3 layer4.png
+  - path: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2_skill.anim
+    fullPath: C:\Users\dante\FZ3\Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2_skill.anim
+    projectPath: Assets\PixelAttackFx\Animations\Skill\Skill_18\Skill_18_color2_skill.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4
-      layer3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer3.png
+  - path: Assets\Prefabs\Classes\Rogue.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\Classes\Rogue.prefab
+    projectPath: Assets\Prefabs\Classes\Rogue.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG4 layer4.png
+  - path: Assets\Prefabs\OptionsMenu.prefab
+    fullPath: C:\Users\dante\FZ3\Assets\Prefabs\OptionsMenu.prefab
+    projectPath: Assets\Prefabs\OptionsMenu.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8 layer3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8
-      layer3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG8 layer3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer3.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9
-      layer3.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer3.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer5.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9
-      layer5.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Day\MBG9 layer5.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer4.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer5.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
-      layer5.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer5.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer7.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1
-      layer7.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG1 layer7.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG10 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer8.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11
-      layer8.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG11 layer8.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer7.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
-      layer7.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer7.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer8.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2
-      layer8.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG2 layer8.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4 layer6.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4
-      layer6.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG4 layer6.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6 layer2.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6
-      layer2.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG6 layer2.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7 layer4.png
-    fullPath: C:\Users\dante\FZ3\Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7
-      layer4.png
-    projectPath: Assets\BackgroundLayers\BackgroundLayer4\Night\MBG7 layer4.png
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\DamageNum\ColorTheme\112111 1.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 1.png
-    projectPath: Assets\DamageNum\ColorTheme\112111 1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 1.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 1.png.meta
-    projectPath: Assets\DamageNum\ColorTheme\112111 1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 2.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 2.png
-    projectPath: Assets\DamageNum\ColorTheme\112111 2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 2.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 2.png.meta
-    projectPath: Assets\DamageNum\ColorTheme\112111 2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 3.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 3.png
-    projectPath: Assets\DamageNum\ColorTheme\112111 3.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 3.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 3.png.meta
-    projectPath: Assets\DamageNum\ColorTheme\112111 3.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 4.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 4.png
-    projectPath: Assets\DamageNum\ColorTheme\112111 4.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111 4.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111 4.png.meta
-    projectPath: Assets\DamageNum\ColorTheme\112111 4.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111.png
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111.png
-    projectPath: Assets\DamageNum\ColorTheme\112111.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\DamageNum\ColorTheme\112111.png.meta
-    fullPath: C:\Users\dante\FZ3\Assets\DamageNum\ColorTheme\112111.png.meta
-    projectPath: Assets\DamageNum\ColorTheme\112111.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Scenes\FirstLevelRandomGen.unity
     fullPath: C:\Users\dante\FZ3\Assets\Scenes\FirstLevelRandomGen.unity
     projectPath: Assets\Scenes\FirstLevelRandomGen.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\ExperienceBar.cs
-    fullPath: C:\Users\dante\FZ3\Assets\Scripts\ExperienceBar.cs
-    projectPath: Assets\Scripts\ExperienceBar.cs
+  - path: Assets\Scripts\PlayerMovement.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\PlayerMovement.cs
+    projectPath: Assets\Scripts\PlayerMovement.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\Skeleton.cs
-    fullPath: C:\Users\dante\FZ3\Assets\Scripts\Skeleton.cs
-    projectPath: Assets\Scripts\Skeleton.cs
+  - path: Assets\Scripts\RogueSkillController.cs
+    fullPath: C:\Users\dante\FZ3\Assets\Scripts\RogueSkillController.cs
+    projectPath: Assets\Scripts\RogueSkillController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\02\02a277725641c0595f008b399c3dd667
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\02\02a277725641c0595f008b399c3dd667
-    projectPath: Library\Artifacts\02\02a277725641c0595f008b399c3dd667
+  - path: Library\Artifacts\18\182439114c4dc25ebea1d09da7e17de0
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\18\182439114c4dc25ebea1d09da7e17de0
+    projectPath: Library\Artifacts\18\182439114c4dc25ebea1d09da7e17de0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\16\16a1515a9d89212e6ef659c0f7fe8619
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\16\16a1515a9d89212e6ef659c0f7fe8619
-    projectPath: Library\Artifacts\16\16a1515a9d89212e6ef659c0f7fe8619
+  - path: Library\Artifacts\19\192918236e5ca274a0be38fb1a349d49
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\19\192918236e5ca274a0be38fb1a349d49
+    projectPath: Library\Artifacts\19\192918236e5ca274a0be38fb1a349d49
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\50\507e1adee8ae9e4d77c3a7eb20af875b
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\50\507e1adee8ae9e4d77c3a7eb20af875b
-    projectPath: Library\Artifacts\50\507e1adee8ae9e4d77c3a7eb20af875b
+  - path: Library\Artifacts\4a\4afe7d54ca4e567127f73239b2090d57
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4a\4afe7d54ca4e567127f73239b2090d57
+    projectPath: Library\Artifacts\4a\4afe7d54ca4e567127f73239b2090d57
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\61\61e4eea9512f7c8101e3144b1e88ab3a
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\61\61e4eea9512f7c8101e3144b1e88ab3a
-    projectPath: Library\Artifacts\61\61e4eea9512f7c8101e3144b1e88ab3a
+  - path: Library\Artifacts\4b\4bc8225f07179f8c62fedf27278611ef
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4b\4bc8225f07179f8c62fedf27278611ef
+    projectPath: Library\Artifacts\4b\4bc8225f07179f8c62fedf27278611ef
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\84\84be2922d9b589cc34b9ab2d36cd408d
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\84\84be2922d9b589cc34b9ab2d36cd408d
-    projectPath: Library\Artifacts\84\84be2922d9b589cc34b9ab2d36cd408d
+  - path: Library\Artifacts\4e\4e3cf9c40e2a5c8c07828946e252ae30
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\4e\4e3cf9c40e2a5c8c07828946e252ae30
+    projectPath: Library\Artifacts\4e\4e3cf9c40e2a5c8c07828946e252ae30
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\bf\bf23552ee5c7fb049c4b2053f6af72d5
-    fullPath: C:\Users\dante\FZ3\Library\Artifacts\bf\bf23552ee5c7fb049c4b2053f6af72d5
-    projectPath: Library\Artifacts\bf\bf23552ee5c7fb049c4b2053f6af72d5
+  - path: Library\Artifacts\6e\6edb0d9c6f5eed8719816b008b51bcbf
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\6e\6edb0d9c6f5eed8719816b008b51bcbf
+    projectPath: Library\Artifacts\6e\6edb0d9c6f5eed8719816b008b51bcbf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\79\79e8253af787127437ef196a073ae265
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\79\79e8253af787127437ef196a073ae265
+    projectPath: Library\Artifacts\79\79e8253af787127437ef196a073ae265
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8d\8da229a5ecf44468466a9c54f8080d8b
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\8d\8da229a5ecf44468466a9c54f8080d8b
+    projectPath: Library\Artifacts\8d\8da229a5ecf44468466a9c54f8080d8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9f\9f6613150667597ec768419c2c4a3a05
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\9f\9f6613150667597ec768419c2c4a3a05
+    projectPath: Library\Artifacts\9f\9f6613150667597ec768419c2c4a3a05
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a2\a21edc220f46fae663bdf8917b01146c
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a2\a21edc220f46fae663bdf8917b01146c
+    projectPath: Library\Artifacts\a2\a21edc220f46fae663bdf8917b01146c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a9\a9a03608f46d4d3bb432bc0492989ca8
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\a9\a9a03608f46d4d3bb432bc0492989ca8
+    projectPath: Library\Artifacts\a9\a9a03608f46d4d3bb432bc0492989ca8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f3\f323d069ce84960d0bbb1c2215065015
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f3\f323d069ce84960d0bbb1c2215065015
+    projectPath: Library\Artifacts\f3\f323d069ce84960d0bbb1c2215065015
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f7\f7b0e90d7a1a9e38021d1cfb6fa63812
+    fullPath: C:\Users\dante\FZ3\Library\Artifacts\f7\f7b0e90d7a1a9e38021d1cfb6fa63812
+    projectPath: Library\Artifacts\f7\f7b0e90d7a1a9e38021d1cfb6fa63812
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1031,6 +294,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\dante\FZ3\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: C:\Users\dante\FZ3\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
@@ -1073,9 +342,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: UserSettings\Layouts\default-2021.dwlt
-    fullPath: C:\Users\dante\FZ3\UserSettings\Layouts\default-2021.dwlt
-    projectPath: UserSettings\Layouts\default-2021.dwlt
+  - path: UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\dante\FZ3\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

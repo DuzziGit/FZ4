@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isWalking = false;
 
     public TMP_Text playerLevel;
-    public Text levelUI;
+    public TMP_Text levelUI;
 
     public TMP_Text skillLevel1Text;
     public TMP_Text skillLevel2Text;

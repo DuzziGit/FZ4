@@ -120,6 +120,8 @@ public class RogueSkillController: PlayerMovement  {
    private float nextFireTimeSkillUlt = 0;
     public Animator SwipeOne;
     public Animator SwipeTwo;
+    public Animator MovementSkillOne;
+    public Animator MovementSkillTwo;
 
     public Animator animator;
   Renderer rend;
@@ -220,7 +222,10 @@ ApplyCooldownTracker();
      if (Time.time > nextFireTimeMovement) {
     if (Input.GetKeyDown(KeyCode.LeftControl) & isAirborne == true) {
       Debug.Log("The movement skill has been used");
-      MovementSkill();
+               
+                Debug.Log("M skill true");
+
+                MovementSkill();
       //add the cooldown to the time that the skill is pressed, only allow the user to use the skill again once the cooldown is gone.
        nextFireTimeMovement = Time.time + cooldownTimeMovement;
               textCooldownSM.gameObject.SetActive(true);
@@ -246,22 +251,42 @@ ApplyCooldownTracker();
     }
 
 
-public void MovementSkill() {
-    if (facingRight) {
-                    audiosource.PlayOneShot(FlashJumpSoundEffect, 0.7f);
+    public void MovementSkill()
+    {
+        if (facingRight)
+        {
+            MovementSkillOne.SetBool("MovementSkillUsed", true);
+            MovementSkillTwo.SetBool("MovementSkillUsed", true);
+            audiosource.PlayOneShot(FlashJumpSoundEffect, 0.7f);
 
-      rb.velocity = new Vector3(moveDirection * moveSpeed + MovementSkillForce, jumpForce);
-      }
-    else if (!facingRight) {
-                    audiosource.PlayOneShot(FlashJumpSoundEffect, 0.7f);
+            rb.velocity = new Vector3(moveDirection * moveSpeed + MovementSkillForce, jumpForce);
 
-      rb.velocity = new Vector3(moveDirection * moveSpeed + MovementSkillForceLeft, jumpForce);
+            StartCoroutine(ResetMovementSkillAnimation());
+        }
+        else if (!facingRight)
+        {
+            MovementSkillOne.SetBool("MovementSkillUsed", true);
+            MovementSkillTwo.SetBool("MovementSkillUsed", true);
+            audiosource.PlayOneShot(FlashJumpSoundEffect, 0.7f);
 
+            rb.velocity = new Vector3(moveDirection * moveSpeed + MovementSkillForceLeft, jumpForce);
+
+            StartCoroutine(ResetMovementSkillAnimation());
+        }
     }
 
-  }
+    private IEnumerator ResetMovementSkillAnimation()
+    {
+        yield return new WaitForSeconds(0.1f); // Adjust the delay duration as needed
 
-  public void ApplyCooldownTracker()
+        MovementSkillOne.SetBool("MovementSkillUsed", false);
+        MovementSkillTwo.SetBool("MovementSkillUsed", false);
+
+        Debug.Log("M skill false");
+    }
+
+
+    public void ApplyCooldownTracker()
   {
     cooldownTimerS1 -= Time.deltaTime;
     cooldownTimerS2 -= Time.deltaTime;
