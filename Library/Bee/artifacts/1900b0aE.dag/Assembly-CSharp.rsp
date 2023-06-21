@@ -381,6 +381,7 @@
 "Assets/fireballProjectile.cs"
 "Assets/GameController.cs"
 "Assets/HoverCharText.cs"
+"Assets/ImpactAnim.cs"
 "Assets/MoveUpAndDestroy.cs"
 "Assets/musicClass.cs"
 "Assets/PhealthBar.cs"

@@ -223,7 +223,7 @@ ApplyCooldownTracker();
     if (Input.GetKeyDown(KeyCode.LeftControl) & isAirborne == true) {
       Debug.Log("The movement skill has been used");
                
-                Debug.Log("M skill true");
+               // Debug.Log("M skill true");
 
                 MovementSkill();
       //add the cooldown to the time that the skill is pressed, only allow the user to use the skill again once the cooldown is gone.
@@ -282,7 +282,7 @@ ApplyCooldownTracker();
         MovementSkillOne.SetBool("MovementSkillUsed", false);
         MovementSkillTwo.SetBool("MovementSkillUsed", false);
 
-        Debug.Log("M skill false");
+     //   Debug.Log("M skill false");
     }
 
 

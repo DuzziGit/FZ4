@@ -102,7 +102,11 @@ public class Projectile : MonoBehaviour
        // Debug.Log("Projectile collided with: " + collision.gameObject.name);
         if (!hasDamaged && collision.transform == closestEnemy)
         {
-            if (collision.CompareTag("Skeleton"))
+      /*      Debug.Log("Projectile collided with: " + collision.gameObject.name);
+            Debug.Log("Enemy tag: " + collision.tag);
+            Debug.Log("Collided object layer: " + LayerMask.LayerToName(collision.gameObject.layer));
+
+           */ if (collision.CompareTag("Skeleton"))
             {
              //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
@@ -140,7 +144,7 @@ public class Projectile : MonoBehaviour
             // Handle other enemy types if needed
 
             hasDamaged = true;
-            Invoke("DestroyProjectile", 0.1f); // Delay destruction slightly after collision
+            Invoke("DestroyProjectile", 1f); // Delay destruction slightly after collision
             return; // Exit the method after hitting the enemy
         }
     }

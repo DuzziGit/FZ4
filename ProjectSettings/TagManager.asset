@@ -21,6 +21,7 @@ TagManager:
   - HubWorldReturn
   - Cherub
   - Enemy
+  - Projectile
   layers:
   - Default
   - TransparentFX

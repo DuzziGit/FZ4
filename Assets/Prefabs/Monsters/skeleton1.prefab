@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 1601004351}
   - component: {fileID: 15266169}
   - component: {fileID: 15266168}
+  - component: {fileID: 4325626357328118357}
   m_Layer: 6
   m_Name: skeleton1
   m_TagString: Skeleton
@@ -507,8 +508,6 @@ MonoBehaviour:
   wallDetection: {fileID: 2741414467904669674}
   expValue: 6
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
-  coinValue: 60
-  coinObject: {fileID: 6633020460328080890, guid: 1e01b85bb06a21e49862f76b44e7f284, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
   enemySprite: {fileID: 1164876066432453182}
@@ -575,6 +574,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16118103, y: 0.2908202}
   m_EdgeRadius: 0
+--- !u!114 &4325626357328118357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5249384055196290721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775d01c8288a30b41b38f17e12cbb7ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 777742916294569351, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
+  hitEffect2: {fileID: 6944281053483099684, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
+  animation1: {fileID: 8828319825448257598, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
+  animation2: {fileID: 8641123680325673935, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
+  destroyDelay: 0.1
 --- !u!1 &6063677399420710507
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4219806041684247730}
   m_Layer: 13
   m_Name: Rogue_WeaponThrow
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  damage: 10
+  minDamage: 0
+  maxDamage: 0
   hasDamaged: 0
   skillLevel: 0
   critChance: 0
