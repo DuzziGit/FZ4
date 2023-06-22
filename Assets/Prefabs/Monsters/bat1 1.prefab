@@ -321,6 +321,7 @@ GameObject:
   - component: {fileID: 7718911885572065984}
   - component: {fileID: 102408571}
   - component: {fileID: 1995679183}
+  - component: {fileID: 1826110122}
   m_Layer: 6
   m_Name: bat1 1
   m_TagString: Enemy
@@ -632,6 +633,22 @@ MonoBehaviour:
   isTouchingPlayer: 0
   animFeedback: {fileID: 22664034}
   animFeedback2: {fileID: 172892789}
+--- !u!114 &1826110122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392495728788100712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775d01c8288a30b41b38f17e12cbb7ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 777742916294569351, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
+  hitEffect2: {fileID: 6944281053483099684, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
+  animation1: {fileID: 8828319825448257598, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
+  animation2: {fileID: 8641123680325673935, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
 --- !u!1 &7039804153228895607
 GameObject:
   m_ObjectHideFlags: 0

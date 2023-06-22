@@ -276,18 +276,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void LevelUp()
     {
-        if (level < 60)
-        {
-            if (shouldLevelUp) 
+ 
+            if (level < 60 && shouldLevelUp)
             {
                 LeveledUp.SetBool("LeveledUp", true);
-
                 IncreaseLevel();
                 Debug.Log("Level Up! Player Level is now: " + level);
-
+                shouldLevelUp = false; // Reset the shouldLevelUp flag
             }
-        }
-    }
+        
+
+    
+}
 
     public void IncreaseLevel()
     {
