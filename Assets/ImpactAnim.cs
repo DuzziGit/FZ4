@@ -39,7 +39,6 @@ public class ImpactAnim : MonoBehaviour
             Destroy(effect1, destroyDelay); // Destroy the first hit effect after the delay
             Destroy(effect2, destroyDelay); // Destroy the second hit effect after the delay
 
-            Destroy(collision.gameObject); // Destroy the projectile
 
         }
     }

@@ -20,11 +20,6 @@ public class MultiHitProjectile : Projectile
         {
             DealDamage(collision);
             hitEnemies.Add(collision);
-
-            if (++currentHits >= totalHits)
-            {
-                DestroyProjectile();
-            }
         }
     }
 
@@ -32,9 +27,10 @@ public class MultiHitProjectile : Projectile
     {
         if (enemy.CompareTag("Enemy"))
         {
-            //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
             enemy.GetComponent<Skeleton>().TakeDamage(damage);
-        }
 
+            enemy.GetComponent<Skeleton>().TakeDamage(damage);
+
+        }
     }
 }
