@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
     public TMP_Text levelUI;
 
     public TMP_Text skillLevel1Text;
+
     public TMP_Text skillLevel2Text;
     public TMP_Text skillLevel3Text;
     public TMP_Text skillUltText;
@@ -434,18 +436,7 @@ public class PlayerMovement : MonoBehaviour
             IsNearOptionsMenu = true;
         }
 
-        //WORLD 2 TELEPORTER SCRIPTS
 
-        if (collision.gameObject.tag == "Experience")
-        {
-            Debug.Log("Exp Gained: " + ExperienceController.experience);
-            currentExp += ExperienceController.experience;
-            Debug.Log("Current Exp: " + currentExp);
-            experienceBar.slider.value = currentExp;
-            Debug.Log("Max Exp: " + maxExp);
-            Debug.Log("Slider value: " + experienceBar.slider.value);
-            Debug.Log("Slider value: " + experienceBar.slider.maxValue);
-        }
         if (collision.gameObject.tag == "Coin")
         {
             coins += coinController.coin;

@@ -18,8 +18,8 @@ public class VerticalPlatform : MonoBehaviour
     void Update()
     {
 
-		if (Input.GetKeyUp(KeyCode.DownArrow))
-		{
+        if (Input.GetKeyUp(KeyCode.K) || Input.GetKeyUp(KeyCode.DownArrow))
+        {
             waitTime = 0f;
 		}
 
@@ -29,9 +29,9 @@ public class VerticalPlatform : MonoBehaviour
             effector.rotationalOffset = 0;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
-		{
-            if(waitTime <= 0)
+        if (Input.GetKeyUp(KeyCode.K) || Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            if (waitTime <= 0)
 			{
                 effector.rotationalOffset = 180f;
                 StartCoroutine(SmallDelay());

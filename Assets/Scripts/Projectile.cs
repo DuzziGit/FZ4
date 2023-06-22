@@ -18,17 +18,17 @@ public class Projectile : MonoBehaviour
     public float targetingToleranceAngle = 30f;
 
     private Vector3 initialPosition;
-    private Vector3 direction;
-    private Transform closestEnemy;
+    public Vector3 direction;
+    public Transform closestEnemy;
     private Rigidbody2D rb;
-    private int damage; // Actual damage inflicted
+    public int damage; // Actual damage inflicted
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Start()
+    public void Start()
     {
         initialPosition = transform.position;
         Invoke("DestroyProjectile", lifeTime);
@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
         direction = transform.right;
     }
 
-    private void Update()
+    public void Update()
     {
         skillLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().skillOneLevel;
 
@@ -97,7 +97,7 @@ public class Projectile : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
        // Debug.Log("Projectile collided with: " + collision.gameObject.name);
         if (!hasDamaged && collision.transform == closestEnemy)
@@ -106,50 +106,19 @@ public class Projectile : MonoBehaviour
             Debug.Log("Enemy tag: " + collision.tag);
             Debug.Log("Collided object layer: " + LayerMask.LayerToName(collision.gameObject.layer));
 
-           */ if (collision.CompareTag("Skeleton"))
+           */ if (collision.CompareTag("Enemy"))
             {
              //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
-            else if (collision.CompareTag("Seraphim"))
-            {
-            //    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                collision.GetComponent<Seraphim>().TakeDamage(damage);
-            }
-            else if (collision.CompareTag("Archangel"))
-            {
-             //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                collision.GetComponent<Archangel>().TakeDamage(damage);
-            }
-            else if (collision.CompareTag("Cherub"))
-            {
-              //  Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                collision.GetComponent<Cherub>().TakeDamage(damage);
-            }
-            else if (collision.CompareTag("Bat"))
-            {
-             //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                collision.GetComponent<Bat>().TakeDamage(damage);
-            }
-            else if (collision.CompareTag("Slime"))
-            {
-            //    Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-                collision.GetComponent<Skeleton>().TakeDamage(damage);
-            }
-
-            else if (collision.CompareTag("Enemy"))
-            {
-              //  Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
-            }
-            // Handle other enemy types if needed
-
+            
             hasDamaged = true;
             Invoke("DestroyProjectile", 0.1f); // Delay destruction slightly after collision
             return; // Exit the method after hitting the enemy
         }
     }
 
-    void DestroyProjectile()
+    public void DestroyProjectile()
     {
         Destroy(gameObject);
      //   Debug.Log(skillLevel);

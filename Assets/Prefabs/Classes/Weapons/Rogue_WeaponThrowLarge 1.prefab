@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 659876059606584297}
   - component: {fileID: 5933997225940751113}
   - component: {fileID: 3513933241247362504}
-  - component: {fileID: 3976683703009316908}
   - component: {fileID: 8881666218281256747}
+  - component: {fileID: 7562556280584138820}
   m_Layer: 13
   m_Name: Rogue_WeaponThrowLarge 1
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1998731461782448251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_LocalScale: {x: 30, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -135,33 +135,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.29}
   m_EdgeRadius: 0
---- !u!114 &3976683703009316908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998731461782448251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c58f7cc5070674c48839506f7e72d037, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 80
-  lifeTime: 1.5
-  detectionRange: 30
-  maxDistance: 3000
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  damage: 10
-  maxTargets: 5
-  currentTargets: 0
-  skillLevel: 0
-  critChance: 0
-  critMultiplier: 0
-  targetingToleranceAngle: 1
-  passThroughEnemies: 0
 --- !u!50 &8881666218281256747
 Rigidbody2D:
   serializedVersion: 4
@@ -183,3 +156,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7562556280584138820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998731461782448251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b3a1cd6d44544489a0828f57a84d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 80
+  lifeTime: 1
+  detectionRange: 0
+  maxDistance: 100
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  minDamage: 100
+  maxDamage: 120
+  hasDamaged: 0
+  skillLevel: 1
+  critChance: 0
+  critMultiplier: 0
+  targetingToleranceAngle: 0
+  closestEnemy: {fileID: 0}
+  maxHits: 2

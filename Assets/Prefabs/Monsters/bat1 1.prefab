@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 1995679183}
   m_Layer: 6
   m_Name: bat1 1
-  m_TagString: Skeleton
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -613,8 +613,6 @@ MonoBehaviour:
   wallDetection: {fileID: 4181335816790591474}
   expValue: 6
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
-  coinValue: 60
-  coinObject: {fileID: 6633020460328080890, guid: 1e01b85bb06a21e49862f76b44e7f284, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
   enemySprite: {fileID: 6392495728788100714}

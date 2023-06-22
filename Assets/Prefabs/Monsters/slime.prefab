@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 1216610146}
   m_Layer: 6
   m_Name: slime
-  m_TagString: Slime
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -489,7 +489,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003942907, y: -0.058379464}
+  m_Offset: {x: -0.003942907, y: -0.034516104}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -500,7 +500,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19612563, y: 0.21960868}
+  m_Size: {x: 0.19612563, y: 0.22418256}
   m_EdgeRadius: 0
 --- !u!114 &440425466
 MonoBehaviour:
@@ -558,7 +558,6 @@ MonoBehaviour:
   hitEffect2: {fileID: 6944281053483099684, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
   animation1: {fileID: 8828319825448257598, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
   animation2: {fileID: 8641123680325673935, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
-  destroyDelay: 0.1
 --- !u!1 &5510990405137156906
 GameObject:
   m_ObjectHideFlags: 0

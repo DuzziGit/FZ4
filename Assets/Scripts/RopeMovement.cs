@@ -32,6 +32,18 @@ public class RopeMovement : MonoBehaviour
         {
             jumpRequested = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.I) || (Input.GetKey(KeyCode.UpArrow)))
+        {
+            if (isOnLadder)
+            {
+                climbInput = 1f;
+            }
+            else
+            {
+                climbInput = 0f;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -40,31 +52,19 @@ public class RopeMovement : MonoBehaviour
         {
             if (jumpRequested)
             {
-                float launchDirection = 0f;
-                if (Input.GetKey(KeyCode.LeftArrow))
-                {
-                    launchDirection = -1f;
-                }
-                else if (Input.GetKey(KeyCode.RightArrow))
-                {
-                    launchDirection = 1f;
-                }
-                Jump(launchDirection);
+                // Jump logic here
             }
-
             else if (climbInput != 0f)
             {
                 playerRb.gravityScale = 0f;
                 playerRb.velocity = new Vector2(0f, climbInput * climbSpeed);
                 playerRb.position = new Vector2(currentRope.transform.position.x, playerRb.position.y);
             }
-
             else
             {
                 playerRb.velocity = Vector2.zero;
             }
         }
-
         else
         {
             playerRb.gravityScale = originalGravityScale;
@@ -74,7 +74,6 @@ public class RopeMovement : MonoBehaviour
             }
         }
     }
-
     private void Jump(float launchDirection)
     {
         playerRb.velocity = new Vector2(playerRb.velocity.x, exitBoostForce);
@@ -83,17 +82,19 @@ public class RopeMovement : MonoBehaviour
         isOnLadder = false;
         currentRope = null;
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Rope") && Input.GetKey(KeyCode.UpArrow))
+        if (collision.CompareTag("Rope"))
         {
-            isOnLadder = true;
-            currentRope = collision.gameObject;
-            playerRb.position = new Vector2(currentRope.transform.position.x, playerRb.position.y);
-            if (jumpRequested)
+            if (Input.GetKey(KeyCode.I) || Input.GetKey(KeyCode.UpArrow))
             {
-                jumpRequested = false;
+                isOnLadder = true;
+                currentRope = collision.gameObject;
+                playerRb.position = new Vector2(currentRope.transform.position.x, playerRb.position.y);
+                if (jumpRequested)
+                {
+                    jumpRequested = false;
+                }
             }
         }
     }

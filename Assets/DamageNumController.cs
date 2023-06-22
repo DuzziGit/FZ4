@@ -5,8 +5,8 @@ using TMPro;
 
 public class DamageNumController : MonoBehaviour
 {
-    public float moveSpeed = 0.05f;
-    public float fadeSpeed = 20f;
+    public float moveSpeed = 0.01f;
+    public float fadeSpeed = 2f;
     public float startFadeHeight = -10f;
 
     private TMP_Text tmpComponent;
