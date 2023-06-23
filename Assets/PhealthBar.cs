@@ -19,11 +19,5 @@ public class PhealthBar : MonoBehaviour
     public void SetHealth(int currentHealth)
     {
         slider.value = currentHealth;
-
-        // Enable the health bar canvas when health drops below 100%
-        if (currentHealth < slider.maxValue)
-        {
-            healthBarCanvas.enabled = true;
-        }
     }
 }

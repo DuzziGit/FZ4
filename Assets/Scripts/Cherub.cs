@@ -1,91 +1,92 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+
 
 public class Cherub : MonoBehaviour
 {
-    private float timeBetweenShots;
-    public float startTimeBetweenShots;
-
+    // General Properties
     public GameObject bossProjectile;
-
-    public int health;
+    public int maxHealth;
     public int damage;
-
     public int expValue;
     public ExperienceController expObject;
-    public static bool isAggroed = false;
-
-    public float speed;
-    public float distance;
-
-    private bool movingRight = true;
-    public Transform groundDetection;
-
-    public static bool facingRight = true;
-    public static bool patrol = false;
-    public float moveDirection;
-    private SpriteRenderer bossSprite;
-
-    public Vector3 startPosition;
-
-    public float distanceFromStart;
-
-    public bool startup = true;
-    public bool phase2Started = true;
-    public bool phase2 = false;
-
     public GameObject portal;
 
-    public bool isTouchingPlayer = false;
+    // Movement and Attacking properties
+    public float speed;
+    public float distance;
+    public float moveDirection;
 
+    // Booleans for different game phases and states
+    private bool startup = true;
+    private bool phase2Started = true;
+    private bool phase2 = false;
+
+    // Sprite properties
+    private SpriteRenderer bossSprite;
+    public static bool facingRight = true;
+    public static bool patrol = false;
+
+    // Contact with player
+    private bool isTouchingPlayer = false;
     private float timeBetweenDmg;
     public float startTimeBetweenDmg;
 
+    // Aggro and movement properties
     [SerializeField]
     float agroRange;
 
     [SerializeField]
     float moveSpeed;
 
+    // Player properties
     public Rigidbody2D rb;
     public BoxCollider2D bc;
 
+
+    // Animation and visual properties
     public Animator animator;
-
-    public TextMesh damageDisplay;
-
     public HealthBar healthBar;
-    public int maxHealth;
+    public Animator animFeedback;
+    public Animator animFeedback2;
+    public TMP_Text damageDisplay;
+    public TMP_Text enemyLevel;
+    public GameObject CanvasDamageNum;
+
+    // Private properties for internal calculations
+    private int currentHealth;
+    private float timeBetweenShots;
+    public float startTimeBetweenShots;
+    public Vector3 startPosition;
+    private bool movingRight = true;
+    public Transform groundDetection;
+
+    // Magic numbers replaced with constants
+    private const float xOffset = 5f;
+    private const float yOffset = 2f;
+    private const float damageDisplayDelay = 0.1f;
+    private const float resetTriggerDelay = 0.2f;
 
 
-    // Start is called before the first frame update
     void Start()
     {
+        bossSprite = GetComponent<SpriteRenderer>();
+        bossSprite.flipX = true;
+        currentHealth = maxHealth;
         HealthBar healthBar = FindObjectOfType<HealthBar>();
         if (healthBar != null)
         {
             healthBar.SetMaxHealth(maxHealth);
         }
-
-
         rb.velocity = new Vector3(-speed, 1, 0);
-        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
         timeBetweenShots = startTimeBetweenShots;
-
     }
 
-    void Awake()
-    {
-        bossSprite = GetComponent<SpriteRenderer>();
-        startup = true;
-        bossSprite.flipX = true;
-    }
-
-    // Update is called once per frame
     void Update()
     {
-
         if (isTouchingPlayer)
         {
             if (timeBetweenDmg <= 0)
@@ -97,50 +98,65 @@ public class Cherub : MonoBehaviour
             {
                 timeBetweenDmg -= Time.deltaTime;
             }
-
         }
 
-        var LootGenerator = (Random.Range(1, 100));
-
-
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             StartCoroutine(animationVanish());
         }
 
-        healthBar.SetHealth(health);
 
-
-        getStartPosition();
-
-        if (health >= 24000)
+        // Your phases can be more readable if organized into separate methods
+        if (currentHealth >= 24000)
         {
-            Bounce();
-            
-        } else if (health < 15000 && health > 1000)
-        {
-            animator.SetBool("isShooting", true);
-            Agressive();
+            Phase1();
         }
-        else if (health < 1000)
+        else if (currentHealth < 15000 && currentHealth > 1000)
         {
-            damage *= 10;
-            animator.SetBool("isShooting", false);
-            phase2 = true;
-            rotateAroundMap();
+            Phase2();
         }
-       
+        else if (currentHealth < 1000)
+        {
+            Phase3();
+        }
+    }
+
+    void Phase1()
+    {
+        Bounce();
+    }
+
+    void Phase2()
+    {
+        animator.SetBool("isShooting", true);
+        Agressive();
+    }
+
+    void Phase3()
+    {
+        damage *= 10;
+        animator.SetBool("isShooting", false);
+        phase2 = true;
+        rotateAroundMap();
     }
 
     public void TakeDamage(int damage)
     {
-        animator.SetBool("Damage", true);
-        StartCoroutine(animationDelay());
+        currentHealth = Mathf.Max(0, currentHealth - damage);
         StartCoroutine(DamageDisplay(damage));
-        health -= damage;
-        Debug.Log("Health: " + health);
-       
+
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(currentHealth);
+        }
+
+        animator.SetBool("takingDamage", true);
+        animFeedback.SetBool("takingDamage", true);
+        animFeedback2.SetBool("takingDamage", true);
+
+        StartCoroutine(ResetTakeDamageTrigger());
     }
+
 
     void Agressive() {
 
@@ -166,6 +182,13 @@ public class Cherub : MonoBehaviour
             chasePlayer();
         }
 
+    }
+    private IEnumerator ResetTakeDamageTrigger()
+    {
+        yield return new WaitForSeconds(resetTriggerDelay);
+        animator.SetBool("takingDamage", false);
+        animFeedback.SetBool("takingDamage", false);
+        animFeedback2.SetBool("takingDamage", false);
     }
 
 
@@ -381,9 +404,13 @@ public class Cherub : MonoBehaviour
 
     IEnumerator DamageDisplay(int damage)
     {
-        damageDisplay.text = "" + damage;
-        yield return new WaitForSeconds(0.5f);
-        damageDisplay.text = "";
+        Vector3 positionOffset = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset + Random.Range(1.0f, 3.0f), transform.position.z);
+        GameObject text = Instantiate(CanvasDamageNum, positionOffset, Quaternion.identity);
+
+        DamageNumController controller = text.GetComponentInChildren<DamageNumController>();
+
+        controller.SetDamageNum(damage);
+        yield return new WaitForSeconds(damageDisplayDelay);
     }
 
     IEnumerator floatDown()
