@@ -1,0 +1,78 @@
+ideas 
+We're going to have
+ augments for weapons
+ you're going to start
+ out with a default set
+ of skills your default 
+set of skills can then 
+be switched out for a
+ augmented version of 
+that skill for example
+ you will start with three throwing stars but you may be able to pick up an ice augment which makes your throwing 
+stars into icicles and they deal an additional frost damage and they slow your default AOE scale will be a big ninja 
+star that spins and slices through enemies if you get the lightning augment it will now be a electrical ball or maybe 
+we can do something like you will have skills drop for specific slots or we can do something like you will have equipment
+ drop and binded to that equipment is specific skills that are attached to specific slots so you'll get equipment bonuses 
+on top of getting a skill roll you can enchant that equipment which in turn will then enchant that skill maybe you can take
+ off skills from existing equipment and attach it to others existing equipment maybe you get certain currency from killing 
+a boss and with that currency you can use that to reroll specific stats on specific items so the ideal core gameplay Loop 
+every certain amount of levels you unlock a skill slot that skill saw will start off as the default and you can unlock
+ augments in the skill slots Cannot drop unless you are high enough level to receive them if you leave stuff in the floor
+ in a level you cannot go back and get it
+
+
+I think your narrative is interesting I think a good thing to know is the way I have it is the levels and the backgrounds are all procedurally generated but I would kind of like to add a theme to it currently I don't have a color palette or anything but I really like the idea of how the narrative that you wrote when the character dies he only loses his like physical power but like his memories are the same so he doesn't lose like that knowledge that he's gained I think it's lacking some sort of Chase it seems like the main character why is he trying to what is he fighting for currently in my game there are slimes skeletons and bats and the main boss is a three phase boss the first phase is a baby Cupid the second phase is a seraphim the third phase is a archangel i'm thinking maybe instead of having three different phases maybe I split them up into three different bosses so at level 15 you would fight the cupid at level 30 you would fight seraphim and at level 45 you would fight the archangel please come up with a different character name as well as a different kind of lore but maybe keep the concept of you die and you keep your knowledge but lose all your physical power
+
+
+All right you dumped it down a little too hard let's give it some more life but still keep it simple i'm still looking for a little bit of depth there and I want to I want to know what the main character is doing this for like maybe he's stuck in dust ground but why is he there how did he get there does he know he's there where is this Mentor coming from is he maybe somebody who
+
+Okay I think this idea is dumb down a little bit too much I want to add some complexity to it and I'm thinking that maybe the mentor is somebody who landed there long ago and is too old to fight and now he just kind of sits around and is accepted his fate that he's never getting out of that place because he was never very strong to begin with he he sees the main character land and he's very maybe mysterious or he has some complexity that isn't really described to the player and he I want the game to have like this like get up and dust yourself off and get back into the battle environment like feel to it and I want this mentor to like really guide him because he's accepted his fate that he's not getting out I think we should stick with the name dusk realm and I think that's a really cool idea and I want to keep that whole time warp in there we still have to talk about augments and somehow intertwined that and maybe I want to I want some sort of permanence to the game like if you beat it one time you unlock something like a mentor's gift or something the mentors no longer there and you're fighting you know in his memory and does it Easter egg it's revealed that the mentor is reckful I also want to reveal that the only way to get out is to wait for somebody to land in and Mentor them until they beat it and then your curses wear worn off
+
+
+The player will spawn in the player will be level one every 10 levels the player will unlock a skill slot first one is single Target second one is AOE third one is defensive fourth one is Ultimate and they will start off with a default movement spell the character will kill enemies and level up and while they're killing enemies of the enemies have a chance to drop a augment and augment is something that you can apply to your weapon that will give you bonuses as well as changing your skill for example if a player were to pick up an defrost augment the player will now throw icicles those icicles will do x amount of damage and have expert these augments will be for every skill for example turning the AOE throwing star into a energy ball at every level 15 interval the player must fight a boss to unlock their new skill slot once unlocked that player can start finding skills for that skill slot 
+
+
+
+Based on the information provided and the unique aspects you've introduced, such as the cyclical mentorship, the use of Augments, and the overall lore, I'd rate this game concept an 8.5 out of 10. It offers a unique twist on the roguelike genre, and the narrative structure you're suggesting adds a level of emotional connection and depth often missing from this style of game.
+
+The gameplay mechanics and varying character classes provide depth and replayability, and the narrative threads hint at an immersive story to unravel. The balance between challenging gameplay and an engaging narrative can be a potent combination.
+
+However, as with any game, the execution of these ideas is crucial. The challenge lies in developing a balanced gameplay loop, creating compelling characters and environments, and ensuring that the narrative enhances the gameplay without overwhelming it.
+
+Now, let's rewrite the narrative to subtly hint at the mentor's fate:
+
+In Duskrealm, a curse births monstrous entities known as Abyssals. You are the Duskstrider, a chosen hero, guided by a veteran warrior now resigned to his fate. He has been trapped in Duskrealm for a long time, aging, but never dying, a consequence of the curse that grips this realm.
+
+The mentor's only hope lies in teaching a new hero to overcome what he could not - the seemingly invincible Abyssals. As you traverse the realm, battling Abyssals and unlocking Augments' powers, the mentor's guidance remains your anchor.
+
+When you finally overcome the Abyssals and lift the curse, your mentor disappears. Left alone, you might begin to wonder about the nature of this realm and the fate of those who conquer it. It's only when a new hero falls into Duskrealm, seeking your guidance, that the cycle's truth becomes apparent - victory frees the mentor, leaving the victor to become the new mentor. This revelation, a discovery for both the character and the player, adds another layer of complexity to the overarching narrative.
+
+In Duskrealm, every dawn is hard-earned, and every victory is a step towards freedom - for some. Yet, the spirit remains unbroken, the resolve unyielding, as heroes rise, fight, and guide the next generation, awaiting their turn to see the dawn.
+
+
+
+
+User
+Okay so main character lands in he's met by this mysterious figure we then confronts and the figure is actually a mentor to him in the figure has been there for a long long time he got cursed long ago and he could never relieve it and the thing about dusk realm is even though death isn't permanent you still get older time isn't stopped and the only way to Free Yourself is by mentoring somebody because once you beat the level your Mentor is set free and then you're trapped until you can teach somebody how to be good enough to beat the level and I really like this dust ground idea I think that's a really cool name for the game the character that I'm working on now happens to be a rogue but maybe a mage Falls in and the last character you beat the game with is the mentor for that Mage that would be crazy
+
+
+User
+And the idea that you had for the character being forever trapped in dusk waiting for Dawn I think is a great idea i'm also trying to think of what the mentor can bring Maybe when you beat the game for the first time and unlocks your mentor slot and you automatically get a flat buff or something and every time you beat the game with a different character you can slot that class in for a mentor buff in the mentor Buffalo just add another layer of complexity maybe you could do X build and each different class that you beat the game with has a mentor buff that can affect that build maybe it's like the default skills that you start with is your Mentor buff or something like that
+
+
+The mentor slot mechanic seems like a great way to increase replayability and complexity. Each mentor, symbolizing the class with which you've previously beaten the game, could provide a unique buff or modify your abilities in some way.
+
+For example, if you've previously beaten the game with a rogue character, perhaps the mentor buff grants a speed or evasion bonus, representing the rogue's agility. If you've cleared the game with a mage, the mentor buff could provide a bonus to magical power or reduce the cooldown time of spells, echoing the mage's mastery of arcane arts.
+
+In addition to flat buffs, the mentor could also influence the starting abilities or skills. For instance, having a rogue mentor could allow you to start with a stealth ability, while a mage mentor could give you a starting magic spell. This mechanic reinforces the feeling of progression and variety, even when starting a new game after defeat.
+
+This also adds a layer of strategic depth to the game. Players will be encouraged to experiment with different class-mentor combinations to find synergies that match their playstyle or help in specific challenges.
+
+Remember, the key to balancing such a mechanic is to ensure that each mentor buff is useful in its own right, and no single buff is so powerful that it becomes the 'default' choice for all players.
+
+
+I just want to correct you on the gameplay mechanic everything else was good so I want to talk a little bit more about it it's the two decide scroller RPG with classes like Warrior Mage and Rogue so far everything was correct that you were saying however the game is only beaten when you kill all three bosses so the cupid the seraphim and the Archangel once you kill that Archangel then the game is considered beaten and every single time you beat a boss you unlock a skill slot so for example I would start at level one with the movement skill and a first ability I would go to level 15 I would beat Cupid and then I would get another skill slot okay and then I would go to level 45 then I would kill archangel and by that time I really want to add another boss I think 45 is too early to beat the game I'm going to say you get your last skill slot on the Archangel and then you have that skill slot for the fourth block the fourth boss which is unknown at this moment but then once you beat that fourth boss you beat the game and then you can play the game again with whatever class you beat the game as your first mentor and you can have you can unlock all three classes can you also write Maybe a tutorial dialogue for the game just use controls for MapleStory for reference the game is a lot like MapleStory looks like mapleStory but it's a pixelized version and maybe try to give this mentor a little bit more of a personality I want him to be the guy who when you're introduced to a new mechanic he pops up on the screen with a dialogue saying like oh and by the way these are augments for example and then he'll give like a little tutorial on augments and things like that and also could you maybe look over it again and see if you have any like holes in the story or holes in the game play mechanics or anything that you can critique me on
+
+
+
+ideas

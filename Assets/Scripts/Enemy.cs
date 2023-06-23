@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public int level;
     public float speed;
     public float distance;
-
+    private LootTable lootTable;
     public Transform groundDetection;
     public Transform wallDetection;
 
@@ -43,7 +43,10 @@ public class Enemy : MonoBehaviour
         enemySprite = GetComponent<SpriteRenderer>();
         timeBetweenDmg = startTimeBetweenDmg;
     }
-
+    private void Awake()
+    {
+        lootTable = GetComponent<LootTable>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -109,19 +112,7 @@ public class Enemy : MonoBehaviour
     {
         if (health <= 0)
         {
-            EnemySpawner.currentEnemies--;
-
-            GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-            foreach (GameObject player in players)
-            {
-                PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
-                if (playerMovement != null)
-                {
-                    playerMovement.GainExperience(expValue);
-                }
-            }
-
-            Destroy(gameObject);
+            Die();
         }
 
         float distanceToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position);
@@ -150,6 +141,24 @@ public class Enemy : MonoBehaviour
             isAggroed = false;
             isPatroling = true;
         }
+    }
+    private void Die()
+    {
+        EnemySpawner.currentEnemies--;
+        lootTable.DropLoot();
+
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject player in players)
+        {
+            PlayerMovement playerMovement = player.GetComponent<PlayerMovement>();
+            if (playerMovement != null)
+            {
+                playerMovement.GainExperience(expValue);
+            }
+        }
+
+       
+        Destroy(gameObject);
     }
 
     private void Patrol()

@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: -424270421703396957}
   - component: {fileID: 440425466}
   - component: {fileID: 1216610146}
+  - component: {fileID: 7790901686934020423}
   m_Layer: 6
   m_Name: slime
   m_TagString: Enemy
@@ -558,6 +559,21 @@ MonoBehaviour:
   hitEffect2: {fileID: 6944281053483099684, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
   animation1: {fileID: 8828319825448257598, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
   animation2: {fileID: 8641123680325673935, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
+--- !u!114 &7790901686934020423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597381505260269731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecd7020c899a0a4a8ad9e7fb2aba8a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loots:
+  - itemToDrop: {fileID: 8090084773123651020, guid: caa1ca8f17ceb3944aba17dc648594fa, type: 3}
+    dropChance: 25
 --- !u!1 &5510990405137156906
 GameObject:
   m_ObjectHideFlags: 0

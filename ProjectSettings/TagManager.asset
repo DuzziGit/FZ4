@@ -22,6 +22,7 @@ TagManager:
   - Cherub
   - Enemy
   - Projectile
+  - Portal
   layers:
   - Default
   - TransparentFX
