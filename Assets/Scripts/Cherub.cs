@@ -53,7 +53,6 @@ public class Cherub : MonoBehaviour
     public Animator animFeedback;
     public Animator animFeedback2;
     public TMP_Text damageDisplay;
-    public TMP_Text enemyLevel;
     public GameObject CanvasDamageNum;
 
     // Private properties for internal calculations

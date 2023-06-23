@@ -111,7 +111,12 @@ public class Projectile : MonoBehaviour
              //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
                 collision.GetComponent<Skeleton>().TakeDamage(damage);
             }
-            
+             else if (collision.CompareTag("Cherub"))
+            {
+                //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+                collision.GetComponent<Cherub>().TakeDamage(damage);
+            }
+
             hasDamaged = true;
             Invoke("DestroyProjectile", 0.1f); // Delay destruction slightly after collision
             return; // Exit the method after hitting the enemy
