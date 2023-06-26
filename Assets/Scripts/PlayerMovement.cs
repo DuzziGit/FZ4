@@ -437,10 +437,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (collision.gameObject.tag == "Coin")
-        {
-            coins += coinController.coin;
-        }
+      
     }
 
     private void OnTriggerExit2D(Collider2D collision)

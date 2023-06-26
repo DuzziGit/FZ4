@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-
 public class Cherub : MonoBehaviour
 {
     // General Properties
@@ -46,7 +45,6 @@ public class Cherub : MonoBehaviour
     public Rigidbody2D rb;
     public BoxCollider2D bc;
 
-
     // Animation and visual properties
     public Animator animator;
     public HealthBar healthBar;
@@ -68,10 +66,12 @@ public class Cherub : MonoBehaviour
     private const float yOffset = 2f;
     private const float damageDisplayDelay = 0.1f;
     private const float resetTriggerDelay = 0.2f;
-
+    private Transform playerTransform;
 
     void Start()
     {
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+
         bossSprite = GetComponent<SpriteRenderer>();
         bossSprite.flipX = true;
         currentHealth = maxHealth;
@@ -101,9 +101,12 @@ public class Cherub : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            StartCoroutine(animationVanish());
+            StartCoroutine(AnimationVanish());
         }
 
+        StartCoroutine(HoverPlayerX());
+        HoverPlayerY();
+        Agressive();
 
         // Your phases can be more readable if organized into separate methods
         if (currentHealth >= 24000)
@@ -122,13 +125,14 @@ public class Cherub : MonoBehaviour
 
     void Phase1()
     {
-        Bounce();
+        StartCoroutine(HoverPlayerX());
+        HoverPlayerY();
     }
 
     void Phase2()
     {
         animator.SetBool("isShooting", true);
-        Agressive();
+        Bounce();
     }
 
     void Phase3()
@@ -136,7 +140,7 @@ public class Cherub : MonoBehaviour
         damage *= 10;
         animator.SetBool("isShooting", false);
         phase2 = true;
-        rotateAroundMap();
+        RotateAroundMap();
     }
 
     public void TakeDamage(int damage)
@@ -156,32 +160,27 @@ public class Cherub : MonoBehaviour
         StartCoroutine(ResetTakeDamageTrigger());
     }
 
-
-    void Agressive() {
-
+    void Agressive()
+    {
         rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
+        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
-        float distanceToPlayer = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position);
-
-
-        
         if (timeBetweenShots <= 0)
         {
             Instantiate(bossProjectile, transform.position, Quaternion.identity);
-            timeBetweenShots = startTimeBetweenShots;
+            timeBetweenShots = startTimeBetweenShots + 0.2f;
         }
         else
         {
             timeBetweenShots -= Time.deltaTime;
         }
 
-
         if (distanceToPlayer < agroRange)
         {
-            chasePlayer();
+            ChasePlayer();
         }
-
     }
+
     private IEnumerator ResetTakeDamageTrigger()
     {
         yield return new WaitForSeconds(resetTriggerDelay);
@@ -190,36 +189,31 @@ public class Cherub : MonoBehaviour
         animFeedback2.SetBool("takingDamage", false);
     }
 
-
-    private void chasePlayer()
+    private void ChasePlayer()
     {
         StartCoroutine(HoverPlayerX());
     }
 
-
-    void rotateAroundMap()
-	{
+    void RotateAroundMap()
+    {
         if (phase2Started)
         {
-            if (transform.position.x > GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x)
+            if (transform.position.x > playerTransform.position.x)
             {
-             
                 rb.velocity = new Vector3(-speed - 2, 0, 0);
-
             }
 
-            if (transform.position.x < GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x)
+            if (transform.position.x < playerTransform.position.x)
             {
                 rb.velocity = new Vector3(speed + 2, 0, 0);
-
             }
-            
+
             Debug.Log(startPosition);
             phase2Started = false;
         }
     }
 
-    void getStartPosition()
+    void GetStartPosition()
     {
         if (startup)
         {
@@ -229,143 +223,76 @@ public class Cherub : MonoBehaviour
         }
     }
 
-
     void Patrol()
     {
-
-        //Return To Start Position
+        // Return To Start Position
         if (transform.position.x > startPosition.x)
         {
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
             bossSprite.flipX = true;
             Debug.Log("going left");
-        } else if (transform.position.x < startPosition.x)
+        }
+        else if (transform.position.x < startPosition.x)
         {
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
             bossSprite.flipX = false;
             Debug.Log("going right");
         }
-
-
-
     }
-
 
     void Bounce()
     {
         OnTriggerEnter2D(bc);
-
     }
 
     void HoverPlayerY()
     {
-        
-        if (transform.position.y > GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.y + 1)
-        {
-            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-        }
-        
-
-        if (transform.position.y < GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.y + 1)
-        {
-            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
-        }
+        float targetYPosition = playerTransform.position.y + 1f;
+        float newYPosition = Mathf.Lerp(transform.position.y, targetYPosition, Time.deltaTime * moveSpeed);
+        transform.position = new Vector3(transform.position.x, newYPosition, transform.position.z);
     }
+
     IEnumerator HoverPlayerX()
     {
-        if (transform.position.x > GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x)
+        if (transform.position.x > playerTransform.position.x)
         {
             yield return new WaitForSeconds(0.5f);
-            //Move Left
-            // rb.velocity = new Vector2(-moveSpeed, 0);
-            //   rb.velocity = new Vector3(-moveSpeed, rb.velocity.y);
-            Debug.Log("going left");
+            float targetXPosition = playerTransform.position.x;
             rb.velocity = new Vector3(-speed, rb.velocity.y, 0);
             bossSprite.flipX = true;
 
+            while (transform.position.x > targetXPosition)
+            {
+                yield return null;
+            }
+
+            rb.velocity = Vector3.zero;
         }
 
-        if (transform.position.x < GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x)
+        if (transform.position.x < playerTransform.position.x)
         {
             yield return new WaitForSeconds(0.5f);
-            //Move Right
-            //rb.velocity = new Vector2(moveSpeed, 0);
-            // rb.velocity = new Vector3(moveSpeed, rb.velocity.y);
-            Debug.Log("going right");
+            float targetXPosition = playerTransform.position.x;
             rb.velocity = new Vector3(speed, rb.velocity.y, 0);
             bossSprite.flipX = false;
 
+            while (transform.position.x < targetXPosition)
+            {
+                yield return null;
+            }
+
+            rb.velocity = Vector3.zero;
         }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.CompareTag("Player"))
         {
             Debug.Log("Enemy Touching Player");
             isTouchingPlayer = true;
         }
 
-        if (!phase2)
-        {
-
-            if (bossSprite.flipX == true)
-            {
-                if (collision.gameObject.tag == "Wall")
-                {
-                    Debug.Log("left wall");
-                    rb.velocity = new Vector3(speed + 1, rb.velocity.y, 0);
-                    bossSprite.flipX = false;
-                }
-            }
-            else if (collision.gameObject.tag == "Wall")
-            {
-                Debug.Log("right wall");
-                rb.velocity = new Vector3(-speed - 1, rb.velocity.y, 0);
-                bossSprite.flipX = true;
-            }
-
-            if (collision.gameObject.tag == "Roof")
-            {
-                Debug.Log("Roof");
-                rb.velocity = new Vector3(rb.velocity.x, -1, 0);
-            }
-            if (collision.gameObject.tag == "World")
-            {
-                Debug.Log("Roof");
-                rb.velocity = new Vector3(rb.velocity.x, 1, 0);
-            }
-        } else
-		{
-            if(bossSprite.flipX == true)
-            {
-                if (collision.gameObject.tag == "Wall")
-                {
-                    Debug.Log("left wall");
-                    rb.velocity = new Vector3(0, -1, 0);
-                    bossSprite.flipX = false;
-                }
-            }
-            else if (collision.gameObject.tag == "Wall")
-            {
-                Debug.Log("right wall");
-                rb.velocity = new Vector3(0, 1, 0);
-                bossSprite.flipX = true;
-            }
-
-            if (collision.gameObject.tag == "Roof")
-            {
-                
-                Debug.Log("Roof");
-                StartCoroutine(floatDown());
-            }
-            if (collision.gameObject.tag == "World")
-            {
-                Debug.Log("Floor");
-                rb.velocity = new Vector3(speed + 2, 0, 0);
-            }
-        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -377,18 +304,17 @@ public class Cherub : MonoBehaviour
         }
     }
 
-    IEnumerator animationDelay()
+    IEnumerator AnimationDelay()
     {
         yield return new WaitForSeconds(0.01f);
         animator.SetBool("Damage", false);
     }
 
-    IEnumerator animationVanish()
+    IEnumerator AnimationVanish()
     {
-        rb.velocity = new Vector3(0, 0, 0);
+        rb.velocity = Vector3.zero;
         animator.SetBool("isVanishing", true);
         yield return new WaitForSeconds(3);
-
 
         portal.SetActive(true);
 
@@ -396,10 +322,7 @@ public class Cherub : MonoBehaviour
         ExperienceController.experience = expValue;
 
         Destroy(gameObject);
-
-        
     }
-
 
     IEnumerator DamageDisplay(int damage)
     {
@@ -412,12 +335,4 @@ public class Cherub : MonoBehaviour
         yield return new WaitForSeconds(damageDisplayDelay);
     }
 
-    IEnumerator floatDown()
-    {
-
-        rb.velocity = new Vector3(0, -1, 0);
-        yield return new WaitForSeconds(2.5f);
-        rb.velocity = new Vector3(-speed - 2, 0, 0);
-
-    }
 }
