@@ -23,14 +23,15 @@ public class MultiHitProjectile : Projectile
         }
     }
 
-    private void DealDamage(Collider2D enemy)
+    private void DealDamage(Collider2D collision)
     {
-        if (enemy.CompareTag("Enemy"))
+         if (collision.CompareTag("Enemy"))
         {
-            enemy.GetComponent<Skeleton>().TakeDamage(damage);
-
-            enemy.GetComponent<Skeleton>().TakeDamage(damage);
+            //   Debug.Log("ENEMY MUST TAKE DAMAGE !" + damage);
+            collision.GetComponent<EnemyCon>().TakeDamage(damage);
+            collision.GetComponent<EnemyCon>().TakeDamage(damage);
 
         }
+
     }
 }

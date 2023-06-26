@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Skeleton : Enemy
+public class EnemyCon : Enemy
 {
     public AudioSource audioSource;
     public AudioClip skeletonHitSound;
