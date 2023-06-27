@@ -7,121 +7,121 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Player Stats")]
     public int level;
     [HideInInspector]
-
     public int healthPotions;
     [HideInInspector]
-
-
     public int maxHealthPotions;
     [HideInInspector]
-
     public int healthPotionValue;
     [HideInInspector]
-
-
     public int expValue;
     [HideInInspector]
-
     public int currentExp;
     [HideInInspector]
-
     public int maxExp;
     [HideInInspector]
-
-    public float moveSpeed;
-
-    public float jumpForce;
+    public float moveDirection;
     [HideInInspector]
+    public int skillOneLevel = 1;
+    [HideInInspector]
+    public int skillTwoLevel = 1;
+    [HideInInspector]
+    public int skillThreeLevel = 1;
+    [HideInInspector]
+    public int ultSkillLevel = 1;
+    [Header("Movement Settings")]
+public float moveSpeed;
+    public float jumpForce;
 
+    [Header("Player State")]
+    [HideInInspector]
     public bool playerIsNearPortal = false;
     [HideInInspector]
-
-    public Rigidbody2D rb;
-    [HideInInspector]
-
-    public BoxCollider2D bc;
-
-    public int expToBeGained;
-    public ExperienceController expObject;
-    public string destination = "";
-    public static bool facingRight = true;
-
-    private bool isJumping = false;
     public bool isAirborne = false;
+    [HideInInspector]
     public bool isPressingUp = false;
-
-    //private bool isNearItem = false;
-    private bool isPressingInteract = false;
-    private bool isPressingDrop = false;
-
-    private bool isHoldingObject = false;
+    [HideInInspector]
+    public bool isPressingInteract = false;
+    [HideInInspector]
+    public bool isPressingDrop = false;
+    [HideInInspector]
+    public bool isHoldingObject = false;
+    [HideInInspector]
     public bool isWalking = false;
+    [HideInInspector]
+    public bool playerHasDied = false;
+    [HideInInspector]
+    public int DamageRecieved = 0;
+    [HideInInspector]
+    public bool CanMove = false;
+    [HideInInspector]
+    public bool startup = true;
 
+    [Header("References")]
+    public Rigidbody2D rb;
+    public BoxCollider2D bc;
     public TMP_Text playerLevel;
     public TMP_Text levelUI;
-
     public TMP_Text skillLevel1Text;
-
     public TMP_Text skillLevel2Text;
     public TMP_Text skillLevel3Text;
     public TMP_Text skillUltText;
-
     public TMP_Text HealthDisplayText;
-
-    public int skillOneLevel = 1;
-    public int skillTwoLevel = 1;
-    public int skillThreeLevel = 1;
-    public int ultSkillLevel = 1;
-
     public GameObject upgradeButtons;
+    public Animator leveledUpAnimator;
+    public Animator isLandedAnimator;
+    public HealthBar healthBar;
+    public ExperienceBar experienceBar;
+    public GameObject shopKeeperCanvas;
 
-    public float moveDirection;
+    public GameObject optionsMenuCanvas;
+    public TMP_Text coinCount;
 
-    public bool playerHasDied = false;
-    public int DamageRecieved = 0;
+    [Header("Player State")]
+    [HideInInspector]
+    public bool facingRight = true;
+    private bool isJumping = false;
+    private bool isGrounded = false;
+    private bool shouldLevelUp = false;
 
+    [Header("Portal Settings")]
+    public int expToBeGained;
+    public string destination = "";
     private Vector3 portalDestinationPosition;
     private string portalToTeleportTo;
 
-    public HealthBar healthBar;
+    [Header("Health Settings")]
     public int currentHealth;
     public int maxHealth;
 
-    private bool IsNearShopKeeper = false;
-    public GameObject ShopKeeperCanvas;
+    [Header("Shopkeeper and Options Menu Settings")]
+    private bool isNearShopKeeper = false;
+    private bool isNearOptionsMenu = true;
 
-    private bool IsNearOptionsMenu = true;
-    public GameObject OptionsMenuCanvas;
-
-    public bool CanMove = false;
-
-    public bool startup = true;
-
-    public ExperienceBar experienceBar;
+    [Header("Coins")]
     public int coins;
-    public TMP_Text coinCount;
 
-    public int gainedExp;
-    [Header("Animator")]
+    public AudioSource audioSource;
 
-    public Animator LeveledUp;
-
-
-    private bool shouldLevelUp = false; // Modify this condition based on your level up logic
+    [Header("Ground Check")]
+    public Transform groundCheck;
+    public float groundCheckRadius = 0.2f;
+    public LayerMask groundLayer;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
     {
         playerLevel = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<TMP_Text>();
         experienceBar.setMaxExp(maxExp);
-        GainExperience(0); // Use GainExperience method here instead of directly accessing gainedExp variable
+        GainExperience(0);
     }
 
     public void GainExperience(int gainedExp)
@@ -130,13 +130,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentExp >= maxExp)
         {
-            shouldLevelUp = true; // Set shouldLevelUp to true when the player reaches the maximum experience
+            shouldLevelUp = true;
             currentExp -= maxExp;
         }
 
-        experienceBar.SetExperience(currentExp);
     }
-
 
     public void UpdateHealth(int mod)
     {
@@ -145,20 +143,15 @@ public class PlayerMovement : MonoBehaviour
         if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
-            HealthBar healthBar = FindObjectOfType<HealthBar>();
-            if (healthBar != null)
-            {
-                healthBar.SetMaxHealth(maxHealth);
-            }
+            healthBar.SetMaxHealth(maxHealth);
         }
         else if (currentHealth <= 0)
         {
             playerHasDied = true;
-            playerDeath();
+            PlayerDeath();
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (healthPotions > maxHealthPotions)
@@ -166,75 +159,74 @@ public class PlayerMovement : MonoBehaviour
             healthPotions = maxHealthPotions;
         }
 
-        //Get player inputs
         getPlayerInput();
-
         playerInteractInput();
-
-        //Animate
         animate();
 
-        //EnterPortal();
-    }
+        // Ground check
+        bool wasGrounded = isGrounded;
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
+        if (isGrounded && wasGrounded == false)
+        {
+            isJumping = false;
+            isLandedAnimator.SetBool("isJumping", false);
+            Debug.Log("isLanded = true");
+        }
+        else if (!isGrounded && wasGrounded == true)
+        {
+            isJumping = true;
+            isLandedAnimator.SetBool("isJumping", true);
+            Debug.Log("isJumping = true");
+        }
+    }
     private void FixedUpdate()
     {
         OnTriggerEnter2D(bc);
-        //Move Player
         moveCharacter();
     }
 
-    private void playerDeath()
+    IEnumerator ResetIsLanded()
     {
-        //
-        //Debug.Log("Player Died");
-        //   scenemanager.loadscene("hub world");
+        yield return new WaitForSeconds(0.1f); 
+        isLandedAnimator.SetBool("isLanded", false);
+    }
+    private void PlayerDeath()
+    {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().gravityScale = 0.85f;
         GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector3(-2, -1, 0);
     }
 
-    private void flipCharacter()
+    private void FlipCharacter()
     {
-        facingRight = !facingRight; //inverse bool
+        facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
     }
-
     public void getPlayerInput()
     {
         moveDirection = Input.GetAxis("Horizontal");
-        //Debug.Log(moveDirection);
 
-        if (!isAirborne)
+        if (isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
             {
                 isJumping = true;
-                isAirborne = true;
-                //Debug.Log("Airborne State Changed to true");
+                isLandedAnimator.SetBool("isJumping", true);
             }
         }
     }
 
+
     public void playerInteractInput()
     {
-        // Check for if the up key is being pressed
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            //  Debug.Log("The up arrow is being pressed ");
             EnterPortal();
             OpenShopKeeperUI();
-            //isPressingUp = true;
-        }
-        if (Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            // Debug.Log("Up Arrow key was released.");
-            //isPressingUp = false;
         }
 
-        // Check If interact Key is being pressed
         if (Input.GetKeyDown(KeyCode.E))
         {
-            //  Debug.Log("The Interact Key is being pressed ");
             if (healthPotions > 0)
             {
                 UpdateHealth(+healthPotionValue);
@@ -245,60 +237,49 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.E))
         {
-            //  Debug.Log("The Interact Key was released ");
             isPressingInteract = false;
         }
 
-        // Check If drop Key is being pressed
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //  Debug.Log("The Drop Key is being pressed ");
             isPressingDrop = true;
         }
+
         if (Input.GetKeyUp(KeyCode.Q))
         {
-            //   Debug.Log("The Drop Key was released ");
             isPressingDrop = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //  Debug.Log("The Drop Key is being pressed ");
             OpenOptionMenuUI();
             isPressingDrop = true;
         }
+
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            //  Debug.Log("The Drop Key was released ");
             isPressingDrop = false;
         }
     }
 
     public void LevelUp()
     {
- 
-            if (level < 60 && shouldLevelUp)
-            {
-                LeveledUp.SetBool("LeveledUp", true);
-                IncreaseLevel();
-                Debug.Log("Level Up! Player Level is now: " + level);
-                shouldLevelUp = false; // Reset the shouldLevelUp flag
-            }
-        
-
-    
-}
+        if (level < 60 && shouldLevelUp)
+        {
+            leveledUpAnimator.SetBool("LeveledUp", true);
+            IncreaseLevel();
+            Debug.Log("Level Up! Player Level is now: " + level);
+            shouldLevelUp = false;
+        }
+    }
 
     public void IncreaseLevel()
     {
         level++;
         StartCoroutine(LevelUpDelay());
         Debug.Log("Level Up! Player Level is now: " + level);
-        
         maxExp = level * 23;
         currentHealth = maxHealth + 100;
-       // upgradeButtons.SetActive(true);
-
     }
 
     IEnumerator LevelUpDelay()
@@ -306,21 +287,18 @@ public class PlayerMovement : MonoBehaviour
         playerLevel.text = "Level Up!";
         yield return new WaitForSeconds(2);
         playerLevel.text = "";
-        LeveledUp.SetBool("LeveledUp", false);
-
+        leveledUpAnimator.SetBool("LeveledUp", false);
     }
 
     public void animate()
     {
         if (moveDirection > 0 && !facingRight)
         {
-            flipCharacter();
-            //playerLevel.transform.Rotate(0f, 180f, 0f);
+            FlipCharacter();
         }
         else if (moveDirection < 0 && facingRight)
         {
-            flipCharacter();
-         //   playerLevel.transform.Rotate(0f, 180f, 0f);
+            FlipCharacter();
         }
     }
 
@@ -332,25 +310,21 @@ public class PlayerMovement : MonoBehaviour
         }
         jumpCharacter();
     }
-
     public void jumpCharacter()
     {
         if (isJumping)
         {
-            rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
-
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             isJumping = false;
         }
     }
-
     public void EnterPortal()
     {
         if (playerIsNearPortal)
         {
             if (!facingRight)
             {
-                flipCharacter();
-                playerLevel.transform.Rotate(0f, 180f, 0f);
+                FlipCharacter();
             }
             Input.ResetInputAxes();
             SceneManager.LoadScene(destination);
@@ -369,12 +343,7 @@ public class PlayerMovement : MonoBehaviour
         {
             PositionPlayer("HW-B");
             currentHealth = maxHealth / 4;
-            HealthBar healthBar = FindObjectOfType<HealthBar>();
-            if (healthBar != null)
-            {
-                healthBar.SetMaxHealth(maxHealth);
-            }
-
+            healthBar.SetMaxHealth(maxHealth);
             playerHasDied = false;
         }
         else
@@ -390,25 +359,25 @@ public class PlayerMovement : MonoBehaviour
 
     public void OpenShopKeeperUI()
     {
-        if (!ShopKeeperCanvas.active && IsNearShopKeeper)
+        if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
         {
-            ShopKeeperCanvas.active = true;
+            shopKeeperCanvas.SetActive(true);
         }
         else
         {
-            ShopKeeperCanvas.active = false;
+            shopKeeperCanvas.SetActive(false);
         }
     }
 
     public void OpenOptionMenuUI()
     {
-        if (!OptionsMenuCanvas.active && IsNearOptionsMenu)
+        if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
         {
-            OptionsMenuCanvas.active = true;
+            optionsMenuCanvas.SetActive(true);
         }
         else
         {
-            OptionsMenuCanvas.active = false;
+            optionsMenuCanvas.SetActive(false);
         }
     }
 
@@ -417,38 +386,36 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "deathBox")
         {
             playerHasDied = true;
-            playerDeath();
+            PlayerDeath();
         }
-
         if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
         {
-            //Debug.Log("Touching the Ground");
+            isGrounded = true;
             isAirborne = false;
         }
-
-        //This activates shop keeper menu
         else if (collision.gameObject.tag == "ShopKeeperUI")
         {
-            IsNearShopKeeper = true;
+            isNearShopKeeper = true;
         }
         else if (collision.gameObject.tag == "OptionsMenuUI")
         {
-            IsNearOptionsMenu = true;
+            isNearOptionsMenu = true;
         }
-
-
-      
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
+        {
+            isGrounded = false;
+        }
         if (collision.gameObject.tag == "ShopKeeperUI")
         {
-            IsNearShopKeeper = false;
+            isNearShopKeeper = false;
         }
         else if (collision.gameObject.tag == "OptionsMenuUI")
         {
-            IsNearOptionsMenu = false;
+            isNearOptionsMenu = false;
         }
     }
 }
