@@ -605,14 +605,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 450
+  health: 900
   damage: 20
-  level: 3
+  level: 6
   speed: 15
   distance: 0.6
   groundDetection: {fileID: 25913745}
   wallDetection: {fileID: 4181335816790591474}
-  expValue: 6
+  expValue: 12
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
@@ -851,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1997474524716373970, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 1997474524716373970, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -871,7 +871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1997474524716373983, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2428311729574680925, guid: 258b7c7b1127e9345a235faa9224bcc4, type: 3}
       propertyPath: m_AnchorMax.x
