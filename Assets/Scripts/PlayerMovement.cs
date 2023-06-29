@@ -71,7 +71,6 @@ public class PlayerMovement : MonoBehaviour
     public TMP_Text HealthDisplayText;
     public GameObject upgradeButtons;
     public Animator leveledUpAnimator;
-    public Animator isLandedAnimator;
     public HealthBar healthBar;
     public ExperienceBar experienceBar;
     public GameObject shopKeeperCanvas;
@@ -104,6 +103,8 @@ public class PlayerMovement : MonoBehaviour
     public int coins;
 
     public AudioSource audioSource;
+    public Animator LandingDust;
+    private bool isPlaying;
 
     private void Awake()
     {
@@ -117,6 +118,8 @@ public class PlayerMovement : MonoBehaviour
         playerLevel = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<TMP_Text>();
         experienceBar.setMaxExp(maxExp);
         GainExperience(0);
+        isPlaying = false;
+
     }
 
     public void GainExperience(int gainedExp)
@@ -158,10 +161,7 @@ public class PlayerMovement : MonoBehaviour
         playerInteractInput();
         animate();
 
-        if (!isAirborne && isGrounded)
-        {
-            isLandedAnimator.SetBool("isLanded", true);
-        }
+      
     }
 
     private void FixedUpdate()
@@ -362,7 +362,6 @@ public class PlayerMovement : MonoBehaviour
             optionsMenuCanvas.SetActive(false);
         }
     }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "deathBox")
@@ -370,22 +369,18 @@ public class PlayerMovement : MonoBehaviour
             playerHasDied = true;
             PlayerDeath();
         }
-        if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("World"))
         {
             isAirborne = false;
             isGrounded = true;
-        }
-        else if (collision.gameObject.tag == "ShopKeeperUI")
-        {
-            isNearShopKeeper = true;
-        }
-        else if (collision.gameObject.tag == "OptionsMenuUI")
-        {
-            isNearOptionsMenu = true;
+            if (!isPlaying)
+            {
+                StartCoroutine(PlayAndResetAnimation());
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+        private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
         {
@@ -399,5 +394,27 @@ public class PlayerMovement : MonoBehaviour
         {
             isNearOptionsMenu = false;
         }
+    }
+
+    private IEnumerator PlayAndResetAnimation()
+    {
+        isPlaying = true;
+
+        // Play the animation
+        LandingDust.Play("s500");
+
+        // Wait for the next frame to ensure the animation starts playing
+        yield return null;
+
+        // Wait until the animation is finished
+        while (LandingDust.GetCurrentAnimatorStateInfo(0).normalizedTime < 1 || LandingDust.IsInTransition(0))
+        {
+            yield return null;
+        }
+
+        // Trigger the transition to the idle state
+        LandingDust.SetTrigger("JustLanded");
+
+        isPlaying = false;
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2019017491539753544}
   - component: {fileID: 4423554492217682457}
   - component: {fileID: 8717441567079895922}
+  - component: {fileID: 8758964606915157122}
   m_Layer: 3
   m_Name: long4PlatRope
   m_TagString: Platform
@@ -50,8 +51,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.0476284, y: -3.7953513}
   m_SpriteTilingProperty:
@@ -125,7 +126,7 @@ PlatformEffector2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4990690192332564462}
-  m_Enabled: 0
+  m_Enabled: 1
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
@@ -137,6 +138,20 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &8758964606915157122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4990690192332564462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fdfffbfe5a9ad41bff43713b568b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effector: {fileID: 0}
+  waitTime: 0
 --- !u!1001 &2471315195349980276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,13 +159,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 314581361278541884}
     m_Modifications:
+    - target: {fileID: 17212151234091096, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 76159865565793534, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 270476071506372451, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 493866131476489120, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
       propertyPath: m_Name
       value: ropeMid
       objectReference: {fileID: 0}
+    - target: {fileID: 493866131476489120, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 669056730703530183, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 2722214272135613255, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
       propertyPath: grabBoostForce
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722214272135613275, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544701158641718607, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163012584226474977, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4284719329317022499, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
       propertyPath: m_RootOrder
@@ -195,6 +242,26 @@ PrefabInstance:
     - target: {fileID: 4284719329317022499, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429219212592772484, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861495644943488434, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156174099796976207, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7907588164175213765, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8323756705859790759, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
+      propertyPath: m_Layer
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f5a0a4b9df0efb40aeface78730bd0c, type: 3}
@@ -261,6 +328,10 @@ PrefabInstance:
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Size.y
       value: 0.4286831
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Offset.x
@@ -354,7 +425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Offset.x
@@ -448,7 +519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Offset.x
@@ -720,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1666018121723319686, guid: 93756c539ce1c354fa20d3e88713e663, type: 3}
       propertyPath: m_Offset.x
