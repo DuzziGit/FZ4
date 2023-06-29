@@ -5,10 +5,12 @@ public class scrio : MonoBehaviour
 {
     public int maxPlatforms = 10;
     public GameObject[] platformPrefabs;
-    public float xPadding = 1f;
-    public float yPadding = 1f;
-    public Vector2 minSpawnPosition;
-    public Vector2 maxSpawnPosition;
+    public float xPadding = 15;
+    public float yPadding = 20;
+    public Vector2 minSpawnPosition = new Vector2(-100, 0);
+    public Vector2 maxSpawnPosition = new Vector2(100, 120);
+    public float circleRadius = 50f;
+    public LayerMask platformLayer;
 
     private List<GameObject> platforms = new List<GameObject>();
 
@@ -16,42 +18,35 @@ public class scrio : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(transform.position, new Vector3(maxSpawnPosition.x - minSpawnPosition.x, maxSpawnPosition.y - minSpawnPosition.y, 0));
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, circleRadius);
     }
 
     private void Start()
     {
-        int numPlatforms = Random.Range(8, 12);
+        float angleStep = 360f / maxPlatforms;
+        float currentAngle = 0;
 
-        for (int i = 0; i < numPlatforms && platforms.Count < maxPlatforms; i++)
+        for (int i = 0; i < maxPlatforms; i++)
         {
-            // Choose a random platform prefab
             GameObject prefab = platformPrefabs[Random.Range(0, platformPrefabs.Length)];
 
-            // Get the size of the prefab and adjust for padding
             Vector2 size = prefab.GetComponent<BoxCollider2D>().bounds.size;
             size += new Vector2(xPadding * 2, yPadding * 2);
 
-            // Choose a random position for the platform
-            Vector2 position = new Vector2(Random.Range(minSpawnPosition.x, maxSpawnPosition.x - size.x), Random.Range(minSpawnPosition.y, maxSpawnPosition.y - size.y));
+            Vector2 position = new Vector2(Mathf.Cos(currentAngle * Mathf.Deg2Rad), Mathf.Sin(currentAngle * Mathf.Deg2Rad)) * circleRadius;
 
-            // Check if the platform overlaps with any existing platforms
-            bool overlap = false;
-            foreach (GameObject platform in platforms)
-            {
-                if (Mathf.Abs(platform.transform.position.x - position.x) < (size.x + platform.GetComponent<BoxCollider2D>().bounds.size.x) / 2 &&
-                    Mathf.Abs(platform.transform.position.y - position.y) < (size.y + platform.GetComponent<BoxCollider2D>().bounds.size.y) / 2)
-                {
-                    overlap = true;
-                    break;
-                }
-            }
+            position.x = Mathf.Clamp(position.x, minSpawnPosition.x + size.x / 2, maxSpawnPosition.x - size.x / 2);
+            position.y = Mathf.Clamp(position.y, minSpawnPosition.y + size.y / 2, maxSpawnPosition.y - size.y / 2);
 
-            // If the platform doesn't overlap, create it and add it to the list
-            if (!overlap)
+            if (Physics2D.OverlapBox(position, size, 0, platformLayer) == null)
             {
                 GameObject platform = Instantiate(prefab, position, Quaternion.identity);
                 platforms.Add(platform);
             }
+
+            currentAngle += angleStep;
         }
     }
 }
