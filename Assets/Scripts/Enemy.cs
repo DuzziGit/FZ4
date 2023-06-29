@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
     public int level;
     public float speed;
     public float distance;
-    private LootTable lootTable;
     public Transform groundDetection;
     public Transform wallDetection;
 
@@ -45,7 +44,6 @@ public class Enemy : MonoBehaviour
     }
     private void Awake()
     {
-        lootTable = GetComponent<LootTable>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -145,7 +143,6 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         EnemySpawner.currentEnemies--;
-        lootTable.DropLoot();
 
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
         foreach (GameObject player in players)

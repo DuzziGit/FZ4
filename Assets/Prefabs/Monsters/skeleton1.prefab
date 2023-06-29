@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 15266169}
   - component: {fileID: 15266168}
   - component: {fileID: 4325626357328118357}
-  - component: {fileID: 1467718346}
+  - component: {fileID: 8772405608554743276}
   m_Layer: 6
   m_Name: skeleton1
   m_TagString: Enemy
@@ -591,7 +591,7 @@ MonoBehaviour:
   hitEffect2: {fileID: 6944281053483099684, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
   animation1: {fileID: 8828319825448257598, guid: f5e06a62650582d4e88ff76c0e1d54e2, type: 3}
   animation2: {fileID: 8641123680325673935, guid: 51841116833f0da4aa925c5e873a097d, type: 3}
---- !u!114 &1467718346
+--- !u!114 &8772405608554743276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -600,12 +600,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5249384055196290721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ecd7020c899a0a4a8ad9e7fb2aba8a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9474929a77dc2a849821dd0f1a7b020f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loots:
-  - itemToDrop: {fileID: 8090084773123651020, guid: caa1ca8f17ceb3944aba17dc648594fa, type: 3}
-    dropChance: 100
+  droppedItemPrefab: {fileID: 279078521537463199, guid: 7b66519eab38c2545b3871567c2478c3, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: 392792806eddffe4e810d813b3c75eba, type: 2}
+  - {fileID: 11400000, guid: 4e8a328d1b451824bad1d796004618f5, type: 2}
 --- !u!1 &6063677399420710507
 GameObject:
   m_ObjectHideFlags: 0

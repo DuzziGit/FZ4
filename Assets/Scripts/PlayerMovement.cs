@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public int ultSkillLevel = 1;
     [Header("Movement Settings")]
-public float moveSpeed;
+    public float moveSpeed;
     public float jumpForce;
 
     [Header("Player State")]
@@ -105,11 +105,6 @@ public float moveSpeed;
 
     public AudioSource audioSource;
 
-    [Header("Ground Check")]
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
-    public LayerMask groundLayer;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -163,34 +158,18 @@ public float moveSpeed;
         playerInteractInput();
         animate();
 
-        // Ground check
-        bool wasGrounded = isGrounded;
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        if (isGrounded && wasGrounded == false)
+        if (!isAirborne && isGrounded)
         {
-            isJumping = false;
-            isLandedAnimator.SetBool("isJumping", false);
-            Debug.Log("isLanded = true");
-        }
-        else if (!isGrounded && wasGrounded == true)
-        {
-            isJumping = true;
-            isLandedAnimator.SetBool("isJumping", true);
-            Debug.Log("isJumping = true");
+            isLandedAnimator.SetBool("isLanded", true);
         }
     }
+
     private void FixedUpdate()
     {
         OnTriggerEnter2D(bc);
         moveCharacter();
     }
 
-    IEnumerator ResetIsLanded()
-    {
-        yield return new WaitForSeconds(0.1f); 
-        isLandedAnimator.SetBool("isLanded", false);
-    }
     private void PlayerDeath()
     {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().gravityScale = 0.85f;
@@ -202,20 +181,21 @@ public float moveSpeed;
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
     }
+
     public void getPlayerInput()
     {
         moveDirection = Input.GetAxis("Horizontal");
 
-        if (isGrounded)
+        if (!isAirborne)
         {
             if (Input.GetButtonDown("Jump"))
             {
                 isJumping = true;
-                isLandedAnimator.SetBool("isJumping", true);
+                isAirborne = true;
+                isGrounded = true;
             }
         }
     }
-
 
     public void playerInteractInput()
     {
@@ -310,14 +290,16 @@ public float moveSpeed;
         }
         jumpCharacter();
     }
+
     public void jumpCharacter()
     {
         if (isJumping)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
             isJumping = false;
         }
     }
+
     public void EnterPortal()
     {
         if (playerIsNearPortal)
@@ -390,8 +372,8 @@ public float moveSpeed;
         }
         if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
         {
-            isGrounded = true;
             isAirborne = false;
+            isGrounded = true;
         }
         else if (collision.gameObject.tag == "ShopKeeperUI")
         {
