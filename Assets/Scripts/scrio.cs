@@ -25,6 +25,7 @@ public class scrio : MonoBehaviour
 
     private void Start()
     {
+
         float angleStep = 360f / maxPlatforms;
         float currentAngle = 0;
 
