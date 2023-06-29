@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour
             timeLeft--;
             int minutes = Mathf.FloorToInt(timeLeft / 60);
             int seconds = Mathf.FloorToInt(timeLeft % 60);
-            timerText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+            //timerText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
         }
         EndGame();
     }
