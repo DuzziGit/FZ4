@@ -1,0 +1,49 @@
+minimap
+
+Whole map is visible while training
+
+dropped items float up and down
+
+every skill is aoe, 
+
+Most skills feel like a melee attack with long range 
+skills are capped out at around 6 max enemy
+
+
+20ish mobs per map, 3-8 mobs per platform
+
+forced to stand still if doing the animatino on the ground 
+> enforces jump attacking 
+
+when monsters die anim plays but they are no longer targetable 
+
+
+maps where you can hit both platforms at the same time are more disireable 
+
+Condense maplestories gameplay down into 20 min sessions
+
+Dont use ropes, give the character a vertical flash jump
+
+
+abilities explode moments after they hit, causing another layer of damage
+possibly make an item that drops taht you can upgrade the difficulty by placing it somewhere which increaes the min/max value of the monsters spawned
+
+Make a level that has 4 platforms, the aoe attack should beable to hit 2 at a time 
+
+Dash through enemies and platforms 
+
+combo kills = more xp 
+
+enhancement system would be good 
+
+bigger hitbox + more lines + flashier = better
+
+Skill ideas :
+Circle push them back and spin in place dealing damage over time 
+
+
+
+Sound design :
+initial skill noise is light and airy, and the impact noise is meaty and clanky 
+
+short airy noise plays when enemy dies
