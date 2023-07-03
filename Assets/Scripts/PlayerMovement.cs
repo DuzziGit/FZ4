@@ -95,10 +95,10 @@ public class PlayerMovement : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
-    [Header("Shopkeeper and Options Menu Settings")]
+/*    [Header("Shopkeeper and Options Menu Settings")]
     private bool isNearShopKeeper = false;
     private bool isNearOptionsMenu = true;
-
+*/
     [Header("Coins")]
     public int coins;
 
@@ -202,7 +202,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             EnterPortal();
-            OpenShopKeeperUI();
+          //  OpenShopKeeperUI();
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -232,7 +232,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            OpenOptionMenuUI();
+         //   OpenOptionMenuUI();
             isPressingDrop = true;
         }
 
@@ -339,7 +339,7 @@ public class PlayerMovement : MonoBehaviour
         //GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = GameObject.FindGameObjectWithTag(portalName).GetComponent<Transform>().position;
     }
 
-    public void OpenShopKeeperUI()
+/*    public void OpenShopKeeperUI()
     {
         if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
         {
@@ -349,9 +349,9 @@ public class PlayerMovement : MonoBehaviour
         {
             shopKeeperCanvas.SetActive(false);
         }
-    }
+    }*/
 
-    public void OpenOptionMenuUI()
+/*    public void OpenOptionMenuUI()
     {
         if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
         {
@@ -361,7 +361,7 @@ public class PlayerMovement : MonoBehaviour
         {
             optionsMenuCanvas.SetActive(false);
         }
-    }
+    }*/
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "deathBox")
@@ -386,14 +386,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = false;
         }
-        if (collision.gameObject.tag == "ShopKeeperUI")
-        {
-            isNearShopKeeper = false;
-        }
-        else if (collision.gameObject.tag == "OptionsMenuUI")
-        {
-            isNearOptionsMenu = false;
-        }
+      
     }
 
     private IEnumerator PlayAndResetAnimation()
