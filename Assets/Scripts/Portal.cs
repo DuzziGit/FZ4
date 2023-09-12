@@ -6,18 +6,20 @@ public class Portal : MonoBehaviour
     // Define the index of the scene to load
     public int sceneIndex = 0;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            // Display a message or perform any necessary checks before teleporting
+ private void OnTriggerStay2D(Collider2D collision)
+{
+    Debug.Log("Object entered the portal's trigger.");
 
-            // Check if the "Up Arrow" or "I" key is pressed
-            if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.I))
-            {
-                // Load the scene at the specified index
-                SceneManager.LoadScene(sceneIndex);
-            }
+    if (collision.CompareTag("Player"))
+    {
+        Debug.Log("Player is inside the portal's trigger.");
+
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("Attempting to load scene.");
+            SceneManager.LoadScene(sceneIndex);
         }
     }
+}
+
 }

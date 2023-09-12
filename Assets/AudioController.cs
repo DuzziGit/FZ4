@@ -7,6 +7,8 @@ public class AudioController : MonoBehaviour
     public static AudioController instance;
     public AudioSource audioSource;
     public AudioClip monsterHurtClip;
+    public AudioClip levelUp;
+    public AudioClip jumpSound;
     private void Awake()
     {
         if (instance == null)
@@ -25,6 +27,15 @@ public class AudioController : MonoBehaviour
     public void PlayMonsterHurtSound()
     {
                audioSource.PlayOneShot(monsterHurtClip);
+
+    }
+       public void PlayLevelUpSound()
+    {
+               audioSource.PlayOneShot(levelUp);
+
+    }
+    public void PlayJumpSound(){
+        audioSource.PlayOneShot(jumpSound);
 
     }
 }

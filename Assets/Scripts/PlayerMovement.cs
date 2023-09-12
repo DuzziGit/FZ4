@@ -31,9 +31,10 @@ public class PlayerMovement : MonoBehaviour
     public int skillThreeLevel = 1;
     [HideInInspector]
     public int ultSkillLevel = 1;
-    [Header("Movement Settings")]
-    public float moveSpeed;
-    public float jumpForce;
+[Header("Movement Settings")]
+public float moveSpeed;
+public float jumpForce;
+public float flyForce = 5f;  // Add this new fly force variable
 
     [Header("Player State")]
     [HideInInspector]
@@ -157,9 +158,10 @@ public class PlayerMovement : MonoBehaviour
             healthPotions = maxHealthPotions;
         }
 
-        getPlayerInput();
-        playerInteractInput();
-        animate();
+    
+    getPlayerInput();
+    playerInteractInput();
+    animate();
 
       
     }
@@ -182,20 +184,25 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
-    public void getPlayerInput()
-    {
-        moveDirection = Input.GetAxis("Horizontal");
+  
+public void getPlayerInput()
+{
+    moveDirection = Input.GetAxis("Horizontal");
 
-        if (!isAirborne)
+    if (!isAirborne)
+    {
+        if (Input.GetButtonDown("Jump"))
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                isJumping = true;
-                isAirborne = true;
-                isGrounded = true;
-            }
+            isJumping = true;
+            isAirborne = true;
+            isGrounded = true;
         }
     }
+    if (isAirborne && Input.GetButton("Jump"))
+    {
+        rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y + flyForce * Time.deltaTime);
+    }
+}
 
     public void playerInteractInput()
     {
@@ -250,6 +257,7 @@ public class PlayerMovement : MonoBehaviour
             IncreaseLevel();
             Debug.Log("Level Up! Player Level is now: " + level);
             shouldLevelUp = false;
+            AudioController.instance.PlayLevelUpSound();
         }
     }
 
@@ -282,21 +290,27 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void moveCharacter()
+public void moveCharacter()
+{
+    if (!isAirborne)
     {
-        if (!isAirborne)
-        {
-            rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
-        }
-        jumpCharacter();
+        rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
     }
-
-    public void jumpCharacter()
+    jumpCharacter();
+}
+   public void jumpCharacter()
+{
+    if (isJumping)
     {
-        if (isJumping)
-        {
-            rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
-            isJumping = false;
+        rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
+        AudioController.instance.PlayJumpSound();
+        isJumping = false;
+    }
+}
+    public void jumpHoldCharacter(){
+        if(isJumping && Input.GetButtonDown("Jump")){
+                        rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
+
         }
     }
 

@@ -10,8 +10,12 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI timerText;
     public int maxEnemies = 10;
     public int playerLevel = 1;
-
+    public GameObject gameControlsUi;
     private int currentEnemies = 0;
+
+    void Awake(){
+gameControlsUi.SetActive(true);
+    }
     void Start()
     {
         StartCoroutine(UpdateTimer());
