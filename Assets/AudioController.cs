@@ -11,6 +11,7 @@ public class AudioController : MonoBehaviour
     public AudioClip jumpSound;
     private void Awake()
     {
+      //  DontDestroyOnLoad(gameObject);
         if (instance == null)
         {
             instance = this;

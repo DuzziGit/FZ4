@@ -1,10 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Cinemachine;
 
 public class GameController : MonoBehaviour
 {
+    public static GameController instance; // Singleton instance
 
     public float timeLeft = 300.0f; // 5 minutes
     public TextMeshProUGUI timerText;
@@ -12,10 +13,38 @@ public class GameController : MonoBehaviour
     public int playerLevel = 1;
     public GameObject gameControlsUi;
     private int currentEnemies = 0;
+    public GameObject RoguePrefab;
+    public CinemachineVirtualCamera cinemachineCam;
 
-    void Awake(){
-gameControlsUi.SetActive(true);
+    // Static flag to check if Rogue has been instantiated
+    private static bool rogueInstantiated = false;
+
+void Awake()
+{
+    // Singleton check
+    if (instance == null)
+    {
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
+    else if (instance != this)
+    {
+        Destroy(gameObject);
+        return; // Prevent the rest of the Awake method from running
+    }
+
+    gameControlsUi.SetActive(true);
+    StartCoroutine(UpdateTimer());
+
+    // Check if Rogue exists in the scene
+if (GameObject.FindObjectOfType<RogueSkillController>() == null)
+    {
+        GameObject rogueInstance = Instantiate(RoguePrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        cinemachineCam.Follow = rogueInstance.transform;
+        cinemachineCam.m_Lens.FieldOfView = 60f;
+    }
+}
+
     void Start()
     {
         StartCoroutine(UpdateTimer());
@@ -31,7 +60,6 @@ gameControlsUi.SetActive(true);
 
     void SpawnEnemy()
     {
-      
         currentEnemies++;
     }
 
@@ -50,7 +78,6 @@ gameControlsUi.SetActive(true);
 
     void EndGame()
     {
-        // Your end game logic here
-        // ...
+       
     }
 }
