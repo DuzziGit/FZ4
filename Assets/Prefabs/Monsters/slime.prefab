@@ -516,14 +516,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 150
+  health: 300
   damage: 20
-  level: 1
+  level: 2
   speed: 15
   distance: 0.6
   groundDetection: {fileID: 830513544}
   wallDetection: {fileID: 6614486318673616303}
-  expValue: 2
+  expValue: 4
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
@@ -537,6 +537,7 @@ MonoBehaviour:
   animator: {fileID: 4597381505260269730}
   audioSource: {fileID: 0}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  deathSound: {fileID: 8300000, guid: 32903aef4afec624aa5e2efad6f66147, type: 3}
   enemyDamage: 0
   damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
   enemyLevel: {fileID: 297983036795489571}

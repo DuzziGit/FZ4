@@ -53,7 +53,7 @@ public class EnemyCon : Enemy
         {
             healthBar.SetHealth(health);
         }
-
+AudioController.instance.PlayMonsterHurtSound(); 
         animator.SetBool("takingDamage", true);
         animFeedback.SetBool("takingDamage", true);
         animFeedback2.SetBool("takingDamage", true);

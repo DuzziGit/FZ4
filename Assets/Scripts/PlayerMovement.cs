@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
     public HealthBar healthBar;
     public ExperienceBar experienceBar;
     public GameObject shopKeeperCanvas;
-
+    public AudioClip fall;
     public GameObject optionsMenuCanvas;
     public TMP_Text coinCount;
 
@@ -395,6 +395,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Play the animation
         LandingDust.Play("s500");
+        audioSource.PlayOneShot(fall, 1f);
 
         // Wait for the next frame to ensure the animation starts playing
         yield return null;

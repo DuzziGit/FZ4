@@ -437,7 +437,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0026263595, y: 0.036161877}
+  m_Offset: {x: 0.0026263595, y: 0.0054195}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -448,7 +448,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.412022, y: 0.42280972}
+  m_Size: {x: 0.412022, y: 0.48429447}
   m_EdgeRadius: 0
 --- !u!82 &3267367058556816031
 AudioSource:
@@ -580,7 +580,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0039936304, y: 0.032007046}
+  m_Offset: {x: 0.0039936304, y: 0.006118715}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -591,7 +591,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.40713096, y: 0.4335832}
+  m_Size: {x: 0.40713096, y: 0.48535985}
   m_EdgeRadius: 0
 --- !u!114 &1995679183
 MonoBehaviour:
@@ -605,14 +605,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 900
+  health: 300
   damage: 20
-  level: 6
+  level: 2
   speed: 15
   distance: 0.6
   groundDetection: {fileID: 25913745}
   wallDetection: {fileID: 4181335816790591474}
-  expValue: 12
+  expValue: 4
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
@@ -626,6 +626,7 @@ MonoBehaviour:
   animator: {fileID: 6392495728788100713}
   audioSource: {fileID: 0}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  deathSound: {fileID: 8300000, guid: 32903aef4afec624aa5e2efad6f66147, type: 3}
   enemyDamage: 0
   damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
   enemyLevel: {fileID: 297983036868777606}
