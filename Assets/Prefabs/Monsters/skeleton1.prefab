@@ -519,8 +519,9 @@ MonoBehaviour:
   smallEnemy: {r: 0, g: 1, b: 0, a: 1}
   tutEnemy: {r: 0, g: 1, b: 1, a: 1}
   animator: {fileID: 5678631290212653583}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1601004350}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  deathSound: {fileID: 8300000, guid: a1808a24d6e89ce4893309144890273d, type: 3}
   enemyDamage: 0
   damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
   enemyLevel: {fileID: 2277362914970969833}
@@ -562,7 +563,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0044308305, y: -0.028382808}
+  m_Offset: {x: -0.0044308305, y: -0.020284615}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -573,7 +574,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16118103, y: 0.28390676}
+  m_Size: {x: 0.16118103, y: 0.26771033}
   m_EdgeRadius: 0
 --- !u!114 &4325626357328118357
 MonoBehaviour:

@@ -27,8 +27,7 @@ public class GameController : MonoBehaviour
 
     void SpawnEnemy()
     {
-        // Your enemy spawning logic here
-        // ...
+      
         currentEnemies++;
     }
 
