@@ -1,12 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
-    // Define the index of the scene to load
     public int sceneIndex = 0;
 
- private void OnTriggerStay2D(Collider2D collision)
+    // Reference to the black square Image component
+    public Image blackSquare;
+
+    // Position to teleport the player to
+    private Vector3 teleportPosition = new Vector3(-103f, 103f, 2f);
+
+   private void OnTriggerStay2D(Collider2D collision)
 {
     Debug.Log("Object entered the portal's trigger.");
 
@@ -14,40 +22,57 @@ public class Portal : MonoBehaviour
     {
         Debug.Log("Player is inside the portal's trigger.");
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            Debug.Log("Attempting to load scene.");
-            SceneManager.LoadScene(sceneIndex);
+            Debug.Log("Attempting to fade out.");
+            StartCoroutine(FadeAndLoadScene(collision));
         }
     }
 }
-public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, int fadeSpeed = 1)
-	{
-		Debug.Log("Fade");
-		Color objectColor = blackSquare.GetComponent<Image>().color;
-		float fadeAmount;
 
-		if (fadeToBlack)
-		{
-			while (blackSquare.GetComponent<Image>().color.a < 1)
-			{
-				fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
 
-				objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
-				blackSquare.GetComponent<Image>().color = objectColor;
-				yield return null;
-			}
-		}
-		else
-		{
-			while (blackSquare.GetComponent<Image>().color.a > 0)
-			{
-				fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+  IEnumerator FadeAndLoadScene(Collider2D playerCollider)
+{
+    yield return StartCoroutine(FadeBlackOutSquare(true, 1));
 
-				objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
-				blackSquare.GetComponent<Image>().color = objectColor;
-				yield return null;
-			}
-		}
-	}
+    // Teleport the player after fade-out
+    RogueSkillController rogue = playerCollider.GetComponent<RogueSkillController>();
+    if (rogue != null)
+    {
+        rogue.transform.position = teleportPosition;
+    }
+
+    Debug.Log("Attempting to load scene.");
+    SceneManager.LoadScene(sceneIndex);
+}
+
+    public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, int fadeSpeed = 1)
+    {
+        Debug.Log("Fade");
+        Color objectColor = blackSquare.color;
+        float fadeAmount;
+
+        if (fadeToBlack)
+        {
+            while (blackSquare.color.a < 1)
+            {
+                fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackSquare.color = objectColor;
+                yield return null;
+            }
+        }
+        else
+        {
+            while (blackSquare.color.a > 0)
+            {
+                fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackSquare.color = objectColor;
+                yield return null;
+            }
+        }
+    }
 }

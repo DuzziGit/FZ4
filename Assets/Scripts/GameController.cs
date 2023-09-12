@@ -2,12 +2,15 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using Cinemachine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public static GameController instance; // Singleton instance
+    public static GameController instance;
+    public Image blackSquare;
 
-    public float timeLeft = 300.0f; // 5 minutes
+    public float timeLeft = 300.0f;
     public TextMeshProUGUI timerText;
     public int maxEnemies = 10;
     public int playerLevel = 1;
@@ -16,34 +19,70 @@ public class GameController : MonoBehaviour
     public GameObject RoguePrefab;
     public CinemachineVirtualCamera cinemachineCam;
 
-    // Static flag to check if Rogue has been instantiated
     private static bool rogueInstantiated = false;
 
-void Awake()
-{
-    // Singleton check
-    if (instance == null)
+    void Awake()
     {
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-    else if (instance != this)
-    {
-        Destroy(gameObject);
-        return; // Prevent the rest of the Awake method from running
+        // Singleton check
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            // Register the scene loaded event
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+        else if (instance != this)
+        {
+            Debug.Log("Additional GameController instance found and destroyed");
+            Destroy(gameObject);
+            return;
+        }
+
+        gameControlsUi.SetActive(true);
+        StartCoroutine(UpdateTimer());
     }
 
-    gameControlsUi.SetActive(true);
-    StartCoroutine(UpdateTimer());
-
-    // Check if Rogue exists in the scene
-if (GameObject.FindObjectOfType<RogueSkillController>() == null)
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        GameObject rogueInstance = Instantiate(RoguePrefab, new Vector3(0, 0, 0), Quaternion.identity);
-        cinemachineCam.Follow = rogueInstance.transform;
-        cinemachineCam.m_Lens.FieldOfView = 60f;
+        blackSquare.color = new Color(blackSquare.color.r, blackSquare.color.g, blackSquare.color.b, 1f);
+        StartCoroutine(HandleSceneSetup());
     }
-}
+
+    IEnumerator HandleSceneSetup()
+    {
+        yield return new WaitForSeconds(0.1f); // Wait a bit to ensure the scene is hidden
+
+        if (GameObject.FindObjectOfType<RogueSkillController>() == null)
+        {
+            GameObject rogueInstance = Instantiate(RoguePrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            cinemachineCam.Follow = rogueInstance.transform;
+            cinemachineCam.m_Lens.FieldOfView = 60f;
+        }
+
+        StartCoroutine(DelayedFade());
+    }
+
+    IEnumerator DelayedFade()
+    {
+        yield return new WaitForSeconds(0.9f); // Wait to make it a total of 1 second with the HandleSceneSetup delay
+        StartCoroutine(FadeBlackInSquare());
+    }
+
+
+    public IEnumerator FadeBlackInSquare(float fadeSpeed = 0.2f)
+    {
+        Color objectColor = blackSquare.color;
+        float fadeAmount;
+
+        while (blackSquare.color.a > 0)
+        {
+            fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            blackSquare.color = objectColor;
+            yield return null;
+        }
+    }
 
     void Start()
     {
@@ -78,6 +117,41 @@ if (GameObject.FindObjectOfType<RogueSkillController>() == null)
 
     void EndGame()
     {
-       
+        // Game over logic here.
+    }
+
+    public IEnumerator FadeBlackOutSquare(bool fadeToBlack = true, float fadeSpeed = .2f)
+    {
+        Color objectColor = blackSquare.color;
+        float fadeAmount;
+
+        if (fadeToBlack)
+        {
+            objectColor.a = 0;
+            blackSquare.color = objectColor;
+
+            while (blackSquare.color.a < 1)
+            {
+                fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackSquare.color = objectColor;
+                yield return null;
+            }
+        }
+        else
+        {
+            while (blackSquare.color.a > 0)
+            {
+                fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackSquare.color = objectColor;
+                yield return null;
+            }
+        }
+    }
+private void OnDestroy()
+    {
+        // Make sure to unregister the OnSceneLoaded method when this object is destroyed.
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
