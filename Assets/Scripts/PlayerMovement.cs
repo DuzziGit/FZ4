@@ -31,10 +31,10 @@ public class PlayerMovement : MonoBehaviour
     public int skillThreeLevel = 1;
     [HideInInspector]
     public int ultSkillLevel = 1;
-[Header("Movement Settings")]
-public float moveSpeed;
-public float jumpForce;
-public float flyForce = 5f;  // Add this new fly force variable
+    [Header("Movement Settings")]
+    public float moveSpeed;
+    public float jumpForce;
+    public float flyForce = 5f;  // Add this new fly force variable
 
     [Header("Player State")]
     [HideInInspector]
@@ -96,10 +96,10 @@ public float flyForce = 5f;  // Add this new fly force variable
     public int currentHealth;
     public int maxHealth;
 
-/*    [Header("Shopkeeper and Options Menu Settings")]
-    private bool isNearShopKeeper = false;
-    private bool isNearOptionsMenu = true;
-*/
+    /*    [Header("Shopkeeper and Options Menu Settings")]
+        private bool isNearShopKeeper = false;
+        private bool isNearOptionsMenu = true;
+    */
     [Header("Coins")]
     public int coins;
 
@@ -158,12 +158,12 @@ public float flyForce = 5f;  // Add this new fly force variable
             healthPotions = maxHealthPotions;
         }
 
-    
-    getPlayerInput();
-    playerInteractInput();
-    animate();
 
-      
+        getPlayerInput();
+        playerInteractInput();
+        animate();
+
+
     }
 
     private void FixedUpdate()
@@ -184,10 +184,10 @@ public float flyForce = 5f;  // Add this new fly force variable
         transform.Rotate(0f, 180f, 0f);
     }
 
-  
-public void getPlayerInput()
-{
-    moveDirection = Input.GetAxis("Horizontal");
+
+    public void getPlayerInput()
+    {
+        moveDirection = Input.GetAxis("Horizontal");
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -199,7 +199,7 @@ public void getPlayerInput()
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             EnterPortal();
-          //  OpenShopKeeperUI();
+            //  OpenShopKeeperUI();
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -229,7 +229,7 @@ public void getPlayerInput()
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-         //   OpenOptionMenuUI();
+            //   OpenOptionMenuUI();
             isPressingDrop = true;
         }
 
@@ -280,133 +280,134 @@ public void getPlayerInput()
         }
     }
 
-public void moveCharacter()
-{
-    if (!isAirborne)
+    public void moveCharacter()
     {
-        rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
+        if (!isAirborne)
+        {
+            rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
+            jumpCharacter();
+        }
         jumpCharacter();
     }
-    jumpCharacter();
-}
-   public void jumpCharacter()
-{
-    if (isJumping)
+    public void jumpCharacter()
     {
-        if (isJumping && isGrounded)
+        if (isJumping)
         {
-            rb.velocity = new Vector3(rb.velocity.x, jumpForce);
-            isJumping = false;
-        }
-    }
-    public void EnterPortal()
-    {
-        if (playerIsNearPortal)
-        {
-            if (!facingRight)
+            if (isJumping && isGrounded)
             {
-                FlipCharacter();
+                rb.velocity = new Vector3(rb.velocity.x, jumpForce);
+                isJumping = false;
             }
-            Input.ResetInputAxes();
-            SceneManager.LoadScene(destination);
-            Debug.Log("Should Enter Portal");
         }
     }
-
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (playerHasDied)
+        public void EnterPortal()
         {
-            PositionPlayer("HW-B");
-            currentHealth = maxHealth / 4;
-            healthBar.SetMaxHealth(maxHealth);
-            playerHasDied = false;
-        }
-        else
-        {
-            PositionPlayer(portalToTeleportTo);
-        }
-    }
-
-    private void PositionPlayer(string portalName)
-    {
-        //GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = GameObject.FindGameObjectWithTag(portalName).GetComponent<Transform>().position;
-    }
-
-    /*    public void OpenShopKeeperUI()
-        {
-            if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
+            if (playerIsNearPortal)
             {
-                shopKeeperCanvas.SetActive(true);
+                if (!facingRight)
+                {
+                    FlipCharacter();
+                }
+                Input.ResetInputAxes();
+                SceneManager.LoadScene(destination);
+                Debug.Log("Should Enter Portal");
+            }
+        }
+
+        void OnEnable()
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            if (playerHasDied)
+            {
+                PositionPlayer("HW-B");
+                currentHealth = maxHealth / 4;
+                healthBar.SetMaxHealth(maxHealth);
+                playerHasDied = false;
             }
             else
             {
-                shopKeeperCanvas.SetActive(false);
-            }
-        }*/
-
-    /*    public void OpenOptionMenuUI()
-        {
-            if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
-            {
-                optionsMenuCanvas.SetActive(true);
-            }
-            else
-            {
-                optionsMenuCanvas.SetActive(false);
-            }
-        }*/
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "deathBox")
-        {
-            playerHasDied = true;
-            PlayerDeath();
-        }
-        else if (collision.gameObject.layer == LayerMask.NameToLayer("World"))
-        {
-            isAirborne = false;
-            isGrounded = true;
-            if (!isPlaying)
-            {
-                StartCoroutine(PlayAndResetAnimation());
+                PositionPlayer(portalToTeleportTo);
             }
         }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
+
+        private void PositionPlayer(string portalName)
         {
-            isGrounded = false;
-            isAirborne = true;
+            //GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = GameObject.FindGameObjectWithTag(portalName).GetComponent<Transform>().position;
         }
-    }
 
-    private IEnumerator PlayAndResetAnimation()
-    {
-        isPlaying = true;
+        /*    public void OpenShopKeeperUI()
+            {
+                if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
+                {
+                    shopKeeperCanvas.SetActive(true);
+                }
+                else
+                {
+                    shopKeeperCanvas.SetActive(false);
+                }
+            }*/
 
-        // Play the animation
-        LandingDust.Play("s500");
-        audioSource.PlayOneShot(fall, 1f);
-
-        // Wait for the next frame to ensure the animation starts playing
-        yield return null;
-
-        // Wait until the animation is finished
-        while (LandingDust.GetCurrentAnimatorStateInfo(0).normalizedTime < 1 || LandingDust.IsInTransition(0))
+        /*    public void OpenOptionMenuUI()
+            {
+                if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
+                {
+                    optionsMenuCanvas.SetActive(true);
+                }
+                else
+                {
+                    optionsMenuCanvas.SetActive(false);
+                }
+            }*/
+        public void OnTriggerEnter2D(Collider2D collision)
         {
+            if (collision.gameObject.tag == "deathBox")
+            {
+                playerHasDied = true;
+                PlayerDeath();
+            }
+            else if (collision.gameObject.layer == LayerMask.NameToLayer("World"))
+            {
+                isAirborne = false;
+                isGrounded = true;
+                if (!isPlaying)
+                {
+                    StartCoroutine(PlayAndResetAnimation());
+                }
+            }
+        }
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
+            {
+                isGrounded = false;
+                isAirborne = true;
+            }
+        }
+
+        private IEnumerator PlayAndResetAnimation()
+        {
+            isPlaying = true;
+
+            // Play the animation
+            LandingDust.Play("s500");
+            audioSource.PlayOneShot(fall, 1f);
+
+            // Wait for the next frame to ensure the animation starts playing
             yield return null;
+
+            // Wait until the animation is finished
+            while (LandingDust.GetCurrentAnimatorStateInfo(0).normalizedTime < 1 || LandingDust.IsInTransition(0))
+            {
+                yield return null;
+            }
+
+            // Trigger the transition to the idle state
+            LandingDust.SetTrigger("JustLanded");
+
+            isPlaying = false;
         }
-
-        // Trigger the transition to the idle state
-        LandingDust.SetTrigger("JustLanded");
-
-        isPlaying = false;
     }
-}
