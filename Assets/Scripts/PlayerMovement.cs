@@ -186,17 +186,11 @@ public class PlayerMovement : MonoBehaviour
     {
         moveDirection = Input.GetAxis("Horizontal");
 
-        if (!isAirborne)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                isJumping = true;
-                isAirborne = true;
-                isGrounded = true;
-            }
+            isJumping = true;
         }
     }
-
     public void playerInteractInput()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -284,22 +278,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void moveCharacter()
     {
-        if (!isAirborne)
-        {
-            rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
-        }
+        rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
         jumpCharacter();
     }
 
     public void jumpCharacter()
     {
-        if (isJumping)
+        if (isJumping && isGrounded)
         {
-            rb.velocity = new Vector3(moveDirection * moveSpeed, jumpForce);
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce);
             isJumping = false;
         }
     }
-
     public void EnterPortal()
     {
         if (playerIsNearPortal)
@@ -339,29 +329,29 @@ public class PlayerMovement : MonoBehaviour
         //GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = GameObject.FindGameObjectWithTag(portalName).GetComponent<Transform>().position;
     }
 
-/*    public void OpenShopKeeperUI()
-    {
-        if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
+    /*    public void OpenShopKeeperUI()
         {
-            shopKeeperCanvas.SetActive(true);
-        }
-        else
-        {
-            shopKeeperCanvas.SetActive(false);
-        }
-    }*/
+            if (!shopKeeperCanvas.activeSelf && isNearShopKeeper)
+            {
+                shopKeeperCanvas.SetActive(true);
+            }
+            else
+            {
+                shopKeeperCanvas.SetActive(false);
+            }
+        }*/
 
-/*    public void OpenOptionMenuUI()
-    {
-        if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
+    /*    public void OpenOptionMenuUI()
         {
-            optionsMenuCanvas.SetActive(true);
-        }
-        else
-        {
-            optionsMenuCanvas.SetActive(false);
-        }
-    }*/
+            if (!optionsMenuCanvas.activeSelf && isNearOptionsMenu)
+            {
+                optionsMenuCanvas.SetActive(true);
+            }
+            else
+            {
+                optionsMenuCanvas.SetActive(false);
+            }
+        }*/
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "deathBox")
@@ -379,14 +369,13 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
-        private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "World" || collision.gameObject.tag == "Platform")
         {
             isGrounded = false;
+            isAirborne = true;
         }
-      
     }
 
     private IEnumerator PlayAndResetAnimation()
