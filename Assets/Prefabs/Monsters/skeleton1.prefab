@@ -402,15 +402,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 32903aef4afec624aa5e2efad6f66147, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.057
+  m_Volume: 0.532
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 80
+  Priority: 139
   DopplerLevel: 1
   MinDistance: 2.3426065
   MaxDistance: 500
@@ -500,14 +500,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1424dcdb05bd8f746a76b9077b2de390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 450
+  health: 750
   damage: 20
-  level: 3
+  level: 5
   speed: 15
   distance: 0.6
   groundDetection: {fileID: 911691705}
   wallDetection: {fileID: 2741414467904669674}
-  expValue: 6
+  expValue: 10
   expObject: {fileID: 9142249779626228197, guid: 3c3aeb62efc64234090a7e4c39704732, type: 3}
   agroRange: 0.3
   startTimeBetweenDmg: 2
@@ -521,6 +521,7 @@ MonoBehaviour:
   animator: {fileID: 5678631290212653583}
   audioSource: {fileID: 0}
   skeletonHitSound: {fileID: 8300000, guid: 144a7f7a75a0ce0499270539f50674fd, type: 3}
+  deathSound: {fileID: 8300000, guid: 32903aef4afec624aa5e2efad6f66147, type: 3}
   enemyDamage: 0
   damageDisplay: {fileID: 2509596546504336050, guid: e87ea331d8b01ba4483fe23883f5ed55, type: 3}
   enemyLevel: {fileID: 2277362914970969833}
@@ -562,7 +563,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0044308305, y: -0.028382808}
+  m_Offset: {x: -0.0044308305, y: -0.020284615}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -573,7 +574,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16118103, y: 0.28390676}
+  m_Size: {x: 0.16118103, y: 0.26771033}
   m_EdgeRadius: 0
 --- !u!114 &4325626357328118357
 MonoBehaviour:

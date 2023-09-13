@@ -7,6 +7,8 @@ public class EnemyCon : Enemy
 {
     public AudioSource audioSource;
     public AudioClip skeletonHitSound;
+    public AudioClip deathSound;
+
     public int enemyDamage;
     public TMP_Text damageDisplay;
     public TMP_Text enemyLevel;
@@ -47,12 +49,11 @@ public class EnemyCon : Enemy
     {
         health = Mathf.Max(0, health - damage);
         StartCoroutine(DamageDisplay(damage));
-
         if (healthBar != null)
         {
             healthBar.SetHealth(health);
         }
-
+AudioController.instance.PlayMonsterHurtSound(); 
         animator.SetBool("takingDamage", true);
         animFeedback.SetBool("takingDamage", true);
         animFeedback2.SetBool("takingDamage", true);

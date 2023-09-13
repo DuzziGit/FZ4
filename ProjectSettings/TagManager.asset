@@ -24,6 +24,9 @@ TagManager:
   - Projectile
   - Portal
   - Items
+  - OptionsMenuUI
+  - MageUI
+  - FadeCanvas
   layers:
   - Default
   - TransparentFX

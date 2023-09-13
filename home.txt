@@ -34,6 +34,7 @@ Dash through enemies and platforms
 
 combo kills = more xp 
 
+
 enhancement system would be good 
 
 bigger hitbox + more lines + flashier = better
@@ -47,3 +48,15 @@ Sound design :
 initial skill noise is light and airy, and the impact noise is meaty and clanky 
 
 short airy noise plays when enemy dies
+
+
+Combat: 
+filler 
+
+big aoe big cooldown
+
+mini bosses 
+Boss mech 1: fireballs that shoot the the players position and explode 
+
+different states of skills, are they attached to the chracter? are they projectiles? what is a skill? is it just a moving hitbox?
+

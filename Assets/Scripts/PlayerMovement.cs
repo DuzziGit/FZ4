@@ -31,9 +31,10 @@ public class PlayerMovement : MonoBehaviour
     public int skillThreeLevel = 1;
     [HideInInspector]
     public int ultSkillLevel = 1;
-    [Header("Movement Settings")]
-    public float moveSpeed;
-    public float jumpForce;
+[Header("Movement Settings")]
+public float moveSpeed;
+public float jumpForce;
+public float flyForce = 5f;  // Add this new fly force variable
 
     [Header("Player State")]
     [HideInInspector]
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     public HealthBar healthBar;
     public ExperienceBar experienceBar;
     public GameObject shopKeeperCanvas;
-
+    public AudioClip fall;
     public GameObject optionsMenuCanvas;
     public TMP_Text coinCount;
 
@@ -157,9 +158,10 @@ public class PlayerMovement : MonoBehaviour
             healthPotions = maxHealthPotions;
         }
 
-        getPlayerInput();
-        playerInteractInput();
-        animate();
+    
+    getPlayerInput();
+    playerInteractInput();
+    animate();
 
       
     }
@@ -182,9 +184,10 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
-    public void getPlayerInput()
-    {
-        moveDirection = Input.GetAxis("Horizontal");
+  
+public void getPlayerInput()
+{
+    moveDirection = Input.GetAxis("Horizontal");
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -244,6 +247,7 @@ public class PlayerMovement : MonoBehaviour
             IncreaseLevel();
             Debug.Log("Level Up! Player Level is now: " + level);
             shouldLevelUp = false;
+            AudioController.instance.PlayLevelUpSound();
         }
     }
 
@@ -276,13 +280,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void moveCharacter()
+public void moveCharacter()
+{
+    if (!isAirborne)
     {
         rb.velocity = new Vector3(moveDirection * moveSpeed, rb.velocity.y);
         jumpCharacter();
     }
-
-    public void jumpCharacter()
+    jumpCharacter();
+}
+   public void jumpCharacter()
+{
+    if (isJumping)
     {
         if (isJumping && isGrounded)
         {
@@ -384,6 +393,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Play the animation
         LandingDust.Play("s500");
+        audioSource.PlayOneShot(fall, 1f);
 
         // Wait for the next frame to ensure the animation starts playing
         yield return null;

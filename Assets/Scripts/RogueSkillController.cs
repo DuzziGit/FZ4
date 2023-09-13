@@ -252,18 +252,32 @@ public class RogueSkillController : PlayerMovement
         }
     }
 
-    private IEnumerator FirstSkill()
-    {
+  private IEnumerator FirstSkill()
+{
+    // First kunai
+    Instantiate(projectile, attackPos.position, attackPos.rotation);
+    audioSource.pitch = 1.6f;  // Reduced pitch
+    yield return new WaitForSeconds(0.1f);
+    audioSource.PlayOneShot(ThrowingStarSoundEffect, 2f);
 
-        Instantiate(projectile, attackPos.position, attackPos.rotation);
-        yield return new WaitForSeconds(0.05f);
-        Instantiate(projectile, attackPos.position, attackPos.rotation);
-        yield return new WaitForSeconds(0.05f);
-        Instantiate(projectile, attackPos.position, attackPos.rotation);
-        SwipeOne.SetBool("SwipeOne", false);
-        SwipeTwo.SetBool("SwipeTwo", false);
-    }
+    // Second kunai
+    Instantiate(projectile, attackPos.position, attackPos.rotation);
+    audioSource.pitch = 1.0f;  // Normal pitch
+    yield return new WaitForSeconds(0.1f);
+    audioSource.PlayOneShot(ThrowingStarSoundEffect, 2f);
 
+    // Third kunai
+    Instantiate(projectile, attackPos.position, attackPos.rotation);
+    audioSource.pitch = 1.1f;  // Increased pitch
+    yield return new WaitForSeconds(0.1f);
+    audioSource.PlayOneShot(ThrowingStarSoundEffect, 2f);
+
+    // Reset pitch to default for other sounds
+    audioSource.pitch = 1.0f;
+
+    SwipeOne.SetBool("SwipeOne", false);
+    SwipeTwo.SetBool("SwipeTwo", false);
+}
     // Second Skill
     public void GetSecondSkillInput()
     {
